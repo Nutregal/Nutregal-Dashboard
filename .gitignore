@@ -1,0 +1,9 @@
+# Nunca commitear credenciales
+*sa-key*.json
+*service-account*.json
+credenciales.json
+.env
+
+__pycache__/
+*.pyc
+.venv/

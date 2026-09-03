@@ -1,0 +1,36 @@
+{
+  "_nota": "El canal NO esta en BigQuery: se asigna a mano y se versiona en este archivo. Completar cada cliente con uno de los valores de 'canales_disponibles'. Los nombres de abajo son EXACTAMENTE como vienen en la base (verificados el 02/09/2026 contra datos.json); el match es por nombre normalizado a mayusculas sin acentos, asi que un cliente con dos cliente_id (Supermercados La Economia) cae igual en un solo canal. Cualquier cliente nuevo que aparezca y no este listado aca se muestra como el valor de 'default'.",
+  "canales_disponibles": [
+    "Cadenas de Kioscos",
+    "Cadenas de bebidas",
+    "Distribuidores",
+    "Empleados",
+    "Supermercados Regionales"
+  ],
+  "default": "SIN ASIGNAR",
+  "por_cliente": {
+    "BAI - LOGISTICA SOCIEDAD ANONIMA": "Distribuidores",
+    "WINEROD SRL": "Distribuidores",
+    "KAIRON SRL": "Distribuidores",
+    "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA": "Distribuidores",
+    "LOGIQUEN S.A": "Distribuidores",
+    "BAI - EXPORT S.A.": "Distribuidores",
+    "COOPERKIO AGRUPACION A. DE C.": "Cadenas de Kioscos",
+    "EKOTIENDA S. A.": "Distribuidores",
+    "BAISE DISTRIBUCIONES S.A.": "Distribuidores",
+    "DISMA GBA S.A.": "Distribuidores",
+    "COMERCIAL FRODO S.A.": "Cadenas de bebidas",
+    "BEYVIN SOCIEDAD ANONIMA": "Distribuidores",
+    "SUPERMERCADOS LA ECONOMIA SA": "Supermercados Regionales",
+    "APR SERVICIOS S.A.": "Distribuidores",
+    "STYL WILL INC S.A.": "Supermercados Regionales",
+    "OMAR JESUS MURADOR": "Distribuidores",
+    "M  F DISTRIBUCIONES S.R.L.": "Distribuidores",
+    "THE B2B SOCIEDAD ANONIMA": "Empleados",
+    "GO MARKET STORE S.R.L": "Supermercados Regionales"
+  },
+  "_nota_excluir": "Clientes o filas a sacar del analisis comercial por ser ruido de carga. Se sacan del dashboard pero quedan listados en el panel de calidad de datos.",
+  "excluir": [
+    "LUCAS POVOLO"
+  ]
+}
