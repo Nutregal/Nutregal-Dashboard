@@ -148,7 +148,10 @@
   .topbar h1 { margin: 0 0 3px; font-size: 21px; font-weight: 800; letter-spacing: -.02em; }
   .topbar p { margin: 0; color: var(--ink-2); font-size: 13px; max-width: 62ch; }
   .topbar .grow { flex: 1 1 240px; }
-  .controls { display: flex; gap: 9px; align-items: center; }
+  .controls { display: flex; gap: 9px; align-items: center; flex-wrap: wrap; }
+  /* Sello de actualización: chico y discreto, pero siempre a la vista — el pie
+     del sidebar se oculta en pantallas angostas y ahí este es el único. */
+  .topstamp { color: var(--ink-3); font-size: 11px; white-space: nowrap; }
 
   select.msel, button.act {
     font: 500 13px "Plus Jakarta Sans", system-ui, sans-serif;
@@ -294,6 +297,7 @@
         <p id="vsub">Venta de Nutregal a sus distribuidores. No incluye el sell-out del canal tradicional.</p>
       </div>
       <div class="controls">
+        <span class="topstamp num" id="top-stamp"></span>
         <select class="msel num" id="msel" aria-label="Filtrar por mes"></select>
         <button class="act" id="copy">Copiar tabla</button>
       </div>
@@ -762,10 +766,16 @@ async function traer(url) {
   }
   if (aviso) { $("#banner").innerHTML = "<span>" + aviso + "</span>"; $("#banner").hidden = false; }
 
+  // Sello de actualización: día y hora de Buenos Aires. Es lo primero que hay
+  // que mirar si algún número parece raro.
   $("#foot-stamp").textContent = DATA.generado_en
-    ? "Datos al " + new Date(DATA.generado_en).toLocaleDateString("es-AR",
-        { timeZone: "America/Argentina/Buenos_Aires", day: "2-digit", month: "2-digit", year: "numeric" })
+    ? "Actualizado " + new Date(DATA.generado_en).toLocaleString("es-AR", {
+        timeZone: "America/Argentina/Buenos_Aires",
+        day: "2-digit", month: "2-digit", year: "numeric",
+        hour: "2-digit", minute: "2-digit", hour12: false
+      }) + " hs"
     : "Sin fecha de actualización";
+  $("#top-stamp").textContent = $("#foot-stamp").textContent;
 
   $("#nav").innerHTML = VISTAS.map(v =>
     '<button data-v="' + v.id + '" aria-current="' + (v.id === "resumen") + '">' +
