@@ -27,7 +27,8 @@
     "OMAR JESUS MURADOR": "Distribuidores",
     "M  F DISTRIBUCIONES S.R.L.": "Distribuidores",
     "THE B2B SOCIEDAD ANONIMA": "Empleados",
-    "GO MARKET STORE S.R.L": "Supermercados Regionales"
+    "GO MARKET STORE S.R.L": "Supermercados Regionales",
+    "+CAMPI S.A.S. S. A. S.": "Distribuidores"
   },
   "_nota_excluir": "Clientes o filas a sacar del analisis comercial por ser ruido de carga. Se sacan del dashboard pero quedan listados en el panel de calidad de datos.",
   "excluir": [
