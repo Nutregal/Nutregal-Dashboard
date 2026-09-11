@@ -2,7 +2,8 @@ name: Refresh datos.json
 
 on:
   schedule:
-    # 11:00 UTC = 08:00 ART (Argentina no tiene horario de verano)
+    # 11:00 UTC = 08:00 ART. GitHub puede demorar las tareas programadas cuando
+    # tiene carga, asi que no esperes que corra exactamente a esa hora.
     - cron: "0 11 * * *"
   workflow_dispatch:
 
@@ -17,9 +18,9 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -32,7 +33,17 @@ jobs:
           GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
         run: python scripts/build_data.py --out datos.json
 
+      # El control corre ANTES del commit, con el datos.json viejo todavia en
+      # git, para poder comparar. Si encuentra algo que requiere decision, el
+      # workflow falla y GitHub manda mail automaticamente.
+      - name: Controlar los datos
+        id: control
+        run: python scripts/check_data.py
+
+      # Se commitea aunque el control haya fallado: los datos nuevos son validos
+      # igual, lo que falla es que hay algo para mirar.
       - name: Commitear si cambio
+        if: always() && steps.control.outcome != 'cancelled'
         run: |
           if git diff --quiet -- datos.json; then
             echo "Sin cambios en datos.json."
