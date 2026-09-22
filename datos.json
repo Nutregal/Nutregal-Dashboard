@@ -1,17 +1,31 @@
 {
-  "generado_en": "2026-09-21T16:57:19+00:00",
+  "generado_en": "2026-09-22T15:29:00+00:00",
   "alcance": "Sell-in del importador (EMPRESA 0033 y 0034). No incluye sell-out.",
   "periodo": {
-    "desde": "2026-01",
+    "desde": "2025-11",
     "hasta": "2026-09"
   },
   "totales": {
-    "cajas": 12761.1,
-    "kilos": 21480.32,
-    "neto": 295744463.67,
-    "neto_por_kg": 13768.16
+    "cajas": 19255.4,
+    "kilos": 31997.28,
+    "neto": 452900193.03,
+    "neto_por_kg": 14154.33
   },
   "serie_mensual": [
+    {
+      "mes": "2025-11",
+      "cajas": 3682.8,
+      "kilos": 5893.25,
+      "neto": 88922427.14,
+      "neto_por_kg": 15088.87
+    },
+    {
+      "mes": "2025-12",
+      "cajas": 2811.5,
+      "kilos": 4623.72,
+      "neto": 68233302.22,
+      "neto_por_kg": 14757.23
+    },
     {
       "mes": "2026-01",
       "cajas": 2215.7,
@@ -78,19 +92,99 @@
   ],
   "por_cliente": [
     {
+      "mes": "2025-11",
+      "cliente_id": "800025969",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "cajas": 1692.0,
+      "kilos": 2685.1200000000003,
+      "neto": 40114781.53
+    },
+    {
+      "mes": "2025-11",
+      "cliente_id": "800025422",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "cajas": 1692.0,
+      "kilos": 2685.12,
+      "neto": 40114781.53
+    },
+    {
+      "mes": "2025-11",
+      "cliente_id": "800171666",
+      "cliente": "COMERCIAL FRODO S.A. ",
+      "cajas": 238.2,
+      "kilos": 419.47200000000004,
+      "neto": 7147690.579999999
+    },
+    {
+      "mes": "2025-11",
+      "cliente_id": "800213194",
+      "cliente": "KAIRON SRL",
+      "cajas": 60.599999999999994,
+      "kilos": 103.53600000000002,
+      "neto": 1545173.5
+    },
+    {
+      "mes": "2025-12",
+      "cliente_id": "800061461",
+      "cliente": "BAI - EXPORT S.A. ",
+      "cajas": 924.0,
+      "kilos": 1549.4400000000003,
+      "neto": 22545240.95
+    },
+    {
+      "mes": "2025-12",
+      "cliente_id": "800123856",
+      "cliente": "EKOTIENDA S. A.",
+      "cajas": 912.0,
+      "kilos": 1451.5200000000002,
+      "neto": 21600056.99
+    },
+    {
+      "mes": "2025-12",
+      "cliente_id": "800065643",
+      "cliente": "WINEROD SRL",
+      "cajas": 852.0,
+      "kilos": 1408.32,
+      "neto": 21012728.79
+    },
+    {
+      "mes": "2025-12",
+      "cliente_id": "800213194",
+      "cliente": "KAIRON SRL",
+      "cajas": 85.1,
+      "kilos": 146.85600000000002,
+      "neto": 2222859.6499999994
+    },
+    {
+      "mes": "2025-12",
+      "cliente_id": "800175025",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "cajas": 28.200000000000003,
+      "kilos": 49.232,
+      "neto": 852413.2399999999
+    },
+    {
+      "mes": "2025-12",
+      "cliente_id": "800161377",
+      "cliente": "LUCAS POVOLO",
+      "cajas": 10.2,
+      "kilos": 18.352,
+      "neto": 2.6000000000000005
+    },
+    {
       "mes": "2026-01",
       "cliente_id": "800065643",
       "cliente": "WINEROD SRL",
       "cajas": 909.0,
       "kilos": 1586.6400000000003,
-      "neto": 23474178.560000002
+      "neto": 23474178.56
     },
     {
       "mes": "2026-01",
       "cliente_id": "800061461",
       "cliente": "BAI - EXPORT S.A. ",
       "cajas": 426.0,
-      "kilos": 704.16,
+      "kilos": 704.1600000000001,
       "neto": 10439416.09
     },
     {
@@ -98,8 +192,8 @@
       "cliente_id": "800112448",
       "cliente": "BAISE DISTRIBUCIONES S.A.",
       "cajas": 306.0,
-      "kilos": 550.5600000000001,
-      "neto": 8486144.559999999
+      "kilos": 550.56,
+      "neto": 8486144.56
     },
     {
       "mes": "2026-01",
@@ -113,9 +207,9 @@
       "mes": "2026-01",
       "cliente_id": "800213194",
       "cliente": "KAIRON SRL",
-      "cajas": 220.7,
-      "kilos": 373.83200000000005,
-      "neto": 5609892.0
+      "cajas": 220.69999999999996,
+      "kilos": 373.83199999999994,
+      "neto": 5609891.999999998
     },
     {
       "mes": "2026-01",
@@ -138,7 +232,7 @@
       "cliente_id": "800065643",
       "cliente": "WINEROD SRL",
       "cajas": 669.0,
-      "kilos": 1178.64,
+      "kilos": 1178.6400000000003,
       "neto": 17444058.84
     },
     {
@@ -178,7 +272,7 @@
       "cliente_id": "800171666",
       "cliente": "COMERCIAL FRODO S.A. ",
       "cajas": 16.0,
-      "kilos": 27.200000000000003,
+      "kilos": 27.2,
       "neto": 469487.6000000001
     },
     {
@@ -186,7 +280,7 @@
       "cliente_id": "800175025",
       "cliente": "THE B2B SOCIEDAD ANONIMA",
       "cajas": 14.2,
-      "kilos": 26.272000000000002,
+      "kilos": 26.272000000000006,
       "neto": 442191.72
     },
     {
@@ -194,7 +288,7 @@
       "cliente_id": "800025969",
       "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
       "cajas": 509.85,
-      "kilos": 763.6959999999999,
+      "kilos": 763.696,
       "neto": 11226112.7
     },
     {
@@ -203,7 +297,7 @@
       "cliente": "KAIRON SRL",
       "cajas": 329.8,
       "kilos": 559.808,
-      "neto": 8270513.610000001
+      "neto": 8270513.609999999
     },
     {
       "mes": "2026-03",
@@ -219,7 +313,7 @@
       "cliente": "BEYVIN SOCIEDAD ANONIMA",
       "cajas": 181.2,
       "kilos": 304.03200000000004,
-      "neto": 4553376.36
+      "neto": 4553376.359999999
     },
     {
       "mes": "2026-03",
@@ -233,9 +327,9 @@
       "mes": "2026-03",
       "cliente_id": "800118122",
       "cliente": "LOGIQUEN S.A ",
-      "cajas": 121.19999999999999,
+      "cajas": 121.2,
       "kilos": 193.632,
-      "neto": 2918384.7099999995
+      "neto": 2918384.71
     },
     {
       "mes": "2026-03",
@@ -259,7 +353,7 @@
       "cliente": "BAI - EXPORT S.A. ",
       "cajas": -0.5333333333333333,
       "kilos": -0.922,
-      "neto": -13837.510000000002
+      "neto": -13837.51
     },
     {
       "mes": "2026-03",
@@ -274,8 +368,8 @@
       "cliente_id": "800213194",
       "cliente": "KAIRON SRL",
       "cajas": 293.0,
-      "kilos": 482.16,
-      "neto": 7143593.88
+      "kilos": 482.15999999999997,
+      "neto": 7143593.880000001
     },
     {
       "mes": "2026-04",
@@ -283,15 +377,15 @@
       "cliente": "BAISE DISTRIBUCIONES S.A.",
       "cajas": 198.0,
       "kilos": 351.84000000000003,
-      "neto": 5384441.62
+      "neto": 5384441.619999999
     },
     {
       "mes": "2026-04",
       "cliente_id": "800171666",
       "cliente": "COMERCIAL FRODO S.A. ",
       "cajas": 132.0,
-      "kilos": 220.48000000000005,
-      "neto": 3780743.0399999996
+      "kilos": 220.48000000000002,
+      "neto": 3780743.04
     },
     {
       "mes": "2026-04",
@@ -395,7 +489,7 @@
       "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
       "cajas": 492.0,
       "kilos": 768.96,
-      "neto": 11182744.53
+      "neto": 11182744.529999997
     },
     {
       "mes": "2026-06",
@@ -411,7 +505,7 @@
       "cliente": "LOGIQUEN S.A ",
       "cajas": 268.0,
       "kilos": 473.6,
-      "neto": 6918007.6000000015
+      "neto": 6918007.600000001
     },
     {
       "mes": "2026-06",
@@ -419,22 +513,22 @@
       "cliente": "COOPERKIO AGRUPACION A. DE C.",
       "cajas": 210.0,
       "kilos": 319.2,
-      "neto": 5373223.13
+      "neto": 5373223.129999999
     },
     {
       "mes": "2026-06",
       "cliente_id": "800285259",
       "cliente": "OMAR JESUS MURADOR",
       "cajas": 180.0,
-      "kilos": 301.43999999999994,
-      "neto": 4684871.9799999995
+      "kilos": 301.44,
+      "neto": 4684871.98
     },
     {
       "mes": "2026-06",
       "cliente_id": "800285408",
       "cliente": "APR SERVICIOS S.A.",
       "cajas": 150.0,
-      "kilos": 250.07999999999998,
+      "kilos": 250.08,
       "neto": 3648748.23
     },
     {
@@ -442,7 +536,7 @@
       "cliente_id": "800225382",
       "cliente": "BEYVIN SOCIEDAD ANONIMA",
       "cajas": 132.0,
-      "kilos": 219.36,
+      "kilos": 219.35999999999999,
       "neto": 3245285.96
     },
     {
@@ -450,8 +544,8 @@
       "cliente_id": "800065643",
       "cliente": "WINEROD SRL",
       "cajas": 132.0,
-      "kilos": 209.28000000000003,
-      "neto": 3076116.93
+      "kilos": 209.28,
+      "neto": 3076116.9299999997
     },
     {
       "mes": "2026-06",
@@ -475,7 +569,7 @@
       "cliente": "KAIRON SRL",
       "cajas": 324.0,
       "kilos": 545.2800000000001,
-      "neto": 8153806.8999999985
+      "neto": 8153806.900000001
     },
     {
       "mes": "2026-07",
@@ -483,14 +577,14 @@
       "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
       "cajas": 248.0,
       "kilos": 428.64,
-      "neto": 6288471.540000001
+      "neto": 6288471.54
     },
     {
       "mes": "2026-07",
       "cliente_id": "800286867",
       "cliente": "M  F DISTRIBUCIONES S.R.L.",
       "cajas": 180.0,
-      "kilos": 301.44,
+      "kilos": 301.44000000000005,
       "neto": 4684871.989999999
     },
     {
@@ -498,7 +592,7 @@
       "cliente_id": "800118122",
       "cliente": "LOGIQUEN S.A ",
       "cajas": 144.0,
-      "kilos": 216.48,
+      "kilos": 216.48000000000005,
       "neto": 3278757.73
     },
     {
@@ -514,15 +608,15 @@
       "cliente_id": "800065643",
       "cliente": "WINEROD SRL",
       "cajas": 66.0,
-      "kilos": 108.00000000000001,
-      "neto": 1661301.95
+      "kilos": 108.0,
+      "neto": 1661301.9500000002
     },
     {
       "mes": "2026-07",
       "cliente_id": "800285408",
       "cliente": "APR SERVICIOS S.A.",
       "cajas": 60.0,
-      "kilos": 99.20000000000002,
+      "kilos": 99.2,
       "neto": 1505060.51
     },
     {
@@ -595,7 +689,7 @@
       "cliente": "GO MARKET STORE S.R.L",
       "cajas": 6.0,
       "kilos": 10.48,
-      "neto": 199626.77
+      "neto": 199626.77000000002
     },
     {
       "mes": "2026-08",
@@ -618,7 +712,7 @@
       "cliente_id": "800118122",
       "cliente": "LOGIQUEN S.A ",
       "cajas": 282.0,
-      "kilos": 428.15999999999997,
+      "kilos": 428.16,
       "neto": 6419177.74
     },
     {
@@ -626,7 +720,7 @@
       "cliente_id": "800290533",
       "cliente": "+CAMPI S.A.S. S. A. S.",
       "cajas": 248.0,
-      "kilos": 389.12000000000006,
+      "kilos": 389.12,
       "neto": 6065629.949999999
     },
     {
@@ -634,7 +728,7 @@
       "cliente_id": "800065643",
       "cliente": "WINEROD SRL",
       "cajas": 186.0,
-      "kilos": 298.56,
+      "kilos": 298.55999999999995,
       "neto": 4517789.18
     },
     {
@@ -651,14 +745,14 @@
       "cliente": "APR SERVICIOS S.A.",
       "cajas": 127.0,
       "kilos": 222.48000000000002,
-      "neto": 3382669.97
+      "neto": 3382669.9699999997
     },
     {
       "mes": "2026-09",
       "cliente_id": "800213194",
       "cliente": "KAIRON SRL",
       "cajas": 98.0,
-      "kilos": 160.72,
+      "kilos": 160.72000000000003,
       "neto": 2454994.8499999996
     },
     {
@@ -674,8 +768,8 @@
       "cliente_id": "800062656",
       "cliente": "SUPERMERCADOS LA ECONOMIA SA",
       "cajas": 50.0,
-      "kilos": 86.40000000000002,
-      "neto": 249135.87999999998
+      "kilos": 86.4,
+      "neto": 249135.88
     },
     {
       "mes": "2026-09",
@@ -696,12 +790,192 @@
   ],
   "por_sku": [
     {
+      "mes": "2025-11",
+      "articulo_id": 30733,
+      "articulo": "Clásicas Corte Liso 80",
+      "cajas": 1062.0,
+      "kilos": 1359.36,
+      "neto": 20473740.86,
+      "codigo": "    201700705"
+    },
+    {
+      "mes": "2025-11",
+      "articulo_id": 30734,
+      "articulo": "Clásicas Corte Americano 80",
+      "cajas": 696.0,
+      "kilos": 890.88,
+      "neto": 13450115.95,
+      "codigo": "    201700706"
+    },
+    {
+      "mes": "2025-11",
+      "articulo_id": 30730,
+      "articulo": "Rústicas Albahaca y Oliva 115",
+      "cajas": 268.0,
+      "kilos": 493.12000000000006,
+      "neto": 7811380.34,
+      "codigo": "    201700701"
+    },
+    {
+      "mes": "2025-11",
+      "articulo_id": 30728,
+      "articulo": "Rústicas Queso y Orégano 115",
+      "cajas": 268.0,
+      "kilos": 493.12000000000006,
+      "neto": 7811380.34,
+      "codigo": "    201700698"
+    },
+    {
+      "mes": "2025-11",
+      "articulo_id": 30729,
+      "articulo": "Rústicas Cebolla Caramelizada 115",
+      "cajas": 268.0,
+      "kilos": 493.12,
+      "neto": 7811380.34,
+      "codigo": "    201700699"
+    },
+    {
+      "mes": "2025-11",
+      "articulo_id": 30727,
+      "articulo": "Rústicas Sal de Mar 115",
+      "cajas": 268.0,
+      "kilos": 493.12000000000006,
+      "neto": 7809056.529999999,
+      "codigo": "    201700697"
+    },
+    {
+      "mes": "2025-11",
+      "articulo_id": 30732,
+      "articulo": "Jamón Serrano 115",
+      "cajas": 268.0,
+      "kilos": 493.12,
+      "neto": 7178787.44,
+      "codigo": "    201700704"
+    },
+    {
+      "mes": "2025-11",
+      "articulo_id": 30731,
+      "articulo": "Crema Ciboulette 115",
+      "cajas": 268.0,
+      "kilos": 493.12,
+      "neto": 7178787.44,
+      "codigo": "    201700703"
+    },
+    {
+      "mes": "2025-11",
+      "articulo_id": 30735,
+      "articulo": "Clásicas Corte Liso 36",
+      "cajas": 158.4,
+      "kilos": 342.144,
+      "neto": 4698898.95,
+      "codigo": "    201700721"
+    },
+    {
+      "mes": "2025-11",
+      "articulo_id": 30736,
+      "articulo": "Clásicas Corte Americano 36",
+      "cajas": 158.4,
+      "kilos": 342.14399999999995,
+      "neto": 4698898.949999999,
+      "codigo": "    201700722"
+    },
+    {
+      "mes": "2025-12",
+      "articulo_id": 30733,
+      "articulo": "Clásicas Corte Liso 80",
+      "cajas": 674.0,
+      "kilos": 862.7199999999999,
+      "neto": 12924100.23,
+      "codigo": "    201700705"
+    },
+    {
+      "mes": "2025-12",
+      "articulo_id": 30734,
+      "articulo": "Clásicas Corte Americano 80",
+      "cajas": 612.0,
+      "kilos": 783.36,
+      "neto": 11734305.85,
+      "codigo": "    201700706"
+    },
+    {
+      "mes": "2025-12",
+      "articulo_id": 30735,
+      "articulo": "Clásicas Corte Liso 36",
+      "cajas": 267.30000000000007,
+      "kilos": 577.3679999999999,
+      "neto": 7964303.0600000005,
+      "codigo": "    201700721"
+    },
+    {
+      "mes": "2025-12",
+      "articulo_id": 30736,
+      "articulo": "Clásicas Corte Americano 36",
+      "cajas": 266.2,
+      "kilos": 574.992,
+      "neto": 7931422.140000001,
+      "codigo": "    201700722"
+    },
+    {
+      "mes": "2025-12",
+      "articulo_id": 30730,
+      "articulo": "Rústicas Albahaca y Oliva 115",
+      "cajas": 202.0,
+      "kilos": 371.67999999999995,
+      "neto": 5763421.720000001,
+      "codigo": "    201700701"
+    },
+    {
+      "mes": "2025-12",
+      "articulo_id": 30729,
+      "articulo": "Rústicas Cebolla Caramelizada 115",
+      "cajas": 197.0,
+      "kilos": 362.4800000000001,
+      "neto": 5631461.91,
+      "codigo": "    201700699"
+    },
+    {
+      "mes": "2025-12",
+      "articulo_id": 30727,
+      "articulo": "Rústicas Sal de Mar 115",
+      "cajas": 164.0,
+      "kilos": 301.76,
+      "neto": 4675427.180000001,
+      "codigo": "    201700697"
+    },
+    {
+      "mes": "2025-12",
+      "articulo_id": 30728,
+      "articulo": "Rústicas Queso y Orégano 115",
+      "cajas": 162.0,
+      "kilos": 298.08000000000004,
+      "neto": 4619755.29,
+      "codigo": "    201700698"
+    },
+    {
+      "mes": "2025-12",
+      "articulo_id": 30731,
+      "articulo": "Crema Ciboulette 115",
+      "cajas": 135.0,
+      "kilos": 248.40000000000003,
+      "neto": 3534092.5,
+      "codigo": "    201700703"
+    },
+    {
+      "mes": "2025-12",
+      "articulo_id": 30732,
+      "articulo": "Jamón Serrano 115",
+      "cajas": 132.0,
+      "kilos": 242.88000000000002,
+      "neto": 3455012.3400000003,
+      "codigo": "    201700704"
+    },
+    {
       "mes": "2026-01",
       "articulo_id": 30731,
       "articulo": "Crema Ciboulette 115",
       "cajas": 278.0,
       "kilos": 511.52000000000004,
-      "neto": 7370710.11,
+      "neto": 7370710.110000001,
       "codigo": "    201700703"
     },
     {
@@ -719,7 +993,7 @@
       "articulo": "Rústicas Albahaca y Oliva 115",
       "cajas": 212.0,
       "kilos": 390.08,
-      "neto": 6109818.799999999,
+      "neto": 6109818.8,
       "codigo": "    201700701"
     },
     {
@@ -746,14 +1020,14 @@
       "articulo": "Clásicas Corte Americano 80",
       "cajas": 271.0,
       "kilos": 346.88,
-      "neto": 5200552.87,
+      "neto": 5200552.869999999,
       "codigo": "    201700706"
     },
     {
       "mes": "2026-01",
       "articulo_id": 30735,
       "articulo": "Clásicas Corte Liso 36",
-      "cajas": 169.4,
+      "cajas": 169.39999999999998,
       "kilos": 365.904,
       "neto": 5112983.5,
       "codigo": "    201700721"
@@ -772,7 +1046,7 @@
       "articulo_id": 30727,
       "articulo": "Rústicas Sal de Mar 115",
       "cajas": 172.0,
-      "kilos": 316.47999999999996,
+      "kilos": 316.48,
       "neto": 4959595.12,
       "codigo": "    201700697"
     },
@@ -790,8 +1064,8 @@
       "articulo_id": 30731,
       "articulo": "Crema Ciboulette 115",
       "cajas": 320.0,
-      "kilos": 588.8000000000001,
-      "neto": 8436058.490000002,
+      "kilos": 588.8,
+      "neto": 8436058.49,
       "codigo": "    201700703"
     },
     {
@@ -799,8 +1073,8 @@
       "articulo_id": 30732,
       "articulo": "Jamón Serrano 115",
       "cajas": 312.0,
-      "kilos": 574.08,
-      "neto": 8225372.180000001,
+      "kilos": 574.0800000000002,
+      "neto": 8225372.18,
       "codigo": "    201700704"
     },
     {
@@ -816,7 +1090,7 @@
       "mes": "2026-02",
       "articulo_id": 30735,
       "articulo": "Clásicas Corte Liso 36",
-      "cajas": 170.49999999999997,
+      "cajas": 170.5,
       "kilos": 368.28000000000003,
       "neto": 5036700.25,
       "codigo": "    201700721"
@@ -836,7 +1110,7 @@
       "articulo": "Rústicas Albahaca y Oliva 115",
       "cajas": 168.0,
       "kilos": 309.12,
-      "neto": 4823350.539999999,
+      "neto": 4823350.54,
       "codigo": "    201700701"
     },
     {
@@ -853,7 +1127,7 @@
       "articulo_id": 30728,
       "articulo": "Rústicas Queso y Orégano 115",
       "cajas": 156.0,
-      "kilos": 287.03999999999996,
+      "kilos": 287.04,
       "neto": 4480250.61,
       "codigo": "    201700698"
     },
@@ -862,8 +1136,8 @@
       "articulo_id": 30727,
       "articulo": "Rústicas Sal de Mar 115",
       "cajas": 156.0,
-      "kilos": 287.04,
-      "neto": 4478814.76,
+      "kilos": 287.0400000000001,
+      "neto": 4478814.760000001,
       "codigo": "    201700697"
     },
     {
@@ -872,7 +1146,7 @@
       "articulo": "Clásicas Corte Americano 80",
       "cajas": 106.0,
       "kilos": 135.68,
-      "neto": 2042572.08,
+      "neto": 2042572.0799999998,
       "codigo": "    201700706"
     },
     {
@@ -880,7 +1154,7 @@
       "articulo_id": 30733,
       "articulo": "Clásicas Corte Liso 80",
       "cajas": 690.1875,
-      "kilos": 883.4399999999998,
+      "kilos": 883.4399999999999,
       "neto": 11331884.34,
       "codigo": "    201700705"
     },
@@ -888,7 +1162,7 @@
       "mes": "2026-03",
       "articulo_id": 30735,
       "articulo": "Clásicas Corte Liso 36",
-      "cajas": 305.7833333333333,
+      "cajas": 305.78333333333336,
       "kilos": 660.492,
       "neto": 5750375.2,
       "codigo": "    201700721"
@@ -908,7 +1182,7 @@
       "articulo": "Jamón Serrano 115",
       "cajas": 176.9375,
       "kilos": 325.565,
-      "neto": 3361895.039999999,
+      "neto": 3361895.0399999996,
       "codigo": "    201700704"
     },
     {
@@ -934,15 +1208,15 @@
       "articulo_id": 30727,
       "articulo": "Rústicas Sal de Mar 115",
       "cajas": 85.9375,
-      "kilos": 158.12500000000006,
-      "neto": 2387919.1099999994,
+      "kilos": 158.12500000000003,
+      "neto": 2387919.1100000003,
       "codigo": "    201700697"
     },
     {
       "mes": "2026-03",
       "articulo_id": 30736,
       "articulo": "Clásicas Corte Americano 36",
-      "cajas": 162.7833333333333,
+      "cajas": 162.78333333333333,
       "kilos": 351.61199999999997,
       "neto": 2235404.55,
       "codigo": "    201700722"
@@ -952,7 +1226,7 @@
       "articulo_id": 30731,
       "articulo": "Crema Ciboulette 115",
       "cajas": 131.9375,
-      "kilos": 242.76500000000001,
+      "kilos": 242.765,
       "neto": 2175861.33,
       "codigo": "    201700703"
     },
@@ -962,7 +1236,7 @@
       "articulo": "Clásicas Corte Americano 80",
       "cajas": 73.9375,
       "kilos": 94.64,
-      "neto": -110291.49999999988,
+      "neto": -110291.49999999987,
       "codigo": "    201700706"
     },
     {
@@ -971,7 +1245,7 @@
       "articulo": "Rústicas Albahaca y Oliva 115",
       "cajas": 86.0,
       "kilos": 158.24,
-      "neto": 2690612.4899999998,
+      "neto": 2690612.49,
       "codigo": "    201700701"
     },
     {
@@ -997,7 +1271,7 @@
       "articulo_id": 30728,
       "articulo": "Rústicas Queso y Orégano 115",
       "cajas": 50.0,
-      "kilos": 92.0,
+      "kilos": 92.00000000000001,
       "neto": 1661312.71,
       "codigo": "    201700698"
     },
@@ -1006,7 +1280,7 @@
       "articulo_id": 30733,
       "articulo": "Clásicas Corte Liso 80",
       "cajas": 28.0,
-      "kilos": 35.83999999999999,
+      "kilos": 35.83999999999998,
       "neto": 439138.66,
       "codigo": "    201700705"
     },
@@ -1015,8 +1289,8 @@
       "articulo_id": 30731,
       "articulo": "Crema Ciboulette 115",
       "cajas": 1.0,
-      "kilos": 1.8400000000000034,
-      "neto": 26975.209999999963,
+      "kilos": 1.84,
+      "neto": 26975.21,
       "codigo": "    201700703"
     },
     {
@@ -1033,7 +1307,7 @@
       "articulo_id": 30734,
       "articulo": "Clásicas Corte Americano 80",
       "cajas": 0.0,
-      "kilos": -1.4210854715202004e-14,
+      "kilos": -7.105427357601002e-15,
       "neto": 0.0,
       "codigo": "    201700706"
     },
@@ -1041,9 +1315,9 @@
       "mes": "2026-04",
       "articulo_id": 30735,
       "articulo": "Clásicas Corte Liso 36",
-      "cajas": -25.299999999999997,
+      "cajas": -25.3,
       "kilos": -54.647999999999996,
-      "neto": -706939.8099999999,
+      "neto": -706939.81,
       "codigo": "    201700721"
     },
     {
@@ -1060,8 +1334,8 @@
       "articulo_id": 30734,
       "articulo": "Clásicas Corte Americano 80",
       "cajas": 424.0,
-      "kilos": 542.72,
-      "neto": 6793343.890000001,
+      "kilos": 542.7199999999999,
+      "neto": 6793343.89,
       "codigo": "    201700706"
     },
     {
@@ -1069,7 +1343,7 @@
       "articulo_id": 30731,
       "articulo": "Crema Ciboulette 115",
       "cajas": 188.0,
-      "kilos": 345.9200000000001,
+      "kilos": 345.92,
       "neto": 3638917.37,
       "codigo": "    201700703"
     },
@@ -1078,8 +1352,8 @@
       "articulo_id": 30733,
       "articulo": "Clásicas Corte Liso 80",
       "cajas": 213.75,
-      "kilos": 273.6,
-      "neto": 2758594.8999999994,
+      "kilos": 273.59999999999997,
+      "neto": 2758594.9,
       "codigo": "    201700705"
     },
     {
@@ -1133,7 +1407,7 @@
       "articulo": "Rústicas Albahaca y Oliva 115",
       "cajas": 45.0,
       "kilos": 82.80000000000003,
-      "neto": 148456.52999999997,
+      "neto": 148456.53000000003,
       "codigo": "    201700701"
     },
     {
@@ -1159,7 +1433,7 @@
       "articulo_id": 30731,
       "articulo": "Crema Ciboulette 115",
       "cajas": 282.0,
-      "kilos": 518.8800000000001,
+      "kilos": 518.88,
       "neto": 7591104.619999999,
       "codigo": "    201700703"
     },
@@ -1168,7 +1442,7 @@
       "articulo_id": 30732,
       "articulo": "Jamón Serrano 115",
       "cajas": 253.0,
-      "kilos": 465.52000000000004,
+      "kilos": 465.52,
       "neto": 6836412.74,
       "codigo": "    201700704"
     },
@@ -1186,7 +1460,7 @@
       "articulo_id": 30730,
       "articulo": "Rústicas Albahaca y Oliva 115",
       "cajas": 188.0,
-      "kilos": 345.92,
+      "kilos": 345.9200000000001,
       "neto": 5525033.07,
       "codigo": "    201700701"
     },
@@ -1195,8 +1469,8 @@
       "articulo_id": 30735,
       "articulo": "Clásicas Corte Liso 36",
       "cajas": 108.0,
-      "kilos": 233.28,
-      "neto": 3244450.3200000003,
+      "kilos": 233.27999999999997,
+      "neto": 3244450.32,
       "codigo": "    201700721"
     },
     {
@@ -1204,7 +1478,7 @@
       "articulo_id": 30736,
       "articulo": "Clásicas Corte Americano 36",
       "cajas": 96.0,
-      "kilos": 207.35999999999996,
+      "kilos": 207.35999999999999,
       "neto": 2885749.3499999996,
       "codigo": "    201700722"
     },
@@ -1214,7 +1488,7 @@
       "articulo": "Rústicas Cebolla Caramelizada 115",
       "cajas": 89.0,
       "kilos": 163.76000000000002,
-      "neto": 2456023.64,
+      "neto": 2456023.6399999997,
       "codigo": "    201700699"
     },
     {
@@ -1241,7 +1515,7 @@
       "articulo": "Clásicas Corte Americano 80",
       "cajas": 214.0,
       "kilos": 273.92,
-      "neto": 4119167.5799999996,
+      "neto": 4119167.58,
       "codigo": "    201700706"
     },
     {
@@ -1249,8 +1523,8 @@
       "articulo_id": 30729,
       "articulo": "Rústicas Cebolla Caramelizada 115",
       "cajas": 124.0,
-      "kilos": 228.16,
-      "neto": 3594550.7000000007,
+      "kilos": 228.16000000000003,
+      "neto": 3594550.7,
       "codigo": "    201700699"
     },
     {
@@ -1277,7 +1551,7 @@
       "articulo": "Jamón Serrano 115",
       "cajas": 121.0,
       "kilos": 222.64000000000004,
-      "neto": 3267064.93,
+      "neto": 3267064.9299999997,
       "codigo": "    201700704"
     },
     {
@@ -1285,8 +1559,8 @@
       "articulo_id": 30733,
       "articulo": "Clásicas Corte Liso 80",
       "cajas": 161.0,
-      "kilos": 206.08000000000004,
-      "neto": 3108482.02,
+      "kilos": 206.07999999999998,
+      "neto": 3108482.0199999996,
       "codigo": "    201700705"
     },
     {
@@ -1294,7 +1568,7 @@
       "articulo_id": 30728,
       "articulo": "Rústicas Queso y Orégano 115",
       "cajas": 103.0,
-      "kilos": 189.52000000000004,
+      "kilos": 189.51999999999998,
       "neto": 2985548.33,
       "codigo": "    201700698"
     },
@@ -1303,8 +1577,8 @@
       "articulo_id": 30727,
       "articulo": "Rústicas Sal de Mar 115",
       "cajas": 89.0,
-      "kilos": 163.76,
-      "neto": 2584566.0399999996,
+      "kilos": 163.76000000000002,
+      "neto": 2584566.04,
       "codigo": "    201700697"
     },
     {
@@ -1312,7 +1586,7 @@
       "articulo_id": 30736,
       "articulo": "Clásicas Corte Americano 36",
       "cajas": 74.0,
-      "kilos": 159.83999999999995,
+      "kilos": 159.83999999999997,
       "neto": 2195249.86,
       "codigo": "    201700722"
     },
@@ -1330,7 +1604,7 @@
       "articulo_id": 30732,
       "articulo": "Jamón Serrano 115",
       "cajas": 84.0,
-      "kilos": 154.56000000000003,
+      "kilos": 154.56,
       "neto": 2350516.67,
       "codigo": "    201700704"
     },
@@ -1366,7 +1640,7 @@
       "articulo_id": 30727,
       "articulo": "Rústicas Sal de Mar 115",
       "cajas": 27.5625,
-      "kilos": 50.71500000000002,
+      "kilos": 50.715,
       "neto": 794720.6900000001,
       "codigo": "    201700697"
     },
@@ -1429,7 +1703,7 @@
       "articulo_id": 30730,
       "articulo": "Rústicas Albahaca y Oliva 115",
       "cajas": 171.0,
-      "kilos": 314.64,
+      "kilos": 314.64000000000004,
       "neto": 4626957.42,
       "codigo": "    201700701"
     },
@@ -1438,7 +1712,7 @@
       "articulo_id": 30732,
       "articulo": "Jamón Serrano 115",
       "cajas": 170.0,
-      "kilos": 312.80000000000007,
+      "kilos": 312.8,
       "neto": 4538406.42,
       "codigo": "    201700704"
     },
@@ -1473,14 +1747,8 @@
   "reconocimientos": [
     {
       "mes": "2026-02",
-      "articulo_id": 32210,
-      "neto": -542500.0,
-      "concepto": "Retiros"
-    },
-    {
-      "mes": "2026-02",
       "articulo_id": 32208,
-      "neto": -618855.79,
+      "neto": -618855.7899999999,
       "concepto": "Sell-in roturas"
     },
     {
@@ -1490,10 +1758,22 @@
       "concepto": "Sell-out comerciales"
     },
     {
+      "mes": "2026-02",
+      "articulo_id": 32210,
+      "neto": -542500.0,
+      "concepto": "Retiros"
+    },
+    {
       "mes": "2026-03",
       "articulo_id": 32210,
       "neto": -304166.67,
       "concepto": "Retiros"
+    },
+    {
+      "mes": "2026-03",
+      "articulo_id": 32209,
+      "neto": -660155.95,
+      "concepto": "Sell-out comerciales"
     },
     {
       "mes": "2026-03",
@@ -1502,22 +1782,16 @@
       "concepto": "Sell-in roturas"
     },
     {
-      "mes": "2026-03",
-      "articulo_id": 32209,
-      "neto": -660155.9500000001,
-      "concepto": "Sell-out comerciales"
+      "mes": "2026-04",
+      "articulo_id": 32210,
+      "neto": -468333.33,
+      "concepto": "Retiros"
     },
     {
       "mes": "2026-04",
       "articulo_id": 32209,
       "neto": -697208.0,
       "concepto": "Sell-out comerciales"
-    },
-    {
-      "mes": "2026-04",
-      "articulo_id": 32210,
-      "neto": -468333.33,
-      "concepto": "Retiros"
     },
     {
       "mes": "2026-04",
@@ -1539,21 +1813,21 @@
     },
     {
       "mes": "2026-05",
-      "articulo_id": 32209,
-      "neto": -337066.02,
-      "concepto": "Sell-out comerciales"
-    },
-    {
-      "mes": "2026-05",
       "articulo_id": 32210,
       "neto": -240833.33,
       "concepto": "Retiros"
     },
     {
+      "mes": "2026-05",
+      "articulo_id": 32209,
+      "neto": -337066.02,
+      "concepto": "Sell-out comerciales"
+    },
+    {
       "mes": "2026-06",
-      "articulo_id": 32210,
-      "neto": -139166.67,
-      "concepto": "Retiros"
+      "articulo_id": 32208,
+      "neto": -32709.59,
+      "concepto": "Sell-in roturas"
     },
     {
       "mes": "2026-06",
@@ -1563,15 +1837,21 @@
     },
     {
       "mes": "2026-06",
-      "articulo_id": 32208,
-      "neto": -32709.589999999997,
-      "concepto": "Sell-in roturas"
+      "articulo_id": 32210,
+      "neto": -139166.67,
+      "concepto": "Retiros"
     },
     {
       "mes": "2026-06",
       "articulo_id": 32209,
       "neto": -410830.61,
       "concepto": "Sell-out comerciales"
+    },
+    {
+      "mes": "2026-07",
+      "articulo_id": 32208,
+      "neto": -100892.72000000002,
+      "concepto": "Sell-in roturas"
     },
     {
       "mes": "2026-07",
@@ -1586,12 +1866,6 @@
       "concepto": "Retiros"
     },
     {
-      "mes": "2026-07",
-      "articulo_id": 32208,
-      "neto": -100892.72,
-      "concepto": "Sell-in roturas"
-    },
-    {
       "mes": "2026-08",
       "articulo_id": 32208,
       "neto": -13944.82,
@@ -1599,19 +1873,31 @@
     },
     {
       "mes": "2026-09",
-      "articulo_id": 34786,
-      "neto": -428875.2,
-      "concepto": "Productos defectuosos (Nutregal)"
-    },
-    {
-      "mes": "2026-09",
       "articulo_id": 32208,
       "neto": -43326.83,
       "concepto": "Sell-in roturas"
+    },
+    {
+      "mes": "2026-09",
+      "articulo_id": 34786,
+      "neto": -428875.2,
+      "concepto": "Productos defectuosos (Nutregal)"
     }
   ],
   "calidad": {
     "bonificados_sin_facturar": [
+      {
+        "mes": "2025-11",
+        "cliente_id": "800171666",
+        "cliente": "COMERCIAL FRODO S.A. ",
+        "cajas": 23.0
+      },
+      {
+        "mes": "2025-12",
+        "cliente_id": "800161377",
+        "cliente": "LUCAS POVOLO",
+        "cajas": 10.2
+      },
       {
         "mes": "2026-02",
         "cliente_id": "800213194",
@@ -1620,21 +1906,15 @@
       },
       {
         "mes": "2026-03",
-        "cliente_id": "800216061",
-        "cliente": "COOPERKIO AGRUPACION A. DE C.",
-        "cajas": 528.0
-      },
-      {
-        "mes": "2026-03",
         "cliente_id": "800213194",
         "cliente": "KAIRON SRL",
         "cajas": 7.4
       },
       {
-        "mes": "2026-04",
-        "cliente_id": "800213194",
-        "cliente": "KAIRON SRL",
-        "cajas": 3.3
+        "mes": "2026-03",
+        "cliente_id": "800216061",
+        "cliente": "COOPERKIO AGRUPACION A. DE C.",
+        "cajas": 528.0
       },
       {
         "mes": "2026-04",
@@ -1643,10 +1923,16 @@
         "cajas": 22.0
       },
       {
+        "mes": "2026-04",
+        "cliente_id": "800213194",
+        "cliente": "KAIRON SRL",
+        "cajas": 3.3
+      },
+      {
         "mes": "2026-05",
-        "cliente_id": "800270296",
-        "cliente": "SUPERMERCADOS LA ECONOMIA SA",
-        "cajas": 83.0
+        "cliente_id": "800051157",
+        "cliente": "STYL WILL INC S.A.",
+        "cajas": 156.0
       },
       {
         "mes": "2026-05",
@@ -1656,9 +1942,9 @@
       },
       {
         "mes": "2026-05",
-        "cliente_id": "800051157",
-        "cliente": "STYL WILL INC S.A.",
-        "cajas": 156.0
+        "cliente_id": "800270296",
+        "cliente": "SUPERMERCADOS LA ECONOMIA SA",
+        "cajas": 83.0
       },
       {
         "mes": "2026-05",
@@ -1680,20 +1966,20 @@
       },
       {
         "mes": "2026-09",
-        "cliente_id": "800062656",
-        "cliente": "SUPERMERCADOS LA ECONOMIA SA",
-        "cajas": 39.0
-      },
-      {
-        "mes": "2026-09",
         "cliente_id": "800051157",
         "cliente": "STYL WILL INC S.A.",
         "cajas": 9.0
+      },
+      {
+        "mes": "2026-09",
+        "cliente_id": "800062656",
+        "cliente": "SUPERMERCADOS LA ECONOMIA SA",
+        "cajas": 39.0
       }
     ],
     "material_pop_excluido": {
-      "cajas_pop": 1058.0,
-      "neto_pop": 0.54
+      "cajas_pop": 4826.0,
+      "neto_pop": 6.220000000000001
     },
     "articulos_sin_clasificar": [],
     "clientes_con_varios_ids": [
@@ -1706,6 +1992,20 @@
       }
     ],
     "unidades_por_bulto_variables": [
+      {
+        "articulo_id": 30735,
+        "mes": "2025-11",
+        "unidades": [
+          60.0
+        ]
+      },
+      {
+        "articulo_id": 30735,
+        "mes": "2025-12",
+        "unidades": [
+          60.0
+        ]
+      },
       {
         "articulo_id": 30735,
         "mes": "2026-01",
@@ -1751,6 +2051,20 @@
       {
         "articulo_id": 30735,
         "mes": "2026-07",
+        "unidades": [
+          60.0
+        ]
+      },
+      {
+        "articulo_id": 30736,
+        "mes": "2025-11",
+        "unidades": [
+          60.0
+        ]
+      },
+      {
+        "articulo_id": 30736,
+        "mes": "2025-12",
         "unidades": [
           60.0
         ]
