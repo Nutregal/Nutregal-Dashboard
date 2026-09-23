@@ -8,6 +8,8 @@ eslabones y los bultos se cuentan dos veces. Ese reporte viene después.
 
 ```
 scripts/build_data.py   consulta BigQuery y escribe datos.json
+scripts/check_data.py   control diario dentro del Action
+config.json             depósito, umbrales de días de inventario y planilla del forecast
 canales.json            asignación manual de canal por cliente (se edita a mano)
 index.html              front estático, hace fetch de datos.json y canales.json
 .github/workflows/      refresh.yml: cron diario 08:00 ART que regenera y commitea
@@ -181,3 +183,22 @@ comprobante.
 - `ESTADO`: `Pagado` / `Pendiente` / `Anulado`. Los anulados son 0,2% en plata pero
   18% de las líneas y arrastran clientes fantasma, así que se filtran igual.
 - `ITEM_BULTOS` = caja (validado contra las cajas del IDV del Business Review).
+
+---
+
+## Stock, días de inventario y forecast (desde el 23/09/2026)
+
+- **Stock:** `sigmarepo.bq_stocks`, depósito `282-NUTREGAL PCPAL`. Es una foto que
+  Sigma reescribe todos los días (no tiene fecha), así que la historia la guarda
+  `build_data.py` dentro de `datos.json` (`stock.historial`, una foto por día).
+  `ARTICULO_STOCK` viene en **unidades**; se pasa a cajas con `ARTICULO_UXB`.
+  `ARTICULO_CODIGO` trae espacios adelante: siempre `TRIM`.
+- **Días de inventario:** disponible (stock − reserva − bloqueo) / venta diaria.
+  Histórico = venta de los últimos 90 días hasta la última fecha cargada en
+  `bq_ventas`. Forecast = consume el stock mes a mes con el forecast, sin ingresos.
+  Umbrales en `config.json` (crítico < 30, bajo < 60, óptimo ≤ 120, exceso > 120).
+- **Forecast:** se edita en la planilla de Google Sheets cuyo id está en
+  `config.json`. Tiene que estar compartida como *Cualquier persona con el enlace:
+  Lector*; el Action la baja como CSV sin credenciales. Celda vacía = base
+  automática (promedio de los últimos 3 meses cerrados por cliente × SKU). Si la
+  planilla no se puede leer, el dashboard usa la base automática y lo avisa.

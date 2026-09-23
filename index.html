@@ -35,6 +35,18 @@
     --up:            #2a6427;
     --down:          #c4432f;
 
+    /* estados de dias de inventario: siempre acompanados de texto */
+    --st-crit:       #b3261e;
+    --st-crit-soft:  #fbe9e7;
+    --st-bajo:       #9a5b00;
+    --st-bajo-soft:  #fdf1dc;
+    --st-ok:         #2a6427;
+    --st-ok-soft:    #e8f1e4;
+    --st-exc:        #2f5f8a;
+    --st-exc-soft:   #e6eef6;
+    --st-na:         #66705e;
+    --st-na-soft:    #eff2eb;
+
     --r:             10px;
     --shadow:        0 1px 2px rgba(22,58,22,.05), 0 1px 12px rgba(22,58,22,.04);
   }
@@ -62,6 +74,16 @@
       --up:          #63a94f;
       --down:        #e0705c;
       --shadow:      0 1px 2px rgba(0,0,0,.4);
+      --st-crit:     #f2766b;
+      --st-crit-soft:#3a1d1a;
+      --st-bajo:     #e0a43a;
+      --st-bajo-soft:#33260f;
+      --st-ok:       #7cc266;
+      --st-ok-soft:  #1a2c18;
+      --st-exc:      #86b6e0;
+      --st-exc-soft: #16222e;
+      --st-na:       #7f8c78;
+      --st-na-soft:  #1b241b;
     }
   }
   :root[data-theme="dark"] {
@@ -87,6 +109,16 @@
     --up:          #63a94f;
     --down:        #e0705c;
     --shadow:      0 1px 2px rgba(0,0,0,.4);
+    --st-crit:     #f2766b;
+    --st-crit-soft:#3a1d1a;
+    --st-bajo:     #e0a43a;
+    --st-bajo-soft:#33260f;
+    --st-ok:       #7cc266;
+    --st-ok-soft:  #1a2c18;
+    --st-exc:      #86b6e0;
+    --st-exc-soft: #16222e;
+    --st-na:       #7f8c78;
+    --st-na-soft:  #1b241b;
   }
 
   * { box-sizing: border-box; }
@@ -257,6 +289,47 @@
   }
   .toast[hidden] { display: none !important; }
 
+
+  /* ---- Stock y forecast ---- */
+  .st { display: inline-flex; align-items: center; gap: 6px; padding: 3px 9px 3px 7px; border-radius: 999px;
+        font-size: 11.5px; font-weight: 700; white-space: nowrap; }
+  .st::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+  .st.critico { color: var(--st-crit); background: var(--st-crit-soft); }
+  .st.bajo { color: var(--st-bajo); background: var(--st-bajo-soft); }
+  .st.optimo { color: var(--st-ok); background: var(--st-ok-soft); }
+  .st.exceso { color: var(--st-exc); background: var(--st-exc-soft); }
+  .st.sin_venta { color: var(--st-na); background: var(--st-na-soft); }
+  .ico.crit { background: var(--st-crit); color: #fff; }
+  .doi { display: flex; align-items: center; gap: 9px; justify-content: flex-end; }
+  .doi .n { min-width: 42px; text-align: right; font-weight: 700; }
+  .gauge { position: relative; width: 132px; height: 8px; border-radius: 4px; background: var(--line-soft); flex: none; }
+  .gauge i { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 4px; }
+  .gauge b { position: absolute; top: -3px; bottom: -3px; width: 1px; background: var(--ink-3); opacity: .45; }
+  .legend { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; font-size: 12px; color: var(--ink-2); }
+  td.hm { font-weight: 600; }
+  td.hm.critico { background: var(--st-crit-soft); color: var(--st-crit); }
+  td.hm.bajo { background: var(--st-bajo-soft); color: var(--st-bajo); }
+  td.hm.optimo { color: var(--ink); }
+  tr.tot td { font-weight: 800; border-top: 1px solid var(--line); }
+  .seg { display: inline-flex; background: var(--line-soft); border-radius: 9px; padding: 3px; gap: 2px; }
+  .seg button { border: 0; background: none; border-radius: 7px; padding: 6px 12px; cursor: pointer;
+                font: 600 12.5px "Plus Jakarta Sans", system-ui, sans-serif; color: var(--ink-2); }
+  .seg button[aria-pressed="true"] { background: var(--card); color: var(--ink); box-shadow: var(--shadow); }
+  .cardhead { display: flex; align-items: flex-start; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+  .cardhead .grow { flex: 1 1 260px; }
+  .cardhead .note { margin-bottom: 0; }
+  a.act { display: inline-flex; align-items: center; gap: 7px; text-decoration: none;
+          font: 600 13px "Plus Jakarta Sans", system-ui, sans-serif; background: var(--rail); color: #fff;
+          border-radius: 8px; padding: 9px 13px; }
+  a.act svg { width: 16px; height: 16px; flex: none; }
+  a.act:hover { background: var(--rail-2); }
+  td.adj { box-shadow: inset 0 -2px 0 var(--gold); }
+  .fcbar { fill: var(--green); }
+  .fcbar.f { fill: var(--green); opacity: .38; }
+  td.nw { white-space: nowrap; }
+  .spark { max-width: 560px; }
+  .kv { color: var(--ink-3); font-size: 11.5px; font-weight: 500; }
+
   @media (max-width: 780px) {
     .shell { grid-template-columns: 1fr; }
     .rail { position: static; height: auto; flex-direction: row; flex-wrap: wrap; align-items: center; }
@@ -309,6 +382,8 @@
       <section id="v-canales" class="stack" hidden></section>
       <section id="v-clientes" class="stack" hidden></section>
       <section id="v-productos" class="stack" hidden></section>
+      <section id="v-stock" class="stack" hidden></section>
+      <section id="v-forecast" class="stack" hidden></section>
       <section id="v-reconocimientos" class="stack" hidden></section>
       <section id="v-calidad" class="stack" hidden></section>
     </div>
@@ -348,6 +423,11 @@ const ICON = {
   productos:'<path d="M4 8.5 12 4l8 4.5v7L12 20l-8-4.5z"/><path d="M4 8.5 12 13l8-4.5M12 13v7"/>',
   reconocimientos:'<path d="M5 4h14v16l-3.5-2.2L12 20l-3.5-2.2L5 20z"/><path d="M9 10h6"/>',
   calidad:'<path d="M12 3.5 20 7v5.5c0 4.2-3.2 7-8 8.5-4.8-1.5-8-4.3-8-8.5V7z"/><path d="m9 12 2 2 4-4"/>',
+  stock:'<path d="M3 21V9l9-5 9 5v12"/><path d="M7 21v-7h10v7"/><path d="M7 17.5h10"/>',
+  forecast:'<path d="M3 3v15a1 1 0 0 0 1 1h15"/><path d="M7 15l3-4 3 2 3-4"/><path d="M16 9l3-3" stroke-dasharray="2 2.2"/>',
+  alerta:'<path d="M12 4 21 19H3z"/><path d="M12 10v4"/><path d="M12 16.8v.2"/>',
+  reloj:'<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/>',
+  editar:'<path d="M4 20h4L19 9l-4-4L4 16z"/><path d="m13.5 6.5 4 4"/>',
   caja:'<path d="M4 8.5 12 4l8 4.5v7L12 20l-8-4.5z"/><path d="M4 8.5 12 13l8-4.5M12 13v7"/>',
   peso:'<path d="M7 7h10l2.5 13H4.5z"/><path d="M9.5 7a2.5 2.5 0 0 1 5 0"/>',
   plata:'<path d="M12 2.5v19"/><path d="M17 6.5c0-2-2.2-3-5-3s-5 .9-5 3 2 2.8 5 3.4 5 1.4 5 3.6-2.2 3-5 3-5-1-5-3"/>',
@@ -361,12 +441,17 @@ const VISTAS = [
   { id:"canales",         nom:"Canales",          sub:"El canal se asigna a mano en canales.json; no viene de la base." },
   { id:"clientes",        nom:"Clientes",         sub:"Los clientes del sell-in, ordenados por volumen." },
   { id:"productos",       nom:"Productos",        sub:"Los 10 SKUs de producto real. Excluye material POP y reconocimientos." },
+  { id:"stock",           nom:"Stock",            sub:"Depósito 282 (Nutregal principal) y días de inventario por SKU, al ritmo de venta real y según el forecast." },
+  { id:"forecast",        nom:"Forecast",         sub:"Rolling forecast a 6 meses por cliente y producto. Se edita en Google Sheets y se actualiza cada mañana." },
   { id:"reconocimientos", nom:"Reconocimientos",  sub:"Roturas, comerciales, retiros y defectuosos, separados del análisis comercial." },
   { id:"calidad",         nom:"Calidad de datos", sub:"Lo que conviene tener en cuenta antes de leer los números de arriba." }
 ];
 
 let DATA = null, CANALES = null, MAPA = new Map(), mes = "todos", vista = "resumen";
 const abiertos = new Set();
+let fcGrupo = "producto";
+const fcAbiertos = new Set();
+const SIN_MES = new Set(["stock", "forecast"]);
 
 const canalDe = (c) => MAPA.get(norm(c)) || (CANALES && CANALES.default) || "SIN ASIGNAR";
 const tieneCanal = (c) => MAPA.has(norm(c));
@@ -695,6 +780,13 @@ function vCalidad() {
   items.push(sinCanal.length
     ? ["warn", "Sin canal asignado en canales.json (" + sinCanal.length + "): " + sinCanal.join(", ") + "."]
     : ["ok", "Todos los clientes tienen canal asignado."]);
+  const F = DATA.forecast;
+  if (F) items.push(F.error
+    ? ["warn", "El forecast no se pudo leer de Google Sheets y se usó la base automática: " + F.error]
+    : ["ok", "Forecast leído de la planilla de Google Sheets (" + (F.filas || []).length + " filas cliente × SKU)."]);
+  const S = DATA.stock;
+  if (S && (S.skus || []).some(x => !x.en_tabla_stock)) items.push(["warn", "Hay SKUs de Murken que no aparecen en bq_stocks para el depósito 282: " +
+    S.skus.filter(x => !x.en_tabla_stock).map(x => x.articulo).join(", ") + "."]);
   const excl = (CANALES && CANALES.excluir) || [];
   if (excl.length) items.push(["ok", "Excluidos por ser ruido de carga: " + excl.join(", ") + "."]);
 
@@ -703,6 +795,272 @@ function vCalidad() {
     '<ul class="qlist">' + items.map(([t, x]) =>
       '<li><span class="qdot ' + (t === "ok" ? "ok" : "") + '"></span><span>' + x + '</span></li>').join("") +
     '</ul></div>';
+}
+
+// ---------------------------------------------------------------------------
+// Stock y días de inventario
+// ---------------------------------------------------------------------------
+const ESTADO = {
+  critico:   { nom: "Crítico",   color: "var(--st-crit)" },
+  bajo:      { nom: "Bajo",      color: "var(--st-bajo)" },
+  optimo:    { nom: "Óptimo",    color: "var(--st-ok)" },
+  exceso:    { nom: "Exceso",    color: "var(--st-exc)" },
+  sin_venta: { nom: "Sin venta", color: "var(--st-na)" }
+};
+const pillEstado = (e) => '<span class="st ' + e + '">' + (ESTADO[e] || ESTADO.sin_venta).nom + '</span>';
+const fechaCorta = (iso) => {
+  if (!iso) return "—";
+  const [y, m, d] = iso.slice(0, 10).split("-");
+  return d + "/" + m + "/" + y.slice(2);
+};
+const nf2 = new Intl.NumberFormat("es-AR", { maximumFractionDigits: 1, minimumFractionDigits: 1 });
+
+function gauge(dias, estado, umb, tope) {
+  const w = dias == null ? 0 : Math.min(dias, tope) / tope * 100;
+  const marcas = [umb.critico, umb.bajo, umb.exceso].map(u =>
+    '<b style="left:' + (u / tope * 100) + '%"></b>').join("");
+  return '<span class="gauge" aria-hidden="true"><i style="width:' + w + '%;background:' +
+    (ESTADO[estado] || ESTADO.sin_venta).color + '"></i>' + marcas + '</span>';
+}
+function celdaDoi(dias, estado, umb, tope, superaHorizonte) {
+  const txt = dias == null ? (superaHorizonte ? "+" + nf0.format(tope) : "—") : nf0.format(dias);
+  const d = dias == null && superaHorizonte ? tope : dias;
+  return '<td class="num"><div class="doi">' + gauge(d, estado, umb, tope) +
+    '<span class="n">' + txt + '</span></div></td>';
+}
+
+function vStock() {
+  const S = DATA.stock;
+  if (!S || !(S.skus || []).length) {
+    $("#v-stock").innerHTML = '<div class="card"><h2>Stock</h2><p class="note">Todavía no hay datos de stock en datos.json. Aparecen después del próximo refresh.</p></div>';
+    return;
+  }
+  const umb = S.umbrales_dias || { critico: 30, bajo: 60, exceso: 120 };
+  const tope = 180;
+  const skus = S.skus.slice().sort((a, b) =>
+    (a.doi_forecast ?? 1e9) - (b.doi_forecast ?? 1e9) || (a.doi_historico ?? 1e9) - (b.doi_historico ?? 1e9));
+  const t = S.totales || {};
+  const crit = skus.filter(x => x.estado_forecast === "critico");
+  const primero = skus.find(x => x.fecha_quiebre);
+
+  const tiles = '<div class="tiles">' +
+    tile("t", "stock", "Stock disponible", nf0.format(t.disponible_cajas || 0) + " cajas",
+      '<div class="delta flat">' + nf0.format(t.disponible_kg || 0) + ' kg · depósito 282</div>') +
+    tile("d", "reloj", "Cobertura total", t.doi_historico == null ? "—" : nf0.format(t.doi_historico) + " días",
+      '<div class="delta flat">al ritmo de los últimos ' + S.ventana_dias + ' días</div>') +
+    tile(crit.length ? "crit" : "t", "alerta", "SKUs en crítico", crit.length + " de " + skus.length,
+      '<div class="delta flat">menos de ' + umb.critico + ' días según forecast</div>') +
+    tile("o", "forecast", "Primer quiebre estimado", primero ? fechaCorta(primero.fecha_quiebre) : "—",
+      '<div class="delta flat">' + (primero ? primero.articulo : "ningún SKU en el horizonte") + '</div>') +
+    '</div>';
+
+  const leyenda = '<div class="legend">' +
+    pillEstado("critico") + '<span>menos de ' + umb.critico + ' días</span>' +
+    pillEstado("bajo") + '<span>' + umb.critico + ' a ' + umb.bajo + '</span>' +
+    pillEstado("optimo") + '<span>' + umb.bajo + ' a ' + umb.exceso + '</span>' +
+    pillEstado("exceso") + '<span>más de ' + umb.exceso + '</span></div>';
+
+  const filas = skus.map(x =>
+    '<tr><td class="l nw">' + x.articulo + (x.en_tabla_stock ? "" : '<span class="pill">no está en bq_stocks</span>') + '</td>' +
+    '<td class="num">' + nf1.format(x.disponible_cajas) + '</td>' +
+    '<td class="num">' + nf0.format(x.disponible_unidades) + '</td>' +
+    '<td class="num">' + nf2.format(x.venta_diaria_cajas) + '</td>' +
+    celdaDoi(x.doi_historico, x.estado_historico, umb, tope, false) +
+    celdaDoi(x.doi_forecast, x.estado_forecast, umb, tope, x.doi_forecast_supera_horizonte) +
+    '<td class="l">' + pillEstado(x.estado_forecast) + '</td>' +
+    '<td class="num">' + fechaCorta(x.fecha_quiebre) + '</td>' +
+    '<td class="num">' + (x.forecast_prox_mes == null ? "—" : nf0.format(x.forecast_prox_mes)) + '</td></tr>').join("");
+  const tabla = '<div class="card"><div class="cardhead"><div class="grow"><h2>Días de inventario por SKU</h2>' +
+    '<p class="note">Stock disponible (stock − reservas − bloqueos) dividido por la venta diaria. "Histórico" usa la venta real de los últimos ' +
+    S.ventana_dias + ' días hasta el ' + fechaCorta(S.venta_hasta) + '; "Forecast" consume el stock mes a mes con el forecast, sin contar ingresos. Ordenado por urgencia.</p></div>' +
+    leyenda + '</div><div class="tw"><table>' +
+    '<thead><tr><th class="l">SKU</th><th>Cajas disp.</th><th>Unidades</th><th>Venta/día</th><th>Días · histórico</th><th>Días · forecast</th><th class="l">Estado</th><th>Quiebre</th><th>Fcst ' +
+    (DATA.forecast && DATA.forecast.meses ? mesCorto(DATA.forecast.meses[0]) : "") + '</th></tr></thead><tbody>' + filas + '</tbody></table></div></div>';
+
+  // Stock proyectado a fin de mes, sin ingresos. Lo negativo es faltante.
+  const mesesP = (skus[0].proyeccion || []).map(p => p.mes);
+  const tot = mesesP.map(() => 0);
+  const proy = skus.map(x => {
+    const cells = (x.proyeccion || []).map((p, i) => {
+      tot[i] += p.saldo;
+      const sig = x.proyeccion[i + 1];
+      const cls = p.saldo < 0 ? "critico" : (sig && p.saldo < sig.demanda ? "bajo" : "optimo");
+      return '<td class="num hm ' + cls + '">' + nf0.format(p.saldo) + '</td>';
+    }).join("");
+    const fin = (x.proyeccion || []).slice(-1)[0];
+    const falt = fin && fin.saldo < 0 ? -fin.saldo : 0;
+    return '<tr><td class="l nw">' + x.articulo + '</td>' + cells +
+      '<td class="num"><strong>' + (falt ? nf0.format(falt) : "—") + '</strong></td></tr>';
+  }).join("");
+  const faltTot = skus.reduce((a, x) => { const f = (x.proyeccion || []).slice(-1)[0]; return a + (f && f.saldo < 0 ? -f.saldo : 0); }, 0);
+  const tablaP = '<div class="card"><h2>Stock proyectado a fin de mes</h2>' +
+    '<p class="note">Cajas que quedarían en el depósito si no entra mercadería. En rojo, faltante; en ámbar, no alcanza para cubrir el mes siguiente. La última columna es lo que habría que ingresar para llegar a ' +
+    mesLargo(mesesP[mesesP.length - 1] || "2026-01") + ' sin quiebre (sin stock de seguridad).</p><div class="tw"><table>' +
+    '<thead><tr><th class="l">SKU</th>' + mesesP.map(m => '<th>' + mesCorto(m) + '</th>').join("") + '<th>A ingresar</th></tr></thead><tbody>' +
+    proy + '<tr class="tot"><td class="l">Total</td>' + tot.map(v => '<td class="num">' + nf0.format(v) + '</td>').join("") +
+    '<td class="num">' + nf0.format(faltTot) + '</td></tr></tbody></table></div></div>';
+
+  // Historia: bq_stocks es una foto, la historia la guardamos nosotros.
+  const H = S.historial || [];
+  let hist = "";
+  if (H.length >= 2) {
+    const serie = H.map(h => ({ mes: h.fecha, cajas: Object.values(h.cajas || {}).reduce((a, v) => a + v, 0) }));
+    hist = '<div class="card"><h2>Stock disponible, día a día</h2><p class="note">Total de cajas en el depósito 282 en cada refresh.</p>' +
+      '<div class="spark">' + sparkline(serie.map(d => d.cajas), "var(--green)") + '</div>' +
+      '<p class="kv">' + fechaCorta(H[0].fecha) + ' → ' + fechaCorta(H[H.length - 1].fecha) + ' · hoy ' + nf0.format(serie[serie.length - 1].cajas) + ' cajas</p></div>';
+  }
+
+  const pie = '<p class="kv">Foto de bq_stocks: ' + (S.foto_tabla ? new Date(S.foto_tabla).toLocaleString("es-AR", {
+      timeZone: "America/Argentina/Buenos_Aires", day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false }) + " hs" : "—") +
+    ' · ' + (S.deposito || "depósito 282") + ' · el stock viene en unidades y se pasa a cajas con las unidades por bulto de cada SKU.</p>';
+
+  $("#v-stock").innerHTML = tiles + tabla + tablaP + hist + pie;
+}
+
+// ---------------------------------------------------------------------------
+// Forecast
+// ---------------------------------------------------------------------------
+const nombreSku = (aid) => {
+  const f = (DATA.por_sku || []).find(r => r.articulo_id === aid);
+  return f ? f.articulo : String(aid);
+};
+
+function chartRealFc(real, fc) {
+  const serie = real.map(d => ({ mes: d.mes, v: d.cajas, f: false }))
+    .concat(fc.map(d => ({ mes: d.mes, v: d.cajas, f: true })));
+  const W = 1180, H = 260, ML = 54, MR = 18, MT = 22, MB = 30;
+  const iw = W - ML - MR, ih = H - MT - MB;
+  const ticks = ejeY(Math.max(...serie.map(d => d.v || 0), 0));
+  const top = ticks[ticks.length - 1] || 1;
+  const y = v => MT + ih - (Math.max(v, 0) / top) * ih;
+  const band = iw / Math.max(serie.length, 1), bw = Math.min(30, band * 0.58);
+  let s = '<svg class="chart" viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="Cajas reales y forecast por mes">';
+  ticks.forEach(t => {
+    s += '<line class="gridline" x1="' + ML + '" x2="' + (W - MR) + '" y1="' + y(t) + '" y2="' + y(t) + '"/>' +
+      '<text class="tick" x="' + (ML - 9) + '" y="' + (y(t) + 3.5) + '" text-anchor="end">' + nf0.format(t) + '</text>';
+  });
+  const iF = serie.findIndex(d => d.f);
+  if (iF > 0) {
+    const xs = ML + band * iF;
+    s += '<line x1="' + xs + '" x2="' + xs + '" y1="' + (MT - 8) + '" y2="' + (MT + ih) + '" stroke="var(--ink-3)" stroke-dasharray="3 3" opacity=".6"/>' +
+      '<text class="tick" x="' + (xs + 8) + '" y="' + (MT - 2) + '">forecast →</text>';
+  }
+  serie.forEach((d, i) => {
+    const cx = ML + band * i + band / 2, v = d.v || 0, h = Math.max(0, MT + ih - y(v)), r = Math.min(4, bw / 2, h);
+    if (h > 0) s += '<path class="fcbar' + (d.f ? " f" : "") + '" d="M' + (cx - bw / 2) + ' ' + (MT + ih) + ' V' + (y(v) + r) +
+      ' q0 ' + (-r) + ' ' + r + ' ' + (-r) + ' h' + (bw - 2 * r) + ' q' + r + ' 0 ' + r + ' ' + r + ' V' + (MT + ih) + ' Z"/>';
+    if (d.f) s += '<text class="tick" x="' + cx + '" y="' + (y(v) - 6) + '" text-anchor="middle">' + nf0.format(v) + '</text>';
+    s += '<rect class="hit" x="' + (ML + band * i) + '" y="' + MT + '" width="' + band + '" height="' + ih +
+      '" data-m="' + d.mes + '" data-v="' + v + '" data-f="' + (d.f ? 1 : 0) + '"/>' +
+      '<text class="tick" x="' + cx + '" y="' + (H - 9) + '" text-anchor="middle">' + mesCorto(d.mes) + '</text>';
+  });
+  s += '<line class="baseline" x1="' + ML + '" x2="' + (W - MR) + '" y1="' + (MT + ih) + '" y2="' + (MT + ih) + '"/></svg>';
+  return s;
+}
+
+function vForecast() {
+  const F = DATA.forecast;
+  if (!F || !(F.filas || []).length) {
+    $("#v-forecast").innerHTML = '<div class="card"><h2>Forecast</h2><p class="note">Todavía no hay forecast en datos.json. Aparece después del próximo refresh.</p></div>';
+    return;
+  }
+  const M = F.meses || [];
+  const filas = F.filas.filter(f => !excluido(f.cliente));
+  const totMes = M.map(m => filas.reduce((a, f) => a + (f.meses[m] || 0), 0));
+  const tot6 = totMes.reduce((a, v) => a + v, 0);
+  const serie = DATA.serie_mensual || [];
+  const base = (F.meses_base || []).map(m => (serie.find(d => d.mes === m) || {}).cajas || 0);
+  const promBase = base.length ? base.reduce((a, v) => a + v, 0) / base.length : 0;
+  const promFc = M.length ? tot6 / M.length : 0;
+  const varPct = promBase ? (promFc - promBase) / promBase * 100 : null;
+  const nAj = filas.reduce((a, f) => a + (f.ajustado || []).length, 0);
+
+  const tiles = '<div class="tiles">' +
+    tile("t", "forecast", "Forecast " + M.length + " meses", nf0.format(tot6) + " cajas",
+      '<div class="delta flat">' + mesCorto(M[0]) + ' a ' + mesCorto(M[M.length - 1]) + '</div>') +
+    tile("d", "caja", "Promedio mensual", nf0.format(promFc) + " cajas",
+      varPct == null ? '<div class="delta flat">sin base</div>' :
+      '<div class="delta ' + (varPct >= 0 ? "up" : "down") + '">' + (varPct >= 0 ? "↑" : "↓") + " " + nf1.format(Math.abs(varPct)) +
+      '% <em>vs real ' + mesCorto(F.meses_base[0]) + '–' + mesCorto(F.meses_base[F.meses_base.length - 1]) + '</em></div>') +
+    tile("o", "editar", "Ajustes manuales", nf0.format(nAj) + " celdas",
+      '<div class="delta flat">el resto es la base automática</div>') +
+    tile(F.error ? "crit" : "t", F.error ? "alerta" : "reloj", "Fuente",
+      F.error ? "Base automática" : "Planilla",
+      '<div class="delta flat">' + (F.error ? "no se pudo leer Google Sheets" : "leída en el último refresh") + '</div>') +
+    '</div>';
+
+  const aviso = F.error ? '<div class="banner"><span><strong>No se pudo leer la planilla del forecast.</strong> ' +
+    'Se muestra la base automática (promedio de ' + mesCorto(F.meses_base[0]) + ' a ' + mesCorto(F.meses_base[F.meses_base.length - 1]) +
+    '). Motivo: ' + F.error + '</span></div>' : "";
+
+  const real = serie.slice(-12);
+  const chart = '<div class="card"><div class="cardhead"><div class="grow"><h2>Real y forecast, cajas por mes</h2>' +
+    '<p class="note">Barras llenas: venta real. Barras claras: forecast vigente. El mes en curso todavía está abierto.</p></div>' +
+    (F.sheet_url ? '<a class="act" href="' + F.sheet_url + '" target="_blank" rel="noopener">' + svgIcon("editar") + 'Editar en Google Sheets</a>' : "") +
+    '</div><div id="chfc">' + chartRealFc(real, M.map((m, i) => ({ mes: m, cajas: totMes[i] }))) + '</div></div>';
+
+  // Matriz agrupable
+  const clave = {
+    producto: f => nombreSku(f.articulo_id),
+    cliente: f => f.cliente,
+    canal: f => canalDe(f.cliente)
+  }[fcGrupo];
+  const hijo = {
+    producto: f => f.cliente,
+    cliente: f => nombreSku(f.articulo_id),
+    canal: f => f.cliente
+  }[fcGrupo];
+  const grupos = new Map();
+  filas.forEach(f => {
+    const k = clave(f);
+    if (!grupos.has(k)) grupos.set(k, { nombre: k, base: 0, m: M.map(() => 0), aj: M.map(() => 0), hijos: new Map() });
+    const g = grupos.get(k);
+    g.base += f.base || 0;
+    const hk = hijo(f);
+    if (!g.hijos.has(hk)) g.hijos.set(hk, { nombre: hk, base: 0, m: M.map(() => 0), aj: M.map(() => 0) });
+    const h = g.hijos.get(hk);
+    h.base += f.base || 0;
+    M.forEach((mm, i) => {
+      const v = f.meses[mm] || 0, a = (f.ajustado || []).includes(mm) ? 1 : 0;
+      g.m[i] += v; h.m[i] += v; g.aj[i] += a; h.aj[i] += a;
+    });
+  });
+  const orden = [...grupos.values()].sort((a, b) => b.m.reduce((x, y) => x + y, 0) - a.m.reduce((x, y) => x + y, 0));
+  const celdasFc = (o) => o.m.map((v, i) => '<td class="num' + (o.aj[i] ? " adj" : "") + '">' + nf0.format(v) + '</td>').join("") +
+    '<td class="num"><strong>' + nf0.format(o.m.reduce((a, v) => a + v, 0)) + '</strong></td>' +
+    '<td class="num">' + nf1.format(o.base) + '</td>';
+  let cuerpo = "";
+  orden.forEach(g => {
+    if (g.m.every(v => v === 0) && g.base === 0) return;
+    const ab = fcAbiertos.has(fcGrupo + "|" + g.nombre);
+    cuerpo += '<tr class="grp" data-g="' + g.nombre.replace(/"/g, "&quot;") + '"><td class="l"><span class="caret">' + (ab ? "▼" : "▶") + '</span>' +
+      g.nombre + '</td>' + celdasFc(g) + '</tr>';
+    if (ab) [...g.hijos.values()].sort((a, b) => b.m.reduce((x, y) => x + y, 0) - a.m.reduce((x, y) => x + y, 0))
+      .filter(h => !(h.m.every(v => v === 0) && h.base === 0))
+      .forEach(h => { cuerpo += '<tr class="sub"><td class="l">' + h.nombre + '</td>' + celdasFc(h) + '</tr>'; });
+  });
+  cuerpo += '<tr class="tot"><td class="l">Total</td>' + totMes.map(v => '<td class="num">' + nf0.format(v) + '</td>').join("") +
+    '<td class="num">' + nf0.format(tot6) + '</td><td class="num">' + nf1.format(filas.reduce((a, f) => a + (f.base || 0), 0)) + '</td></tr>';
+  const seg = '<div class="seg" role="group" aria-label="Agrupar por">' + [["producto", "Producto"], ["cliente", "Cliente"], ["canal", "Canal"]]
+    .map(([k, n]) => '<button data-g="' + k + '" aria-pressed="' + (fcGrupo === k) + '">' + n + '</button>').join("") + '</div>';
+  const matriz = '<div class="card"><div class="cardhead"><div class="grow"><h2>Forecast por ' + fcGrupo + '</h2>' +
+    '<p class="note">Cajas por mes. Clic en una fila para abrirla. Subrayado dorado: celda ajustada a mano en la planilla. "Base" es el promedio mensual real de ' +
+    mesCorto(F.meses_base[0]) + ' a ' + mesCorto(F.meses_base[F.meses_base.length - 1]) + '.</p></div>' + seg + '</div>' +
+    '<div class="tw"><table><thead><tr><th class="l">' + ({ producto: "Producto / cliente", cliente: "Cliente / producto", canal: "Canal / cliente" })[fcGrupo] +
+    '</th>' + M.map(m => '<th>' + mesCorto(m) + '</th>').join("") + '<th>Total</th><th>Base/mes</th></tr></thead><tbody>' + cuerpo + '</tbody></table></div></div>';
+
+  $("#v-forecast").innerHTML = aviso + tiles + matriz + chart;
+  $("#v-forecast").querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => { fcGrupo = b.dataset.g; render(); }));
+  $("#v-forecast").querySelectorAll("tr.grp").forEach(tr => tr.addEventListener("click", () => {
+    const k = fcGrupo + "|" + tr.dataset.g;
+    fcAbiertos.has(k) ? fcAbiertos.delete(k) : fcAbiertos.add(k);
+    render();
+  }));
+  $("#chfc").querySelectorAll(".hit").forEach(el => {
+    el.addEventListener("mousemove", e => showTip(e, mesLargo(el.dataset.m) + (el.dataset.f === "1" ? " · forecast" : " · real"),
+      nf0.format(+el.dataset.v) + " cajas"));
+    el.addEventListener("mouseleave", hideTip);
+  });
 }
 
 function copiarTabla() {
@@ -728,13 +1086,15 @@ function setVista(id) {
   const v = VISTAS.find(x => x.id === id);
   $("#vtitle").textContent = v.nom;
   $("#vsub").textContent = v.sub;
+  $("#msel").hidden = SIN_MES.has(id);
   render();
 }
 const setMes = (m) => { mes = m; $("#msel").value = m; render(); };
 
 function render() {
   ({ resumen: vResumen, canales: vCanales, clientes: vClientes,
-     productos: vProductos, reconocimientos: vReconocimientos, calidad: vCalidad })[vista]();
+     productos: vProductos, stock: vStock, forecast: vForecast,
+     reconocimientos: vReconocimientos, calidad: vCalidad })[vista]();
 }
 
 async function traer(url) {
