@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-23T15:31:12+00:00",
+  "generado_en": "2026-09-23T15:40:20+00:00",
   "alcance": "Sell-in del importador (EMPRESA 0033 y 0034). No incluye sell-out.",
   "periodo": {
     "desde": "2025-11",
@@ -5449,7 +5449,7 @@
         "doi_forecast_supera_horizonte": false,
         "estado_forecast": "critico",
         "fecha_quiebre": "2026-09-23",
-        "forecast_prox_mes": 58.0,
+        "forecast_prox_mes": 148.0,
         "proyeccion": [
           {
             "mes": "2026-09",
@@ -5458,33 +5458,33 @@
           },
           {
             "mes": "2026-10",
-            "demanda": 58.0,
-            "saldo": -86.48
+            "demanda": 148.0,
+            "saldo": -176.48
           },
           {
             "mes": "2026-11",
-            "demanda": 58.0,
-            "saldo": -144.48
+            "demanda": 148.0,
+            "saldo": -324.48
           },
           {
             "mes": "2026-12",
-            "demanda": 58.0,
-            "saldo": -202.48
+            "demanda": 148.0,
+            "saldo": -472.48
           },
           {
             "mes": "2027-01",
-            "demanda": 58.0,
-            "saldo": -260.48
+            "demanda": 148.0,
+            "saldo": -620.48
           },
           {
             "mes": "2027-02",
-            "demanda": 58.0,
-            "saldo": -318.48
+            "demanda": 148.0,
+            "saldo": -768.48
           },
           {
             "mes": "2027-03",
-            "demanda": 58.0,
-            "saldo": -376.48
+            "demanda": 148.0,
+            "saldo": -916.48
           }
         ],
         "en_tabla_stock": true
@@ -5821,7 +5821,7 @@
         "doi_forecast_supera_horizonte": false,
         "estado_forecast": "critico",
         "fecha_quiebre": "2026-09-23",
-        "forecast_prox_mes": 233.0,
+        "forecast_prox_mes": 353.0,
         "proyeccion": [
           {
             "mes": "2026-09",
@@ -5830,33 +5830,33 @@
           },
           {
             "mes": "2026-10",
-            "demanda": 233.0,
-            "saldo": -293.78
+            "demanda": 353.0,
+            "saldo": -413.78
           },
           {
             "mes": "2026-11",
-            "demanda": 233.0,
-            "saldo": -526.78
+            "demanda": 353.0,
+            "saldo": -766.78
           },
           {
             "mes": "2026-12",
-            "demanda": 233.0,
-            "saldo": -759.78
+            "demanda": 353.0,
+            "saldo": -1119.78
           },
           {
             "mes": "2027-01",
-            "demanda": 233.0,
-            "saldo": -992.78
+            "demanda": 353.0,
+            "saldo": -1472.78
           },
           {
             "mes": "2027-02",
-            "demanda": 233.0,
-            "saldo": -1225.78
+            "demanda": 353.0,
+            "saldo": -1825.78
           },
           {
             "mes": "2027-03",
-            "demanda": 233.0,
-            "saldo": -1458.78
+            "demanda": 353.0,
+            "saldo": -2178.78
           }
         ],
         "en_tabla_stock": true
@@ -5883,7 +5883,7 @@
         "doi_forecast_supera_horizonte": false,
         "estado_forecast": "critico",
         "fecha_quiebre": "2026-09-23",
-        "forecast_prox_mes": 184.0,
+        "forecast_prox_mes": 304.0,
         "proyeccion": [
           {
             "mes": "2026-09",
@@ -5892,33 +5892,33 @@
           },
           {
             "mes": "2026-10",
-            "demanda": 184.0,
-            "saldo": -245.18
+            "demanda": 304.0,
+            "saldo": -365.18
           },
           {
             "mes": "2026-11",
-            "demanda": 184.0,
-            "saldo": -429.18
+            "demanda": 304.0,
+            "saldo": -669.18
           },
           {
             "mes": "2026-12",
-            "demanda": 184.0,
-            "saldo": -613.18
+            "demanda": 304.0,
+            "saldo": -973.18
           },
           {
             "mes": "2027-01",
-            "demanda": 184.0,
-            "saldo": -797.18
+            "demanda": 304.0,
+            "saldo": -1277.18
           },
           {
             "mes": "2027-02",
-            "demanda": 184.0,
-            "saldo": -981.18
+            "demanda": 304.0,
+            "saldo": -1581.18
           },
           {
             "mes": "2027-03",
-            "demanda": 184.0,
-            "saldo": -1165.18
+            "demanda": 304.0,
+            "saldo": -1885.18
           }
         ],
         "en_tabla_stock": true
@@ -9078,6 +9078,156 @@
       },
       {
         "cliente": "THE B2B SOCIEDAD ANONIMA",
+        "articulo_id": 30736,
+        "codigo": "201700722",
+        "base": 0.0,
+        "meses": {
+          "2026-10": 0.0,
+          "2026-11": 0.0,
+          "2026-12": 0.0,
+          "2027-01": 0.0,
+          "2027-02": 0.0,
+          "2027-03": 0.0
+        },
+        "ajustado": []
+      },
+      {
+        "cliente": "DELIVERY HERO E-COMMERCE S. A.",
+        "articulo_id": 30727,
+        "codigo": "201700697",
+        "base": 0.0,
+        "meses": {
+          "2026-10": 90.0,
+          "2026-11": 90.0,
+          "2026-12": 90.0,
+          "2027-01": 90.0,
+          "2027-02": 90.0,
+          "2027-03": 90.0
+        },
+        "ajustado": []
+      },
+      {
+        "cliente": "DELIVERY HERO E-COMMERCE S. A.",
+        "articulo_id": 30728,
+        "codigo": "201700698",
+        "base": 0.0,
+        "meses": {
+          "2026-10": 0.0,
+          "2026-11": 0.0,
+          "2026-12": 0.0,
+          "2027-01": 0.0,
+          "2027-02": 0.0,
+          "2027-03": 0.0
+        },
+        "ajustado": []
+      },
+      {
+        "cliente": "DELIVERY HERO E-COMMERCE S. A.",
+        "articulo_id": 30729,
+        "codigo": "201700699",
+        "base": 0.0,
+        "meses": {
+          "2026-10": 0.0,
+          "2026-11": 0.0,
+          "2026-12": 0.0,
+          "2027-01": 0.0,
+          "2027-02": 0.0,
+          "2027-03": 0.0
+        },
+        "ajustado": []
+      },
+      {
+        "cliente": "DELIVERY HERO E-COMMERCE S. A.",
+        "articulo_id": 30730,
+        "codigo": "201700701",
+        "base": 0.0,
+        "meses": {
+          "2026-10": 0.0,
+          "2026-11": 0.0,
+          "2026-12": 0.0,
+          "2027-01": 0.0,
+          "2027-02": 0.0,
+          "2027-03": 0.0
+        },
+        "ajustado": []
+      },
+      {
+        "cliente": "DELIVERY HERO E-COMMERCE S. A.",
+        "articulo_id": 30731,
+        "codigo": "201700703",
+        "base": 0.0,
+        "meses": {
+          "2026-10": 0.0,
+          "2026-11": 0.0,
+          "2026-12": 0.0,
+          "2027-01": 0.0,
+          "2027-02": 0.0,
+          "2027-03": 0.0
+        },
+        "ajustado": []
+      },
+      {
+        "cliente": "DELIVERY HERO E-COMMERCE S. A.",
+        "articulo_id": 30732,
+        "codigo": "201700704",
+        "base": 0.0,
+        "meses": {
+          "2026-10": 0.0,
+          "2026-11": 0.0,
+          "2026-12": 0.0,
+          "2027-01": 0.0,
+          "2027-02": 0.0,
+          "2027-03": 0.0
+        },
+        "ajustado": []
+      },
+      {
+        "cliente": "DELIVERY HERO E-COMMERCE S. A.",
+        "articulo_id": 30733,
+        "codigo": "201700705",
+        "base": 0.0,
+        "meses": {
+          "2026-10": 120.0,
+          "2026-11": 120.0,
+          "2026-12": 120.0,
+          "2027-01": 120.0,
+          "2027-02": 120.0,
+          "2027-03": 120.0
+        },
+        "ajustado": []
+      },
+      {
+        "cliente": "DELIVERY HERO E-COMMERCE S. A.",
+        "articulo_id": 30734,
+        "codigo": "201700706",
+        "base": 0.0,
+        "meses": {
+          "2026-10": 120.0,
+          "2026-11": 120.0,
+          "2026-12": 120.0,
+          "2027-01": 120.0,
+          "2027-02": 120.0,
+          "2027-03": 120.0
+        },
+        "ajustado": []
+      },
+      {
+        "cliente": "DELIVERY HERO E-COMMERCE S. A.",
+        "articulo_id": 30735,
+        "codigo": "201700721",
+        "base": 0.0,
+        "meses": {
+          "2026-10": 0.0,
+          "2026-11": 0.0,
+          "2026-12": 0.0,
+          "2027-01": 0.0,
+          "2027-02": 0.0,
+          "2027-03": 0.0
+        },
+        "ajustado": []
+      },
+      {
+        "cliente": "DELIVERY HERO E-COMMERCE S. A.",
         "articulo_id": 30736,
         "codigo": "201700722",
         "base": 0.0,
