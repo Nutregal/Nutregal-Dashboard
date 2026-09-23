@@ -12,7 +12,7 @@
   "forecast": {
     "_nota": "Planilla de Google Sheets con el rolling forecast. Tiene que estar compartida como 'Cualquier persona con el enlace: Lector' para que el Action la pueda leer sin credenciales.",
     "sheet_id": "1jGZO1bWzkuiirjYR51nHfBApVzh3Sf6ZfhhW8JgNRUk",
-    "gid": "0",
+    "gid": "74230377",
     "horizonte_meses": 6,
     "_nota_base": "Base automatica: promedio de cajas de los ultimos N meses cerrados por cliente y SKU. Se usa en las celdas vacias de la planilla y para clientes que no estan en ella.",
     "meses_base": 3
