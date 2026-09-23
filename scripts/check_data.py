@@ -167,6 +167,46 @@ def main() -> int:
             "no caída de precio._"
         )
 
+    # --- stock y dias de inventario -------------------------------------
+    stock = nuevo.get("stock") or {}
+    skus = stock.get("skus") or []
+    if not skus:
+        alertas.append("No vino el bloque de stock en datos.json (bq_stocks).")
+    else:
+        faltan = [x["articulo"] for x in skus if not x.get("en_tabla_stock")]
+        if len(faltan) == len(skus):
+            alertas.append(
+                "bq_stocks no devolvió ningún SKU de Murken en el depósito 282. "
+                "¿Cambió el formato de DEPOSITO o de ARTICULO_CODIGO?"
+            )
+        tot = stock.get("totales", {})
+        doi = tot.get("doi_historico")
+        lineas.append(
+            f"Stock depo 282: {ar(tot.get('disponible_cajas', 0))} cajas disponibles"
+            + (f" · cobertura {doi:.0f} días" if doi is not None else "")
+        )
+        crit = [x for x in skus if x.get("estado_forecast") == "critico"]
+        if crit:
+            lineas.append(
+                f"SKUs en crítico (menos de {stock.get('umbrales_dias', {}).get('critico', 30)} "
+                f"días según forecast): " + ", ".join(
+                    f"{x['articulo']} ({x['doi_forecast']:.0f} d)" for x in crit
+                    if x.get("doi_forecast") is not None)
+            )
+
+    # --- forecast -----------------------------------------------------------
+    fc = nuevo.get("forecast") or {}
+    if fc:
+        if fc.get("error"):
+            lineas.append(
+                "⚠ No se pudo leer la planilla del forecast; se usó la base automática. "
+                f"Motivo: {fc['error']}"
+            )
+        else:
+            aj = sum(len(f.get("ajustado") or []) for f in fc.get("filas", []))
+            lineas.append(f"Forecast leído de la planilla: {len(fc.get('filas', []))} filas, "
+                          f"{aj} celdas ajustadas a mano.")
+
     # --- salida -----------------------------------------------------------
     titulo = "## Murken sell-in — control diario\n"
     cuerpo = "\n".join(f"- {l}" for l in lineas)
