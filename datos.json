@@ -1,15 +1,15 @@
 {
-  "generado_en": "2026-10-09T17:24:32+00:00",
+  "generado_en": "2026-10-10T16:10:27+00:00",
   "alcance": "Sell-in del importador (EMPRESA 0033 y 0034). No incluye sell-out.",
   "periodo": {
     "desde": "2025-11",
-    "hasta": "2026-09"
+    "hasta": "2026-10"
   },
   "totales": {
-    "cajas": 19307.4,
-    "kilos": 32090.72,
-    "neto": 454273478.95,
-    "neto_por_kg": 14155.91
+    "cajas": 20166.4,
+    "kilos": 33413.12,
+    "neto": 474792099.05,
+    "neto_por_kg": 14209.75
   },
   "serie_mensual": [
     {
@@ -88,6 +88,13 @@
       "kilos": 2510.96,
       "neto": 37750413.63,
       "neto_por_kg": 15034.26
+    },
+    {
+      "mes": "2026-10",
+      "cajas": 859.0,
+      "kilos": 1322.4,
+      "neto": 20518620.1,
+      "neto_por_kg": 15516.2
     }
   ],
   "por_cliente": [
@@ -97,7 +104,7 @@
       "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
       "cajas": 1692.0,
       "kilos": 2685.1200000000003,
-      "neto": 40114781.529999994
+      "neto": 40114781.53
     },
     {
       "mes": "2025-11",
@@ -113,7 +120,7 @@
       "cliente": "COMERCIAL FRODO S.A. ",
       "cajas": 238.2,
       "kilos": 419.4720000000001,
-      "neto": 7147690.58
+      "neto": 7147690.579999999
     },
     {
       "mes": "2025-11",
@@ -136,7 +143,7 @@
       "cliente_id": "800123856",
       "cliente": "EKOTIENDA S. A.",
       "cajas": 912.0,
-      "kilos": 1451.52,
+      "kilos": 1451.5200000000002,
       "neto": 21600056.99
     },
     {
@@ -145,7 +152,7 @@
       "cliente": "WINEROD SRL",
       "cajas": 852.0,
       "kilos": 1408.32,
-      "neto": 21012728.79
+      "neto": 21012728.790000003
     },
     {
       "mes": "2025-12",
@@ -176,15 +183,15 @@
       "cliente_id": "800065643",
       "cliente": "WINEROD SRL",
       "cajas": 909.0,
-      "kilos": 1586.6400000000003,
-      "neto": 23474178.560000002
+      "kilos": 1586.6400000000006,
+      "neto": 23474178.56
     },
     {
       "mes": "2026-01",
       "cliente_id": "800061461",
       "cliente": "BAI - EXPORT S.A. ",
       "cajas": 426.0,
-      "kilos": 704.1600000000001,
+      "kilos": 704.16,
       "neto": 10439416.09
     },
     {
@@ -201,15 +208,15 @@
       "cliente": "DISMA GBA S.A.",
       "cajas": 273.0,
       "kilos": 479.28,
-      "neto": 7150443.96
+      "neto": 7150443.959999999
     },
     {
       "mes": "2026-01",
       "cliente_id": "800213194",
       "cliente": "KAIRON SRL",
-      "cajas": 220.69999999999996,
-      "kilos": 373.8320000000001,
-      "neto": 5609892.0
+      "cajas": 220.7,
+      "kilos": 373.83200000000005,
+      "neto": 5609892.000000001
     },
     {
       "mes": "2026-01",
@@ -224,7 +231,7 @@
       "cliente_id": "800175025",
       "cliente": "THE B2B SOCIEDAD ANONIMA",
       "cajas": 15.0,
-      "kilos": 24.8,
+      "kilos": 24.799999999999997,
       "neto": 387942.15
     },
     {
@@ -232,8 +239,8 @@
       "cliente_id": "800065643",
       "cliente": "WINEROD SRL",
       "cajas": 669.0,
-      "kilos": 1178.6400000000003,
-      "neto": 17444058.84
+      "kilos": 1178.64,
+      "neto": 17444058.840000004
     },
     {
       "mes": "2026-02",
@@ -247,9 +254,9 @@
       "mes": "2026-02",
       "cliente_id": "800213194",
       "cliente": "KAIRON SRL",
-      "cajas": 326.69999999999993,
-      "kilos": 555.4320000000001,
-      "neto": 8187989.69
+      "cajas": 326.70000000000005,
+      "kilos": 555.432,
+      "neto": 8187989.6899999995
     },
     {
       "mes": "2026-02",
@@ -272,15 +279,15 @@
       "cliente_id": "800171666",
       "cliente": "COMERCIAL FRODO S.A. ",
       "cajas": 16.0,
-      "kilos": 27.2,
-      "neto": 469487.6000000001
+      "kilos": 27.200000000000003,
+      "neto": 469487.60000000003
     },
     {
       "mes": "2026-02",
       "cliente_id": "800175025",
       "cliente": "THE B2B SOCIEDAD ANONIMA",
       "cajas": 14.2,
-      "kilos": 26.272,
+      "kilos": 26.272000000000002,
       "neto": 442191.72
     },
     {
@@ -288,7 +295,7 @@
       "cliente_id": "800025969",
       "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
       "cajas": 509.85,
-      "kilos": 763.696,
+      "kilos": 763.6959999999999,
       "neto": 11226112.7
     },
     {
@@ -297,7 +304,7 @@
       "cliente": "KAIRON SRL",
       "cajas": 329.8,
       "kilos": 559.8079999999999,
-      "neto": 8270513.61
+      "neto": 8270513.609999999
     },
     {
       "mes": "2026-03",
@@ -327,9 +334,9 @@
       "mes": "2026-03",
       "cliente_id": "800118122",
       "cliente": "LOGIQUEN S.A ",
-      "cajas": 121.2,
+      "cajas": 121.20000000000002,
       "kilos": 193.63200000000003,
-      "neto": 2918384.71
+      "neto": 2918384.710000001
     },
     {
       "mes": "2026-03",
@@ -352,8 +359,8 @@
       "cliente_id": "800061461",
       "cliente": "BAI - EXPORT S.A. ",
       "cajas": -0.5333333333333333,
-      "kilos": -0.922,
-      "neto": -13837.510000000002
+      "kilos": -0.9219999999999999,
+      "neto": -13837.509999999998
     },
     {
       "mes": "2026-03",
@@ -368,7 +375,7 @@
       "cliente_id": "800213194",
       "cliente": "KAIRON SRL",
       "cajas": 293.0,
-      "kilos": 482.16,
+      "kilos": 482.15999999999997,
       "neto": 7143593.88
     },
     {
@@ -377,15 +384,15 @@
       "cliente": "BAISE DISTRIBUCIONES S.A.",
       "cajas": 198.0,
       "kilos": 351.84000000000003,
-      "neto": 5384441.62
+      "neto": 5384441.619999999
     },
     {
       "mes": "2026-04",
       "cliente_id": "800171666",
       "cliente": "COMERCIAL FRODO S.A. ",
       "cajas": 132.0,
-      "kilos": 220.48000000000002,
-      "neto": 3780743.04
+      "kilos": 220.48000000000005,
+      "neto": 3780743.0399999996
     },
     {
       "mes": "2026-04",
@@ -401,7 +408,7 @@
       "cliente": "BAI - EXPORT S.A. ",
       "cajas": -372.0,
       "kilos": -625.9200000000001,
-      "neto": -8981555.559999999
+      "neto": -8981555.56
     },
     {
       "mes": "2026-05",
@@ -488,15 +495,15 @@
       "cliente_id": "800025969",
       "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
       "cajas": 492.0,
-      "kilos": 768.96,
-      "neto": 11182744.529999996
+      "kilos": 768.9599999999999,
+      "neto": 11182744.529999997
     },
     {
       "mes": "2026-06",
       "cliente_id": "800213194",
       "cliente": "KAIRON SRL",
       "cajas": 357.0,
-      "kilos": 601.9999999999999,
+      "kilos": 602.0,
       "neto": 8805293.33
     },
     {
@@ -504,8 +511,8 @@
       "cliente_id": "800118122",
       "cliente": "LOGIQUEN S.A ",
       "cajas": 268.0,
-      "kilos": 473.5999999999999,
-      "neto": 6918007.600000001
+      "kilos": 473.6,
+      "neto": 6918007.6
     },
     {
       "mes": "2026-06",
@@ -520,7 +527,7 @@
       "cliente_id": "800285259",
       "cliente": "OMAR JESUS MURADOR",
       "cajas": 180.0,
-      "kilos": 301.44000000000005,
+      "kilos": 301.44,
       "neto": 4684871.9799999995
     },
     {
@@ -545,7 +552,7 @@
       "cliente": "WINEROD SRL",
       "cajas": 132.0,
       "kilos": 209.28000000000003,
-      "neto": 3076116.9299999997
+      "neto": 3076116.93
     },
     {
       "mes": "2026-06",
@@ -568,7 +575,7 @@
       "cliente_id": "800213194",
       "cliente": "KAIRON SRL",
       "cajas": 324.0,
-      "kilos": 545.28,
+      "kilos": 545.2800000000001,
       "neto": 8153806.899999999
     },
     {
@@ -577,14 +584,14 @@
       "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
       "cajas": 248.0,
       "kilos": 428.64000000000004,
-      "neto": 6288471.54
+      "neto": 6288471.539999999
     },
     {
       "mes": "2026-07",
       "cliente_id": "800286867",
       "cliente": "M  F DISTRIBUCIONES S.R.L.",
       "cajas": 180.0,
-      "kilos": 301.44,
+      "kilos": 301.44000000000005,
       "neto": 4684871.99
     },
     {
@@ -617,7 +624,7 @@
       "cliente": "APR SERVICIOS S.A.",
       "cajas": 60.0,
       "kilos": 99.20000000000002,
-      "neto": 1505060.5099999998
+      "neto": 1505060.5100000002
     },
     {
       "mes": "2026-07",
@@ -696,8 +703,8 @@
       "cliente_id": "800175025",
       "cliente": "THE B2B SOCIEDAD ANONIMA",
       "cajas": -3.5625,
-      "kilos": -6.555000000000001,
-      "neto": -99180.64999999998
+      "kilos": -6.555,
+      "neto": -99180.64999999997
     },
     {
       "mes": "2026-09",
@@ -728,8 +735,8 @@
       "cliente_id": "800065643",
       "cliente": "WINEROD SRL",
       "cajas": 202.0,
-      "kilos": 338.08,
-      "neto": 5090922.85
+      "kilos": 338.08000000000004,
+      "neto": 5090922.849999999
     },
     {
       "mes": "2026-09",
@@ -744,7 +751,7 @@
       "cliente_id": "800285408",
       "cliente": "APR SERVICIOS S.A.",
       "cajas": 127.0,
-      "kilos": 222.48000000000002,
+      "kilos": 222.48000000000005,
       "neto": 3382669.9699999997
     },
     {
@@ -752,7 +759,7 @@
       "cliente_id": "800213194",
       "cliente": "KAIRON SRL",
       "cajas": 134.0,
-      "kilos": 214.64000000000004,
+      "kilos": 214.64,
       "neto": 3255147.1
     },
     {
@@ -768,7 +775,7 @@
       "cliente_id": "800062656",
       "cliente": "SUPERMERCADOS LA ECONOMIA SA",
       "cajas": 50.0,
-      "kilos": 86.4,
+      "kilos": 86.40000000000002,
       "neto": 249135.87999999998
     },
     {
@@ -786,6 +793,46 @@
       "cajas": 3.0,
       "kilos": 4.96,
       "neto": 97806.3
+    },
+    {
+      "mes": "2026-10",
+      "cliente_id": "800290563",
+      "cliente": "DELIVERY HERO E-COMMERCE S. A.",
+      "cajas": 390.0,
+      "kilos": 549.6,
+      "neto": 8975601.120000001
+    },
+    {
+      "mes": "2026-10",
+      "cliente_id": "800025969",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "cajas": 198.0,
+      "kilos": 313.92,
+      "neto": 4681010.32
+    },
+    {
+      "mes": "2026-10",
+      "cliente_id": "800025422",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "cajas": 120.0,
+      "kilos": 204.00000000000003,
+      "neto": 3015003.19
+    },
+    {
+      "mes": "2026-10",
+      "cliente_id": "800285408",
+      "cliente": "APR SERVICIOS S.A.",
+      "cajas": 111.0,
+      "kilos": 185.76,
+      "neto": 2796478.9
+    },
+    {
+      "mes": "2026-10",
+      "cliente_id": "800213194",
+      "cliente": "KAIRON SRL",
+      "cajas": 40.0,
+      "kilos": 69.12,
+      "neto": 1050526.57
     }
   ],
   "por_sku": [
@@ -795,7 +842,7 @@
       "articulo": "Clásicas Corte Liso 80",
       "cajas": 1062.0,
       "kilos": 1359.36,
-      "neto": 20473740.86,
+      "neto": 20473740.860000003,
       "codigo": "    201700705"
     },
     {
@@ -803,7 +850,7 @@
       "articulo_id": 30734,
       "articulo": "Clásicas Corte Americano 80",
       "cajas": 696.0,
-      "kilos": 890.8799999999999,
+      "kilos": 890.88,
       "neto": 13450115.95,
       "codigo": "    201700706"
     },
@@ -812,9 +859,18 @@
       "articulo_id": 30730,
       "articulo": "Rústicas Albahaca y Oliva 115",
       "cajas": 268.0,
-      "kilos": 493.12,
+      "kilos": 493.12000000000006,
       "neto": 7811380.34,
       "codigo": "    201700701"
+    },
+    {
+      "mes": "2025-11",
+      "articulo_id": 30728,
+      "articulo": "Rústicas Queso y Orégano 115",
+      "cajas": 268.0,
+      "kilos": 493.12000000000006,
+      "neto": 7811380.34,
+      "codigo": "    201700698"
     },
     {
       "mes": "2025-11",
@@ -827,30 +883,12 @@
     },
     {
       "mes": "2025-11",
-      "articulo_id": 30728,
-      "articulo": "Rústicas Queso y Orégano 115",
-      "cajas": 268.0,
-      "kilos": 493.12,
-      "neto": 7811380.34,
-      "codigo": "    201700698"
-    },
-    {
-      "mes": "2025-11",
       "articulo_id": 30727,
       "articulo": "Rústicas Sal de Mar 115",
       "cajas": 268.0,
-      "kilos": 493.12000000000006,
-      "neto": 7809056.53,
-      "codigo": "    201700697"
-    },
-    {
-      "mes": "2025-11",
-      "articulo_id": 30732,
-      "articulo": "Jamón Serrano 115",
-      "cajas": 268.0,
       "kilos": 493.12,
-      "neto": 7178787.4399999995,
-      "codigo": "    201700704"
+      "neto": 7809056.529999999,
+      "codigo": "    201700697"
     },
     {
       "mes": "2025-11",
@@ -858,8 +896,17 @@
       "articulo": "Crema Ciboulette 115",
       "cajas": 268.0,
       "kilos": 493.12,
-      "neto": 7178787.4399999995,
+      "neto": 7178787.44,
       "codigo": "    201700703"
+    },
+    {
+      "mes": "2025-11",
+      "articulo_id": 30732,
+      "articulo": "Jamón Serrano 115",
+      "cajas": 268.0,
+      "kilos": 493.12000000000006,
+      "neto": 7178787.44,
+      "codigo": "    201700704"
     },
     {
       "mes": "2025-11",
@@ -874,7 +921,7 @@
       "mes": "2025-11",
       "articulo_id": 30735,
       "articulo": "Clásicas Corte Liso 36",
-      "cajas": 158.4,
+      "cajas": 158.39999999999998,
       "kilos": 342.144,
       "neto": 4698898.95,
       "codigo": "    201700721"
@@ -884,7 +931,7 @@
       "articulo_id": 30733,
       "articulo": "Clásicas Corte Liso 80",
       "cajas": 674.0,
-      "kilos": 862.7200000000001,
+      "kilos": 862.7199999999999,
       "neto": 12924100.23,
       "codigo": "    201700705"
     },
@@ -901,7 +948,7 @@
       "mes": "2025-12",
       "articulo_id": 30735,
       "articulo": "Clásicas Corte Liso 36",
-      "cajas": 267.30000000000007,
+      "cajas": 267.3,
       "kilos": 577.3679999999999,
       "neto": 7964303.0600000005,
       "codigo": "    201700721"
@@ -920,8 +967,8 @@
       "articulo_id": 30730,
       "articulo": "Rústicas Albahaca y Oliva 115",
       "cajas": 202.0,
-      "kilos": 371.67999999999995,
-      "neto": 5763421.720000001,
+      "kilos": 371.68,
+      "neto": 5763421.72,
       "codigo": "    201700701"
     },
     {
@@ -930,7 +977,7 @@
       "articulo": "Rústicas Cebolla Caramelizada 115",
       "cajas": 197.0,
       "kilos": 362.48,
-      "neto": 5631461.909999999,
+      "neto": 5631461.91,
       "codigo": "    201700699"
     },
     {
@@ -938,7 +985,7 @@
       "articulo_id": 30727,
       "articulo": "Rústicas Sal de Mar 115",
       "cajas": 164.0,
-      "kilos": 301.76000000000005,
+      "kilos": 301.76,
       "neto": 4675427.180000001,
       "codigo": "    201700697"
     },
@@ -956,8 +1003,8 @@
       "articulo_id": 30731,
       "articulo": "Crema Ciboulette 115",
       "cajas": 135.0,
-      "kilos": 248.39999999999998,
-      "neto": 3534092.5,
+      "kilos": 248.4,
+      "neto": 3534092.5000000005,
       "codigo": "    201700703"
     },
     {
@@ -965,8 +1012,8 @@
       "articulo_id": 30732,
       "articulo": "Jamón Serrano 115",
       "cajas": 132.0,
-      "kilos": 242.88000000000005,
-      "neto": 3455012.340000001,
+      "kilos": 242.88000000000002,
+      "neto": 3455012.3400000003,
       "codigo": "    201700704"
     },
     {
@@ -974,7 +1021,7 @@
       "articulo_id": 30731,
       "articulo": "Crema Ciboulette 115",
       "cajas": 278.0,
-      "kilos": 511.52000000000004,
+      "kilos": 511.5200000000001,
       "neto": 7370710.11,
       "codigo": "    201700703"
     },
@@ -983,7 +1030,7 @@
       "articulo_id": 30732,
       "articulo": "Jamón Serrano 115",
       "cajas": 268.0,
-      "kilos": 493.12,
+      "kilos": 493.12000000000006,
       "neto": 7106494.450000001,
       "codigo": "    201700704"
     },
@@ -992,8 +1039,8 @@
       "articulo_id": 30730,
       "articulo": "Rústicas Albahaca y Oliva 115",
       "cajas": 212.0,
-      "kilos": 390.08000000000004,
-      "neto": 6109818.8,
+      "kilos": 390.08,
+      "neto": 6109818.799999999,
       "codigo": "    201700701"
     },
     {
@@ -1002,7 +1049,7 @@
       "articulo": "Clásicas Corte Liso 80",
       "cajas": 306.0,
       "kilos": 391.68,
-      "neto": 5887334.21,
+      "neto": 5887334.209999999,
       "codigo": "    201700705"
     },
     {
@@ -1019,7 +1066,7 @@
       "articulo_id": 30734,
       "articulo": "Clásicas Corte Americano 80",
       "cajas": 271.0,
-      "kilos": 346.88,
+      "kilos": 346.88000000000005,
       "neto": 5200552.869999999,
       "codigo": "    201700706"
     },
@@ -1027,8 +1074,8 @@
       "mes": "2026-01",
       "articulo_id": 30735,
       "articulo": "Clásicas Corte Liso 36",
-      "cajas": 169.39999999999998,
-      "kilos": 365.90399999999994,
+      "cajas": 169.4,
+      "kilos": 365.904,
       "neto": 5112983.5,
       "codigo": "    201700721"
     },
@@ -1036,9 +1083,9 @@
       "mes": "2026-01",
       "articulo_id": 30736,
       "articulo": "Clásicas Corte Americano 36",
-      "cajas": 168.3,
+      "cajas": 168.29999999999998,
       "kilos": 363.528,
-      "neto": 5080102.569999999,
+      "neto": 5080102.57,
       "codigo": "    201700722"
     },
     {
@@ -1046,7 +1093,7 @@
       "articulo_id": 30727,
       "articulo": "Rústicas Sal de Mar 115",
       "cajas": 172.0,
-      "kilos": 316.47999999999996,
+      "kilos": 316.48,
       "neto": 4959595.119999999,
       "codigo": "    201700697"
     },
@@ -1056,7 +1103,7 @@
       "articulo": "Rústicas Queso y Orégano 115",
       "cajas": 171.0,
       "kilos": 314.64,
-      "neto": 4932061.44,
+      "neto": 4932061.4399999995,
       "codigo": "    201700698"
     },
     {
@@ -1064,7 +1111,7 @@
       "articulo_id": 30731,
       "articulo": "Crema Ciboulette 115",
       "cajas": 320.0,
-      "kilos": 588.8,
+      "kilos": 588.8000000000001,
       "neto": 8436058.49,
       "codigo": "    201700703"
     },
@@ -1073,7 +1120,7 @@
       "articulo_id": 30732,
       "articulo": "Jamón Serrano 115",
       "cajas": 312.0,
-      "kilos": 574.08,
+      "kilos": 574.0799999999999,
       "neto": 8225372.18,
       "codigo": "    201700704"
     },
@@ -1082,7 +1129,7 @@
       "articulo_id": 30733,
       "articulo": "Clásicas Corte Liso 80",
       "cajas": 285.0,
-      "kilos": 364.8,
+      "kilos": 364.79999999999995,
       "neto": 5475265.41,
       "codigo": "    201700705"
     },
@@ -1092,7 +1139,7 @@
       "articulo": "Clásicas Corte Liso 36",
       "cajas": 170.49999999999997,
       "kilos": 368.28,
-      "neto": 5036700.249999999,
+      "neto": 5036700.25,
       "codigo": "    201700721"
     },
     {
@@ -1100,7 +1147,7 @@
       "articulo_id": 30736,
       "articulo": "Clásicas Corte Americano 36",
       "cajas": 169.4,
-      "kilos": 365.904,
+      "kilos": 365.90399999999994,
       "neto": 4970938.4,
       "codigo": "    201700722"
     },
@@ -1137,7 +1184,7 @@
       "articulo": "Rústicas Sal de Mar 115",
       "cajas": 156.0,
       "kilos": 287.04,
-      "neto": 4478814.760000001,
+      "neto": 4478814.76,
       "codigo": "    201700697"
     },
     {
@@ -1146,7 +1193,7 @@
       "articulo": "Clásicas Corte Americano 80",
       "cajas": 106.0,
       "kilos": 135.68,
-      "neto": 2042572.0799999998,
+      "neto": 2042572.08,
       "codigo": "    201700706"
     },
     {
@@ -1154,17 +1201,17 @@
       "articulo_id": 30733,
       "articulo": "Clásicas Corte Liso 80",
       "cajas": 690.1875,
-      "kilos": 883.44,
-      "neto": 11331884.34,
+      "kilos": 883.4399999999999,
+      "neto": 11331884.339999998,
       "codigo": "    201700705"
     },
     {
       "mes": "2026-03",
       "articulo_id": 30735,
       "articulo": "Clásicas Corte Liso 36",
-      "cajas": 305.78333333333336,
-      "kilos": 660.492,
-      "neto": 5750375.2,
+      "cajas": 305.7833333333333,
+      "kilos": 660.4919999999998,
+      "neto": 5750375.199999999,
       "codigo": "    201700721"
     },
     {
@@ -1173,7 +1220,7 @@
       "articulo": "Rústicas Albahaca y Oliva 115",
       "cajas": 171.9375,
       "kilos": 316.365,
-      "neto": 3514549.1099999994,
+      "neto": 3514549.11,
       "codigo": "    201700701"
     },
     {
@@ -1182,7 +1229,7 @@
       "articulo": "Jamón Serrano 115",
       "cajas": 176.9375,
       "kilos": 325.565,
-      "neto": 3361895.0399999996,
+      "neto": 3361895.04,
       "codigo": "    201700704"
     },
     {
@@ -1190,7 +1237,7 @@
       "articulo_id": 30729,
       "articulo": "Rústicas Cebolla Caramelizada 115",
       "cajas": 88.9375,
-      "kilos": 163.64500000000004,
+      "kilos": 163.645,
       "neto": 2560025.8,
       "codigo": "    201700699"
     },
@@ -1199,7 +1246,7 @@
       "articulo_id": 30728,
       "articulo": "Rústicas Queso y Orégano 115",
       "cajas": 82.9375,
-      "kilos": 152.60500000000002,
+      "kilos": 152.60500000000005,
       "neto": 2388475.84,
       "codigo": "    201700698"
     },
@@ -1208,7 +1255,7 @@
       "articulo_id": 30727,
       "articulo": "Rústicas Sal de Mar 115",
       "cajas": 85.9375,
-      "kilos": 158.12500000000003,
+      "kilos": 158.125,
       "neto": 2387919.11,
       "codigo": "    201700697"
     },
@@ -1235,8 +1282,8 @@
       "articulo_id": 30734,
       "articulo": "Clásicas Corte Americano 80",
       "cajas": 73.9375,
-      "kilos": 94.63999999999996,
-      "neto": -110291.49999999965,
+      "kilos": 94.63999999999999,
+      "neto": -110291.49999999977,
       "codigo": "    201700706"
     },
     {
@@ -1271,7 +1318,7 @@
       "articulo_id": 30728,
       "articulo": "Rústicas Queso y Orégano 115",
       "cajas": 50.0,
-      "kilos": 92.0,
+      "kilos": 92.00000000000001,
       "neto": 1661312.71,
       "codigo": "    201700698"
     },
@@ -1280,9 +1327,18 @@
       "articulo_id": 30733,
       "articulo": "Clásicas Corte Liso 80",
       "cajas": 28.0,
-      "kilos": 35.83999999999998,
-      "neto": 439138.66,
+      "kilos": 35.839999999999996,
+      "neto": 439138.6599999999,
       "codigo": "    201700705"
+    },
+    {
+      "mes": "2026-04",
+      "articulo_id": 30731,
+      "articulo": "Crema Ciboulette 115",
+      "cajas": 1.0,
+      "kilos": 1.84,
+      "neto": 26975.21,
+      "codigo": "    201700703"
     },
     {
       "mes": "2026-04",
@@ -1295,19 +1351,10 @@
     },
     {
       "mes": "2026-04",
-      "articulo_id": 30731,
-      "articulo": "Crema Ciboulette 115",
-      "cajas": 1.0,
-      "kilos": 1.8400000000000034,
-      "neto": 26975.209999999963,
-      "codigo": "    201700703"
-    },
-    {
-      "mes": "2026-04",
       "articulo_id": 30734,
       "articulo": "Clásicas Corte Americano 80",
       "cajas": 0.0,
-      "kilos": -7.105427357601002e-15,
+      "kilos": -1.4210854715202004e-14,
       "neto": 0.0,
       "codigo": "    201700706"
     },
@@ -1315,16 +1362,16 @@
       "mes": "2026-04",
       "articulo_id": 30735,
       "articulo": "Clásicas Corte Liso 36",
-      "cajas": -25.299999999999997,
-      "kilos": -54.647999999999996,
-      "neto": -706939.8099999999,
+      "cajas": -25.3,
+      "kilos": -54.648,
+      "neto": -706939.81,
       "codigo": "    201700721"
     },
     {
       "mes": "2026-04",
       "articulo_id": 30736,
       "articulo": "Clásicas Corte Americano 36",
-      "cajas": -29.7,
+      "cajas": -29.700000000000003,
       "kilos": -64.152,
       "neto": -937106.2700000001,
       "codigo": "    201700722"
@@ -1424,8 +1471,8 @@
       "articulo_id": 30733,
       "articulo": "Clásicas Corte Liso 80",
       "cajas": 478.0,
-      "kilos": 611.84,
-      "neto": 9114903.909999998,
+      "kilos": 611.8400000000001,
+      "neto": 9114903.91,
       "codigo": "    201700705"
     },
     {
@@ -1434,7 +1481,7 @@
       "articulo": "Crema Ciboulette 115",
       "cajas": 282.0,
       "kilos": 518.8800000000001,
-      "neto": 7591104.619999999,
+      "neto": 7591104.62,
       "codigo": "    201700703"
     },
     {
@@ -1442,7 +1489,7 @@
       "articulo_id": 30732,
       "articulo": "Jamón Serrano 115",
       "cajas": 253.0,
-      "kilos": 465.52000000000004,
+      "kilos": 465.52,
       "neto": 6836412.74,
       "codigo": "    201700704"
     },
@@ -1460,8 +1507,8 @@
       "articulo_id": 30730,
       "articulo": "Rústicas Albahaca y Oliva 115",
       "cajas": 188.0,
-      "kilos": 345.9200000000001,
-      "neto": 5525033.07,
+      "kilos": 345.92,
+      "neto": 5525033.069999999,
       "codigo": "    201700701"
     },
     {
@@ -1469,8 +1516,8 @@
       "articulo_id": 30735,
       "articulo": "Clásicas Corte Liso 36",
       "cajas": 108.0,
-      "kilos": 233.28,
-      "neto": 3244450.3199999994,
+      "kilos": 233.27999999999997,
+      "neto": 3244450.32,
       "codigo": "    201700721"
     },
     {
@@ -1488,7 +1535,7 @@
       "articulo": "Rústicas Cebolla Caramelizada 115",
       "cajas": 89.0,
       "kilos": 163.76000000000002,
-      "neto": 2456023.6399999997,
+      "neto": 2456023.64,
       "codigo": "    201700699"
     },
     {
@@ -1496,7 +1543,7 @@
       "articulo_id": 30728,
       "articulo": "Rústicas Queso y Orégano 115",
       "cajas": 63.0,
-      "kilos": 115.92000000000002,
+      "kilos": 115.92,
       "neto": 1818429.6199999999,
       "codigo": "    201700698"
     },
@@ -1506,7 +1553,7 @@
       "articulo": "Rústicas Sal de Mar 115",
       "cajas": 57.0,
       "kilos": 104.88000000000001,
-      "neto": 1646454.5699999998,
+      "neto": 1646454.57,
       "codigo": "    201700697"
     },
     {
@@ -1515,7 +1562,7 @@
       "articulo": "Clásicas Corte Americano 80",
       "cajas": 214.0,
       "kilos": 273.92,
-      "neto": 4119167.5799999996,
+      "neto": 4119167.579999999,
       "codigo": "    201700706"
     },
     {
@@ -1523,8 +1570,8 @@
       "articulo_id": 30729,
       "articulo": "Rústicas Cebolla Caramelizada 115",
       "cajas": 124.0,
-      "kilos": 228.16000000000003,
-      "neto": 3594550.7,
+      "kilos": 228.16000000000005,
+      "neto": 3594550.6999999997,
       "codigo": "    201700699"
     },
     {
@@ -1532,8 +1579,8 @@
       "articulo_id": 30731,
       "articulo": "Crema Ciboulette 115",
       "cajas": 128.0,
-      "kilos": 235.52,
-      "neto": 3441835.669999999,
+      "kilos": 235.52000000000004,
+      "neto": 3441835.67,
       "codigo": "    201700703"
     },
     {
@@ -1541,7 +1588,7 @@
       "articulo_id": 30730,
       "articulo": "Rústicas Albahaca y Oliva 115",
       "cajas": 118.0,
-      "kilos": 217.12000000000003,
+      "kilos": 217.12000000000006,
       "neto": 3423000.73,
       "codigo": "    201700701"
     },
@@ -1550,8 +1597,8 @@
       "articulo_id": 30732,
       "articulo": "Jamón Serrano 115",
       "cajas": 121.0,
-      "kilos": 222.64000000000004,
-      "neto": 3267064.93,
+      "kilos": 222.64000000000001,
+      "neto": 3267064.9299999997,
       "codigo": "    201700704"
     },
     {
@@ -1569,7 +1616,7 @@
       "articulo": "Rústicas Queso y Orégano 115",
       "cajas": 103.0,
       "kilos": 189.52000000000004,
-      "neto": 2985548.3299999996,
+      "neto": 2985548.33,
       "codigo": "    201700698"
     },
     {
@@ -1578,7 +1625,7 @@
       "articulo": "Rústicas Sal de Mar 115",
       "cajas": 89.0,
       "kilos": 163.76000000000002,
-      "neto": 2584566.04,
+      "neto": 2584566.0399999996,
       "codigo": "    201700697"
     },
     {
@@ -1632,7 +1679,7 @@
       "articulo": "Rústicas Queso y Orégano 115",
       "cajas": 28.25,
       "kilos": 51.980000000000004,
-      "neto": 818436.19,
+      "neto": 818436.1900000001,
       "codigo": "    201700698"
     },
     {
@@ -1640,8 +1687,8 @@
       "articulo_id": 30727,
       "articulo": "Rústicas Sal de Mar 115",
       "cajas": 27.5625,
-      "kilos": 50.715,
-      "neto": 794720.69,
+      "kilos": 50.71500000000001,
+      "neto": 794720.6900000001,
       "codigo": "    201700697"
     },
     {
@@ -1650,7 +1697,7 @@
       "articulo": "Rústicas Cebolla Caramelizada 115",
       "cajas": 24.1875,
       "kilos": 44.505,
-      "neto": 701938.87,
+      "neto": 701938.8699999999,
       "codigo": "    201700699"
     },
     {
@@ -1677,7 +1724,7 @@
       "articulo": "Clásicas Corte Liso 80",
       "cajas": 401.0,
       "kilos": 513.28,
-      "neto": 7941538.719999999,
+      "neto": 7941538.72,
       "codigo": "    201700705"
     },
     {
@@ -1686,7 +1733,7 @@
       "articulo": "Clásicas Corte Americano 80",
       "cajas": 392.0,
       "kilos": 501.76,
-      "neto": 7764921.3999999985,
+      "neto": 7764921.399999999,
       "codigo": "    201700706"
     },
     {
@@ -1703,7 +1750,7 @@
       "articulo_id": 30727,
       "articulo": "Rústicas Sal de Mar 115",
       "cajas": 165.0,
-      "kilos": 303.6,
+      "kilos": 303.59999999999997,
       "neto": 4832626.789999999,
       "codigo": "    201700697"
     },
@@ -1713,7 +1760,7 @@
       "articulo": "Rústicas Albahaca y Oliva 115",
       "cajas": 175.0,
       "kilos": 322.00000000000006,
-      "neto": 4741324.06,
+      "neto": 4741324.0600000005,
       "codigo": "    201700701"
     },
     {
@@ -1722,7 +1769,7 @@
       "articulo": "Rústicas Cebolla Caramelizada 115",
       "cajas": 125.0,
       "kilos": 230.00000000000006,
-      "neto": 3272747.08,
+      "neto": 3272747.0800000005,
       "codigo": "    201700699"
     },
     {
@@ -1730,8 +1777,8 @@
       "articulo_id": 30728,
       "articulo": "Rústicas Queso y Orégano 115",
       "cajas": 124.0,
-      "kilos": 228.16000000000005,
-      "neto": 3207045.77,
+      "kilos": 228.16000000000003,
+      "neto": 3207045.7699999996,
       "codigo": "    201700698"
     },
     {
@@ -1742,6 +1789,78 @@
       "kilos": 36.80000000000001,
       "neto": 555561.65,
       "codigo": "    201700703"
+    },
+    {
+      "mes": "2026-10",
+      "articulo_id": 30734,
+      "articulo": "Clásicas Corte Americano 80",
+      "cajas": 263.0,
+      "kilos": 336.64,
+      "neto": 5496846.32,
+      "codigo": "    201700706"
+    },
+    {
+      "mes": "2026-10",
+      "articulo_id": 30731,
+      "articulo": "Crema Ciboulette 115",
+      "cajas": 146.0,
+      "kilos": 268.64,
+      "neto": 3959262.0100000002,
+      "codigo": "    201700703"
+    },
+    {
+      "mes": "2026-10",
+      "articulo_id": 30733,
+      "articulo": "Clásicas Corte Liso 80",
+      "cajas": 198.0,
+      "kilos": 253.44000000000003,
+      "neto": 3912119.76,
+      "codigo": "    201700705"
+    },
+    {
+      "mes": "2026-10",
+      "articulo_id": 30732,
+      "articulo": "Jamón Serrano 115",
+      "cajas": 72.0,
+      "kilos": 132.48000000000002,
+      "neto": 1897923.69,
+      "codigo": "    201700704"
+    },
+    {
+      "mes": "2026-10",
+      "articulo_id": 30727,
+      "articulo": "Rústicas Sal de Mar 115",
+      "cajas": 56.0,
+      "kilos": 103.04,
+      "neto": 1707102.3800000001,
+      "codigo": "    201700697"
+    },
+    {
+      "mes": "2026-10",
+      "articulo_id": 30730,
+      "articulo": "Rústicas Albahaca y Oliva 115",
+      "cajas": 50.0,
+      "kilos": 92.00000000000001,
+      "neto": 1429583.0399999998,
+      "codigo": "    201700701"
+    },
+    {
+      "mes": "2026-10",
+      "articulo_id": 30728,
+      "articulo": "Rústicas Queso y Orégano 115",
+      "cajas": 39.0,
+      "kilos": 71.76,
+      "neto": 1115074.77,
+      "codigo": "    201700698"
+    },
+    {
+      "mes": "2026-10",
+      "articulo_id": 30729,
+      "articulo": "Rústicas Cebolla Caramelizada 115",
+      "cajas": 35.0,
+      "kilos": 64.4,
+      "neto": 1000708.13,
+      "codigo": "    201700699"
     }
   ],
   "reconocimientos": [
@@ -1765,12 +1884,6 @@
     },
     {
       "mes": "2026-03",
-      "articulo_id": 32208,
-      "neto": -149502.4,
-      "concepto": "Sell-in roturas"
-    },
-    {
-      "mes": "2026-03",
       "articulo_id": 32209,
       "neto": -660155.9500000001,
       "concepto": "Sell-out comerciales"
@@ -1782,10 +1895,10 @@
       "concepto": "Retiros"
     },
     {
-      "mes": "2026-04",
-      "articulo_id": 32209,
-      "neto": -697208.0,
-      "concepto": "Sell-out comerciales"
+      "mes": "2026-03",
+      "articulo_id": 32208,
+      "neto": -149502.4,
+      "concepto": "Sell-in roturas"
     },
     {
       "mes": "2026-04",
@@ -1795,14 +1908,14 @@
     },
     {
       "mes": "2026-04",
-      "articulo_id": 32208,
-      "neto": -99036.86,
-      "concepto": "Sell-in roturas"
+      "articulo_id": 32209,
+      "neto": -697208.0,
+      "concepto": "Sell-out comerciales"
     },
     {
-      "mes": "2026-05",
+      "mes": "2026-04",
       "articulo_id": 32208,
-      "neto": -36143.51,
+      "neto": -99036.86,
       "concepto": "Sell-in roturas"
     },
     {
@@ -1824,16 +1937,16 @@
       "concepto": "Sell-out comerciales"
     },
     {
-      "mes": "2026-06",
-      "articulo_id": 32210,
-      "neto": -139166.67,
-      "concepto": "Retiros"
+      "mes": "2026-05",
+      "articulo_id": 32208,
+      "neto": -36143.51,
+      "concepto": "Sell-in roturas"
     },
     {
       "mes": "2026-06",
-      "articulo_id": 32208,
-      "neto": -32709.590000000004,
-      "concepto": "Sell-in roturas"
+      "articulo_id": 32209,
+      "neto": -410830.61,
+      "concepto": "Sell-out comerciales"
     },
     {
       "mes": "2026-06",
@@ -1843,9 +1956,21 @@
     },
     {
       "mes": "2026-06",
-      "articulo_id": 32209,
-      "neto": -410830.61,
-      "concepto": "Sell-out comerciales"
+      "articulo_id": 32208,
+      "neto": -32709.590000000004,
+      "concepto": "Sell-in roturas"
+    },
+    {
+      "mes": "2026-06",
+      "articulo_id": 32210,
+      "neto": -139166.67,
+      "concepto": "Retiros"
+    },
+    {
+      "mes": "2026-07",
+      "articulo_id": 32210,
+      "neto": -297500.0,
+      "concepto": "Retiros"
     },
     {
       "mes": "2026-07",
@@ -1860,12 +1985,6 @@
       "concepto": "Sell-out comerciales"
     },
     {
-      "mes": "2026-07",
-      "articulo_id": 32210,
-      "neto": -297500.0,
-      "concepto": "Retiros"
-    },
-    {
       "mes": "2026-08",
       "articulo_id": 32208,
       "neto": -13944.82,
@@ -1873,9 +1992,9 @@
     },
     {
       "mes": "2026-09",
-      "articulo_id": 32209,
-      "neto": -208566.0,
-      "concepto": "Sell-out comerciales"
+      "articulo_id": 32208,
+      "neto": -61396.31,
+      "concepto": "Sell-in roturas"
     },
     {
       "mes": "2026-09",
@@ -1885,9 +2004,9 @@
     },
     {
       "mes": "2026-09",
-      "articulo_id": 32208,
-      "neto": -61396.31,
-      "concepto": "Sell-in roturas"
+      "articulo_id": 32209,
+      "neto": -208566.0,
+      "concepto": "Sell-out comerciales"
     },
     {
       "mes": "2026-10",
@@ -1898,16 +2017,112 @@
   ],
   "por_cliente_sku": [
     {
+      "mes": "2026-08",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30727,
+      "cajas": 6.0
+    },
+    {
+      "mes": "2026-08",
+      "cliente": "GO MARKET STORE S.R.L",
+      "articulo_id": 30727,
+      "cajas": 1.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30729,
+      "cajas": 20.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30728,
+      "cajas": 20.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30728,
+      "cajas": 20.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30734,
+      "cajas": 31.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "BAISE DISTRIBUCIONES S.A.",
+      "articulo_id": 30731,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "DISMA GBA S.A.",
+      "articulo_id": 30734,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-08",
+      "cliente": "COOPERKIO AGRUPACION A. DE C.",
+      "articulo_id": 30731,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "LUCAS POVOLO",
+      "articulo_id": 30734,
+      "cajas": 1.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30730,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30735,
+      "cajas": 66.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30730,
+      "cajas": 6.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "BAI - EXPORT S.A. ",
+      "articulo_id": 30731,
+      "cajas": -0.0625
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30727,
+      "cajas": 10.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30733,
+      "cajas": 49.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30735,
+      "cajas": 3.3
+    },
+    {
       "mes": "2025-12",
       "cliente": "KAIRON SRL",
       "articulo_id": 30730,
       "cajas": 18.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30733,
-      "cajas": 120.0
     },
     {
       "mes": "2026-08",
@@ -1916,10 +2131,10 @@
       "cajas": 6.0
     },
     {
-      "mes": "2026-07",
-      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
-      "articulo_id": 30732,
-      "cajas": 24.0
+      "mes": "2025-12",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30731,
+      "cajas": 30.0
     },
     {
       "mes": "2026-01",
@@ -1928,16 +2143,16 @@
       "cajas": 30.0
     },
     {
-      "mes": "2026-04",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30727,
-      "cajas": 18.0
+      "mes": "2026-01",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30733,
+      "cajas": 120.0
     },
     {
-      "mes": "2026-03",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30735,
-      "cajas": 72.6
+      "mes": "2026-09",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30730,
+      "cajas": 20.0
     },
     {
       "mes": "2026-01",
@@ -1946,22 +2161,22 @@
       "cajas": 16.5
     },
     {
-      "mes": "2026-08",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30730,
-      "cajas": -1.5625
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30731,
-      "cajas": 30.0
-    },
-    {
       "mes": "2025-12",
       "cliente": "WINEROD SRL",
       "articulo_id": 30730,
       "cajas": 90.0
+    },
+    {
+      "mes": "2026-04",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30727,
+      "cajas": 18.0
+    },
+    {
+      "mes": "2026-08",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30730,
+      "cajas": -1.5625
     },
     {
       "mes": "2026-02",
@@ -1970,16 +2185,22 @@
       "cajas": 49.5
     },
     {
+      "mes": "2026-03",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30735,
+      "cajas": 72.6
+    },
+    {
       "mes": "2026-04",
       "cliente": "BAISE DISTRIBUCIONES S.A.",
       "articulo_id": 30730,
       "cajas": 18.0
     },
     {
-      "mes": "2026-09",
-      "cliente": "APR SERVICIOS S.A.",
-      "articulo_id": 30730,
-      "cajas": 20.0
+      "mes": "2026-07",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30732,
+      "cajas": 24.0
     },
     {
       "mes": "2026-05",
@@ -2000,130 +2221,262 @@
       "cajas": 18.0
     },
     {
-      "mes": "2026-01",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30731,
+      "mes": "2026-09",
+      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
+      "articulo_id": 30734,
       "cajas": 5.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30729,
-      "cajas": 5.0
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30736,
-      "cajas": 66.0
     },
     {
       "mes": "2026-08",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30728,
-      "cajas": 12.0
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30733,
+      "cajas": 30.0
     },
     {
-      "mes": "2025-11",
-      "cliente": "COMERCIAL FRODO S.A. ",
-      "articulo_id": 30727,
-      "cajas": 22.0
+      "mes": "2025-12",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30728,
+      "cajas": 8.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30731,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-08",
+      "cliente": "COOPERKIO AGRUPACION A. DE C.",
+      "articulo_id": 30732,
+      "cajas": 30.0
     },
     {
       "mes": "2026-09",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30731,
-      "cajas": 3.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "OMAR JESUS MURADOR",
-      "articulo_id": 30734,
-      "cajas": 24.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30734,
-      "cajas": 47.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30735,
-      "cajas": 4.4
+      "cliente": "STYL WILL INC S.A.",
+      "articulo_id": 30730,
+      "cajas": 2.0
     },
     {
       "mes": "2026-08",
       "cliente": "GO MARKET STORE S.R.L",
-      "articulo_id": 30733,
+      "articulo_id": 30731,
       "cajas": 1.0
     },
     {
-      "mes": "2026-09",
-      "cliente": "+CAMPI S.A.S. S. A. S.",
-      "articulo_id": 30734,
-      "cajas": 60.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30736,
-      "cajas": 49.5
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30727,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30735,
-      "cajas": 3.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30734,
-      "cajas": 42.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30727,
+      "mes": "2025-11",
+      "cliente": "COMERCIAL FRODO S.A. ",
+      "articulo_id": 30728,
       "cajas": 22.0
     },
     {
-      "mes": "2025-11",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30732,
-      "cajas": 120.0
+      "mes": "2026-02",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30729,
+      "cajas": 2.0
     },
     {
       "mes": "2025-11",
+      "cliente": "COMERCIAL FRODO S.A. ",
+      "articulo_id": 30731,
+      "cajas": 22.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
+      "articulo_id": 30728,
+      "cajas": 24.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "STYL WILL INC S.A.",
+      "articulo_id": 30734,
+      "cajas": 23.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30729,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-09",
       "cliente": "KAIRON SRL",
       "articulo_id": 30732,
-      "cajas": 6.0
+      "cajas": 15.0
     },
     {
-      "mes": "2026-01",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30731,
-      "cajas": 150.0
+      "mes": "2026-09",
+      "cliente": "STYL WILL INC S.A.",
+      "articulo_id": 30734,
+      "cajas": 2.0
     },
     {
-      "mes": "2026-01",
+      "mes": "2025-12",
       "cliente": "BAI - EXPORT S.A. ",
       "articulo_id": 30728,
       "cajas": 30.0
     },
     {
+      "mes": "2026-09",
+      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
+      "articulo_id": 30727,
+      "cajas": 5.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
+      "articulo_id": 30729,
+      "cajas": 10.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "+CAMPI S.A.S. S. A. S.",
+      "articulo_id": 30732,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-04",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30733,
+      "cajas": 48.0
+    },
+    {
+      "mes": "2026-04",
+      "cliente": "BAISE DISTRIBUCIONES S.A.",
+      "articulo_id": 30736,
+      "cajas": 33.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30733,
+      "cajas": 120.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30734,
+      "cajas": 43.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "BAISE DISTRIBUCIONES S.A.",
+      "articulo_id": 30728,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30734,
+      "cajas": 360.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30731,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "COOPERKIO AGRUPACION A. DE C.",
+      "articulo_id": 30730,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30729,
+      "cajas": 15.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "BAI - EXPORT S.A. ",
+      "articulo_id": 30733,
+      "cajas": 240.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "BAISE DISTRIBUCIONES S.A.",
+      "articulo_id": 30735,
+      "cajas": 33.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "EKOTIENDA S. A.",
+      "articulo_id": 30734,
+      "cajas": 240.0
+    },
+    {
+      "mes": "2026-04",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30734,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "BEYVIN SOCIEDAD ANONIMA",
+      "articulo_id": 30732,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "BAISE DISTRIBUCIONES S.A.",
+      "articulo_id": 30735,
+      "cajas": 18.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30729,
+      "cajas": 47.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30729,
+      "cajas": 18.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "COMERCIAL FRODO S.A. ",
+      "articulo_id": 30732,
+      "cajas": 22.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30735,
+      "cajas": 1.1
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30733,
+      "cajas": 41.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "BEYVIN SOCIEDAD ANONIMA",
+      "articulo_id": 30729,
+      "cajas": 18.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30733,
+      "cajas": 43.0
+    },
+    {
       "mes": "2025-12",
       "cliente": "WINEROD SRL",
       "articulo_id": 30728,
       "cajas": 60.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30727,
+      "cajas": 22.0
     },
     {
       "mes": "2026-01",
@@ -2132,10 +2485,34 @@
       "cajas": 33.0
     },
     {
+      "mes": "2026-01",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30731,
+      "cajas": 150.0
+    },
+    {
       "mes": "2026-09",
       "cliente": "THE B2B SOCIEDAD ANONIMA",
       "articulo_id": 30733,
       "cajas": 1.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "BAI - EXPORT S.A. ",
+      "articulo_id": 30728,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30730,
+      "cajas": 18.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30732,
+      "cajas": 120.0
     },
     {
       "mes": "2025-11",
@@ -2145,9 +2522,9 @@
     },
     {
       "mes": "2026-06",
-      "cliente": "APR SERVICIOS S.A.",
-      "articulo_id": 30730,
-      "cajas": 18.0
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30733,
+      "cajas": 30.0
     },
     {
       "mes": "2026-02",
@@ -2156,22 +2533,10 @@
       "cajas": 2.0
     },
     {
-      "mes": "2026-03",
-      "cliente": "BEYVIN SOCIEDAD ANONIMA",
+      "mes": "2025-11",
+      "cliente": "KAIRON SRL",
       "articulo_id": 30732,
-      "cajas": 18.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30733,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "COMERCIAL FRODO S.A. ",
-      "articulo_id": 30727,
-      "cajas": 2.0
+      "cajas": 6.0
     },
     {
       "mes": "2026-05",
@@ -2180,1312 +2545,58 @@
       "cajas": 47.0
     },
     {
-      "mes": "2026-05",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30728,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30731,
-      "cajas": 33.0
-    },
-    {
-      "mes": "2025-11",
+      "mes": "2026-02",
       "cliente": "COMERCIAL FRODO S.A. ",
-      "articulo_id": 30735,
-      "cajas": 23.1
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30729,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
-      "articulo_id": 30728,
-      "cajas": 120.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "KAIRON SRL",
       "articulo_id": 30727,
-      "cajas": 32.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "LUCAS POVOLO",
-      "articulo_id": 30730,
-      "cajas": 1.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "STYL WILL INC S.A.",
-      "articulo_id": 30729,
-      "cajas": 3.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30731,
-      "cajas": 90.0
-    },
-    {
-      "mes": "2026-04",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30732,
-      "cajas": -30.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "DISMA GBA S.A.",
-      "articulo_id": 30727,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "OMAR JESUS MURADOR",
-      "articulo_id": 30736,
-      "cajas": 6.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30733,
-      "cajas": 60.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30735,
-      "cajas": 1.1
-    },
-    {
-      "mes": "2026-04",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30732,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
-      "articulo_id": 30727,
-      "cajas": 39.0
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "COMERCIAL FRODO S.A. ",
-      "articulo_id": 30728,
-      "cajas": 22.0
-    },
-    {
-      "mes": "2026-08",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30733,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30729,
       "cajas": 2.0
     },
     {
-      "mes": "2026-09",
-      "cliente": "STYL WILL INC S.A.",
-      "articulo_id": 30730,
-      "cajas": 2.0
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "COMERCIAL FRODO S.A. ",
-      "articulo_id": 30731,
-      "cajas": 22.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30728,
-      "cajas": 8.0
-    },
-    {
-      "mes": "2026-08",
-      "cliente": "GO MARKET STORE S.R.L",
-      "articulo_id": 30731,
-      "cajas": 1.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
-      "articulo_id": 30734,
-      "cajas": 5.0
-    },
-    {
-      "mes": "2026-08",
-      "cliente": "COOPERKIO AGRUPACION A. DE C.",
-      "articulo_id": 30732,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30729,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
-      "articulo_id": 30728,
-      "cajas": 24.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "STYL WILL INC S.A.",
-      "articulo_id": 30734,
-      "cajas": 23.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "LUCAS POVOLO",
-      "articulo_id": 30736,
-      "cajas": 1.1
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30732,
-      "cajas": 24.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30732,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "EKOTIENDA S. A.",
-      "articulo_id": 30728,
-      "cajas": 60.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
-      "articulo_id": 30728,
-      "cajas": 11.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30734,
-      "cajas": 180.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
-      "articulo_id": 30733,
-      "cajas": 5.0
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30733,
-      "cajas": 540.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30732,
-      "cajas": 4.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30734,
-      "cajas": 27.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "M  F DISTRIBUCIONES S.R.L.",
-      "articulo_id": 30727,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30733,
-      "cajas": 60.0
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30728,
-      "cajas": 6.0
-    },
-    {
-      "mes": "2026-04",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30736,
-      "cajas": -66.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30728,
-      "cajas": 33.0
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
-      "articulo_id": 30729,
-      "cajas": 120.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30731,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30730,
-      "cajas": 60.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30727,
-      "cajas": -0.0625
-    },
-    {
-      "mes": "2026-04",
-      "cliente": "BAISE DISTRIBUCIONES S.A.",
-      "articulo_id": 30735,
-      "cajas": 33.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30736,
-      "cajas": 33.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30729,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30732,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "EKOTIENDA S. A.",
-      "articulo_id": 30730,
-      "cajas": 60.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30733,
-      "cajas": 90.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "+CAMPI S.A.S. S. A. S.",
-      "articulo_id": 30730,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30734,
-      "cajas": 48.0
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30727,
-      "cajas": 6.0
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30731,
-      "cajas": 6.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30730,
-      "cajas": 3.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30731,
-      "cajas": 60.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "APR SERVICIOS S.A.",
-      "articulo_id": 30731,
-      "cajas": 7.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "COOPERKIO AGRUPACION A. DE C.",
-      "articulo_id": 30735,
-      "cajas": 110.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
-      "articulo_id": 30731,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "DISMA GBA S.A.",
-      "articulo_id": 30733,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "STYL WILL INC S.A.",
-      "articulo_id": 30729,
-      "cajas": 21.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30727,
-      "cajas": 60.0
-    },
-    {
-      "mes": "2026-08",
-      "cliente": "GO MARKET STORE S.R.L",
-      "articulo_id": 30729,
-      "cajas": 1.0
-    },
-    {
-      "mes": "2026-04",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30729,
-      "cajas": 36.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30731,
-      "cajas": 11.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30729,
-      "cajas": 33.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "M  F DISTRIBUCIONES S.R.L.",
-      "articulo_id": 30732,
-      "cajas": 24.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30730,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30727,
-      "cajas": 3.0
-    },
-    {
-      "mes": "2026-08",
-      "cliente": "APR SERVICIOS S.A.",
-      "articulo_id": 30727,
-      "cajas": 10.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30734,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30728,
-      "cajas": 60.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30730,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "BAISE DISTRIBUCIONES S.A.",
-      "articulo_id": 30730,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30727,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30733,
-      "cajas": 43.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "BAISE DISTRIBUCIONES S.A.",
-      "articulo_id": 30733,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30727,
-      "cajas": 6.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30735,
-      "cajas": 7.7
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "APR SERVICIOS S.A.",
-      "articulo_id": 30734,
-      "cajas": 10.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30730,
-      "cajas": -0.0625
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30736,
-      "cajas": 1.1
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "M  F DISTRIBUCIONES S.R.L.",
-      "articulo_id": 30728,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30731,
-      "cajas": 1.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30736,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "EKOTIENDA S. A.",
-      "articulo_id": 30731,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30728,
-      "cajas": 3.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30736,
-      "cajas": 1.1
-    },
-    {
-      "mes": "2026-08",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30729,
-      "cajas": -0.8125
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30735,
-      "cajas": 33.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30732,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "COOPERKIO AGRUPACION A. DE C.",
-      "articulo_id": 30734,
-      "cajas": 80.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30728,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
-      "articulo_id": 30736,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "LUCAS POVOLO",
-      "articulo_id": 30728,
-      "cajas": 1.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30736,
-      "cajas": 3.3000000000000003
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30734,
-      "cajas": -0.0625
-    },
-    {
       "mes": "2026-03",
       "cliente": "BEYVIN SOCIEDAD ANONIMA",
-      "articulo_id": 30733,
-      "cajas": 60.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30729,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30727,
-      "cajas": 60.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30728,
-      "cajas": 60.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "BAISE DISTRIBUCIONES S.A.",
-      "articulo_id": 30729,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30729,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "APR SERVICIOS S.A.",
-      "articulo_id": 30733,
-      "cajas": 10.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30731,
-      "cajas": 48.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "KAIRON SRL",
       "articulo_id": 30732,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
-      "articulo_id": 30731,
-      "cajas": 32.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30730,
-      "cajas": 1.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "STYL WILL INC S.A.",
-      "articulo_id": 30729,
-      "cajas": 3.0
-    },
-    {
-      "mes": "2026-08",
-      "cliente": "APR SERVICIOS S.A.",
-      "articulo_id": 30728,
-      "cajas": 10.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30729,
-      "cajas": 40.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30727,
-      "cajas": 27.0
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30729,
-      "cajas": 6.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30728,
-      "cajas": 34.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30734,
-      "cajas": 78.0
-    },
-    {
-      "mes": "2026-04",
-      "cliente": "BAISE DISTRIBUCIONES S.A.",
-      "articulo_id": 30733,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "+CAMPI S.A.S. S. A. S.",
-      "articulo_id": 30727,
-      "cajas": 18.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30733,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-04",
-      "cliente": "COMERCIAL FRODO S.A. ",
-      "articulo_id": 30728,
-      "cajas": 20.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30734,
-      "cajas": 102.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "OMAR JESUS MURADOR",
-      "articulo_id": 30730,
       "cajas": 18.0
     },
     {
       "mes": "2026-05",
-      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
-      "articulo_id": 30735,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "KAIRON SRL",
+      "cliente": "LOGIQUEN S.A ",
       "articulo_id": 30728,
-      "cajas": -3.0
+      "cajas": 12.0
     },
     {
       "mes": "2025-12",
       "cliente": "LUCAS POVOLO",
-      "articulo_id": 30734,
-      "cajas": 1.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "BAISE DISTRIBUCIONES S.A.",
-      "articulo_id": 30731,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30734,
-      "cajas": 31.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "LOGIQUEN S.A ",
       "articulo_id": 30729,
-      "cajas": 20.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30733,
-      "cajas": 49.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30730,
-      "cajas": 60.0
+      "cajas": 1.0
     },
     {
       "mes": "2026-09",
-      "cliente": "APR SERVICIOS S.A.",
-      "articulo_id": 30728,
-      "cajas": 20.0
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "KAIRON SRL",
+      "cliente": "WINEROD SRL",
       "articulo_id": 30730,
-      "cajas": 6.0
+      "cajas": 30.0
     },
     {
-      "mes": "2026-01",
-      "cliente": "DISMA GBA S.A.",
+      "mes": "2026-09",
+      "cliente": "WINEROD SRL",
       "articulo_id": 30734,
       "cajas": 30.0
     },
     {
-      "mes": "2025-11",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30735,
-      "cajas": 66.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30731,
-      "cajas": -0.0625
-    },
-    {
-      "mes": "2026-08",
+      "mes": "2026-09",
       "cliente": "KAIRON SRL",
-      "articulo_id": 30727,
-      "cajas": 6.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30728,
-      "cajas": 20.0
-    },
-    {
-      "mes": "2026-08",
-      "cliente": "GO MARKET STORE S.R.L",
-      "articulo_id": 30727,
-      "cajas": 1.0
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30735,
-      "cajas": 3.3
-    },
-    {
-      "mes": "2026-08",
-      "cliente": "COOPERKIO AGRUPACION A. DE C.",
-      "articulo_id": 30731,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "APR SERVICIOS S.A.",
-      "articulo_id": 30727,
-      "cajas": 10.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "LUCAS POVOLO",
-      "articulo_id": 30733,
-      "cajas": 1.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30727,
-      "cajas": 60.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "DELIVERY HERO E-COMMERCE S. A.",
-      "articulo_id": 30727,
-      "cajas": 90.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "APR SERVICIOS S.A.",
-      "articulo_id": 30732,
-      "cajas": 20.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30733,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30733,
-      "cajas": 120.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30729,
-      "cajas": 60.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30733,
-      "cajas": 3.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "+CAMPI S.A.S. S. A. S.",
-      "articulo_id": 30733,
-      "cajas": 60.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30730,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "COOPERKIO AGRUPACION A. DE C.",
-      "articulo_id": 30730,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "WINEROD SRL",
       "articulo_id": 30728,
       "cajas": 12.0
     },
     {
-      "mes": "2026-07",
-      "cliente": "APR SERVICIOS S.A.",
-      "articulo_id": 30734,
-      "cajas": 10.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30735,
-      "cajas": 33.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "BEYVIN SOCIEDAD ANONIMA",
-      "articulo_id": 30729,
-      "cajas": 6.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "OMAR JESUS MURADOR",
-      "articulo_id": 30735,
-      "cajas": -4.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "M  F DISTRIBUCIONES S.R.L.",
-      "articulo_id": 30736,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "APR SERVICIOS S.A.",
-      "articulo_id": 30729,
-      "cajas": 10.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30733,
-      "cajas": 42.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30734,
-      "cajas": 72.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30733,
-      "cajas": -59.25
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "COMERCIAL FRODO S.A. ",
-      "articulo_id": 30733,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30728,
-      "cajas": 1.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30736,
-      "cajas": 66.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30733,
-      "cajas": 31.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30727,
-      "cajas": 10.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30731,
-      "cajas": 46.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30736,
-      "cajas": 1.1
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30730,
-      "cajas": 68.0
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30733,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30732,
-      "cajas": 66.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30735,
-      "cajas": 16.5
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "BEYVIN SOCIEDAD ANONIMA",
-      "articulo_id": 30728,
-      "cajas": 18.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30730,
-      "cajas": 2.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "COOPERKIO AGRUPACION A. DE C.",
-      "articulo_id": 30731,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "OMAR JESUS MURADOR",
-      "articulo_id": 30731,
-      "cajas": 24.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30735,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "DISMA GBA S.A.",
-      "articulo_id": 30733,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-07",
+      "mes": "2026-10",
       "cliente": "APR SERVICIOS S.A.",
       "articulo_id": 30728,
-      "cajas": 10.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30736,
-      "cajas": 18.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30734,
-      "cajas": 3.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
-      "articulo_id": 30736,
-      "cajas": 33.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "DELIVERY HERO E-COMMERCE S. A.",
-      "articulo_id": 30733,
-      "cajas": 120.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30728,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "DISMA GBA S.A.",
-      "articulo_id": 30731,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "LUCAS POVOLO",
-      "articulo_id": 30732,
-      "cajas": 1.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30732,
-      "cajas": 37.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "DELIVERY HERO E-COMMERCE S. A.",
-      "articulo_id": 30734,
-      "cajas": 120.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "OMAR JESUS MURADOR",
-      "articulo_id": 30729,
-      "cajas": 18.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "EKOTIENDA S. A.",
-      "articulo_id": 30735,
-      "cajas": 66.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30729,
-      "cajas": 60.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "APR SERVICIOS S.A.",
-      "articulo_id": 30732,
-      "cajas": 24.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "BEYVIN SOCIEDAD ANONIMA",
-      "articulo_id": 30728,
-      "cajas": 6.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "STYL WILL INC S.A.",
-      "articulo_id": 30727,
-      "cajas": 3.0
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30730,
-      "cajas": 120.0
-    },
-    {
-      "mes": "2026-04",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30736,
-      "cajas": 3.3
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30730,
-      "cajas": 4.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30728,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
-      "articulo_id": 30729,
-      "cajas": 10.0
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
-      "articulo_id": 30734,
-      "cajas": 360.0
-    },
-    {
-      "mes": "2026-04",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30733,
-      "cajas": 48.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30733,
-      "cajas": 120.0
-    },
-    {
-      "mes": "2026-04",
-      "cliente": "BAISE DISTRIBUCIONES S.A.",
-      "articulo_id": 30736,
-      "cajas": 33.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
-      "articulo_id": 30727,
-      "cajas": 5.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30732,
       "cajas": 15.0
     },
     {
-      "mes": "2026-02",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30734,
-      "cajas": 43.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "STYL WILL INC S.A.",
-      "articulo_id": 30734,
-      "cajas": 2.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "+CAMPI S.A.S. S. A. S.",
-      "articulo_id": 30732,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "BAISE DISTRIBUCIONES S.A.",
-      "articulo_id": 30728,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30731,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "LUCAS POVOLO",
-      "articulo_id": 30729,
-      "cajas": 1.0
-    },
-    {
       "mes": "2026-01",
       "cliente": "THE B2B SOCIEDAD ANONIMA",
       "articulo_id": 30733,
       "cajas": 5.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "COOPERKIO AGRUPACION A. DE C.",
-      "articulo_id": 30736,
-      "cajas": 88.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30728,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30734,
-      "cajas": 30.0
     },
     {
       "mes": "2026-02",
@@ -3494,16 +2605,10 @@
       "cajas": 39.0
     },
     {
-      "mes": "2026-02",
-      "cliente": "COMERCIAL FRODO S.A. ",
-      "articulo_id": 30734,
-      "cajas": 2.0
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30734,
-      "cajas": 6.0
+      "mes": "2026-06",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30736,
+      "cajas": 60.0
     },
     {
       "mes": "2026-03",
@@ -3512,16 +2617,10 @@
       "cajas": 329.25
     },
     {
-      "mes": "2026-09",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30730,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30736,
-      "cajas": 60.0
+      "mes": "2026-03",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30733,
+      "cajas": 2.0
     },
     {
       "mes": "2026-03",
@@ -3536,160 +2635,70 @@
       "cajas": 60.0
     },
     {
+      "mes": "2025-11",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30734,
+      "cajas": 6.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "COMERCIAL FRODO S.A. ",
+      "articulo_id": 30734,
+      "cajas": 2.0
+    },
+    {
       "mes": "2026-03",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30733,
-      "cajas": 2.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30734,
-      "cajas": 1.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30728,
-      "cajas": 32.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30735,
-      "cajas": 60.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "STYL WILL INC S.A.",
-      "articulo_id": 30731,
-      "cajas": 5.0
-    },
-    {
-      "mes": "2026-04",
-      "cliente": "COMERCIAL FRODO S.A. ",
-      "articulo_id": 30730,
-      "cajas": 20.0
-    },
-    {
-      "mes": "2026-06",
       "cliente": "COOPERKIO AGRUPACION A. DE C.",
-      "articulo_id": 30733,
+      "articulo_id": 30736,
+      "cajas": 88.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "EKOTIENDA S. A.",
+      "articulo_id": 30729,
       "cajas": 60.0
     },
     {
-      "mes": "2025-11",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "mes": "2026-08",
+      "cliente": "LOGIQUEN S.A ",
       "articulo_id": 30727,
-      "cajas": 120.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30734,
-      "cajas": 8.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30730,
-      "cajas": 31.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30732,
-      "cajas": 3.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "STYL WILL INC S.A.",
-      "articulo_id": 30728,
-      "cajas": 3.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30729,
-      "cajas": 90.0
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "COMERCIAL FRODO S.A. ",
-      "articulo_id": 30736,
-      "cajas": 23.1
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "STYL WILL INC S.A.",
-      "articulo_id": 30730,
-      "cajas": 3.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30733,
-      "cajas": 1.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30732,
-      "cajas": 1.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
-      "articulo_id": 30732,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30735,
-      "cajas": 66.0
-    },
-    {
-      "mes": "2026-04",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30735,
-      "cajas": 7.7
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30736,
-      "cajas": 2.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30731,
-      "cajas": 66.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30730,
-      "cajas": 0.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
-      "articulo_id": 30733,
-      "cajas": 47.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30734,
       "cajas": 12.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30731,
+      "cajas": 18.0
     },
     {
       "mes": "2026-01",
       "cliente": "BAI - EXPORT S.A. ",
       "articulo_id": 30736,
       "cajas": 33.0
+    },
+    {
+      "mes": "2026-04",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30728,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
+      "articulo_id": 30731,
+      "cajas": 1.0
+    },
+    {
+      "mes": "2026-04",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30731,
+      "cajas": 1.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30732,
+      "cajas": 18.0
     },
     {
       "mes": "2025-11",
@@ -3705,15 +2714,9 @@
     },
     {
       "mes": "2026-02",
-      "cliente": "COMERCIAL FRODO S.A. ",
-      "articulo_id": 30733,
-      "cajas": 2.0
-    },
-    {
-      "mes": "2026-08",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30727,
-      "cajas": 12.0
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30731,
+      "cajas": 30.0
     },
     {
       "mes": "2026-03",
@@ -3726,6 +2729,12 @@
       "cliente": "BAISE DISTRIBUCIONES S.A.",
       "articulo_id": 30727,
       "cajas": 12.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30734,
+      "cajas": 3.0
     },
     {
       "mes": "2026-07",
@@ -3740,46 +2749,10 @@
       "cajas": 12.0
     },
     {
-      "mes": "2026-04",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30731,
-      "cajas": 1.0
-    },
-    {
-      "mes": "2026-04",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30728,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
-      "articulo_id": 30731,
-      "cajas": 1.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30732,
-      "cajas": 18.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30734,
-      "cajas": 3.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "EKOTIENDA S. A.",
-      "articulo_id": 30729,
-      "cajas": 60.0
-    },
-    {
       "mes": "2026-02",
-      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
-      "articulo_id": 30731,
-      "cajas": 30.0
+      "cliente": "COMERCIAL FRODO S.A. ",
+      "articulo_id": 30733,
+      "cajas": 2.0
     },
     {
       "mes": "2026-05",
@@ -3794,496 +2767,346 @@
       "cajas": 60.0
     },
     {
-      "mes": "2026-08",
-      "cliente": "KAIRON SRL",
+      "mes": "2025-12",
+      "cliente": "BAI - EXPORT S.A. ",
       "articulo_id": 30732,
-      "cajas": 12.0
+      "cajas": 60.0
     },
     {
-      "mes": "2026-07",
-      "cliente": "STYL WILL INC S.A.",
-      "articulo_id": 30728,
-      "cajas": 3.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30732,
+      "mes": "2025-12",
+      "cliente": "LUCAS POVOLO",
+      "articulo_id": 30731,
       "cajas": 1.0
     },
     {
-      "mes": "2026-09",
-      "cliente": "APR SERVICIOS S.A.",
-      "articulo_id": 30733,
-      "cajas": 10.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "BEYVIN SOCIEDAD ANONIMA",
-      "articulo_id": 30733,
+      "mes": "2026-10",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30728,
       "cajas": 12.0
     },
     {
-      "mes": "2026-03",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30734,
+      "mes": "2026-01",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30735,
+      "cajas": 4.4
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30730,
+      "cajas": 90.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30733,
       "cajas": 30.0
     },
     {
-      "mes": "2026-03",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30728,
-      "cajas": 41.0
+      "mes": "2026-04",
+      "cliente": "BAISE DISTRIBUCIONES S.A.",
+      "articulo_id": 30727,
+      "cajas": 18.0
     },
     {
       "mes": "2026-06",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30730,
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30735,
       "cajas": 12.0
     },
     {
       "mes": "2025-11",
-      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
-      "articulo_id": 30727,
-      "cajas": 120.0
-    },
-    {
-      "mes": "2026-04",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30733,
-      "cajas": -90.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30728,
-      "cajas": -0.0625
-    },
-    {
-      "mes": "2026-02",
       "cliente": "COMERCIAL FRODO S.A. ",
-      "articulo_id": 30729,
-      "cajas": 2.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30733,
-      "cajas": 49.0
-    },
-    {
-      "mes": "2026-04",
-      "cliente": "BAISE DISTRIBUCIONES S.A.",
-      "articulo_id": 30728,
-      "cajas": 18.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "BEYVIN SOCIEDAD ANONIMA",
-      "articulo_id": 30730,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30732,
-      "cajas": 40.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "BEYVIN SOCIEDAD ANONIMA",
-      "articulo_id": 30730,
-      "cajas": 18.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "EKOTIENDA S. A.",
-      "articulo_id": 30732,
+      "articulo_id": 30734,
       "cajas": 30.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30732,
-      "cajas": 6.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "DISMA GBA S.A.",
-      "articulo_id": 30735,
-      "cajas": 16.5
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "+CAMPI S.A.S. S. A. S.",
-      "articulo_id": 30731,
-      "cajas": 8.0
-    },
-    {
-      "mes": "2026-08",
-      "cliente": "GO MARKET STORE S.R.L",
-      "articulo_id": 30732,
-      "cajas": 1.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30735,
-      "cajas": 132.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30729,
-      "cajas": 90.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "APR SERVICIOS S.A.",
-      "articulo_id": 30727,
-      "cajas": 20.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30736,
-      "cajas": 33.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30732,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "BAISE DISTRIBUCIONES S.A.",
-      "articulo_id": 30732,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30735,
-      "cajas": -0.016666666666666666
     },
     {
       "mes": "2026-02",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30734,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-08",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30731,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-08",
-      "cliente": "APR SERVICIOS S.A.",
-      "articulo_id": 30732,
-      "cajas": 10.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30729,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-04",
-      "cliente": "COMERCIAL FRODO S.A. ",
-      "articulo_id": 30733,
-      "cajas": 40.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "BEYVIN SOCIEDAD ANONIMA",
-      "articulo_id": 30734,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30731,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
-      "articulo_id": 30730,
-      "cajas": 18.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30731,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-08",
       "cliente": "THE B2B SOCIEDAD ANONIMA",
       "articulo_id": 30732,
       "cajas": 1.0
     },
     {
-      "mes": "2026-07",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30730,
-      "cajas": 18.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30727,
-      "cajas": 1.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30735,
-      "cajas": 33.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30730,
-      "cajas": 1.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30729,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30733,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30729,
-      "cajas": 20.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30732,
-      "cajas": 54.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "APR SERVICIOS S.A.",
-      "articulo_id": 30731,
-      "cajas": 10.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "BEYVIN SOCIEDAD ANONIMA",
-      "articulo_id": 30727,
-      "cajas": 18.0
-    },
-    {
       "mes": "2026-02",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30732,
-      "cajas": 90.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30734,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "COOPERKIO AGRUPACION A. DE C.",
-      "articulo_id": 30733,
-      "cajas": 100.0
-    },
-    {
-      "mes": "2026-04",
-      "cliente": "BAISE DISTRIBUCIONES S.A.",
-      "articulo_id": 30729,
-      "cajas": 18.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30733,
-      "cajas": 180.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "COOPERKIO AGRUPACION A. DE C.",
-      "articulo_id": 30732,
-      "cajas": 50.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "STYL WILL INC S.A.",
-      "articulo_id": 30732,
-      "cajas": 5.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "DISMA GBA S.A.",
-      "articulo_id": 30736,
-      "cajas": 66.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30734,
-      "cajas": 2.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30731,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30731,
-      "cajas": 90.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30731,
-      "cajas": 18.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
-      "articulo_id": 30732,
-      "cajas": 32.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30727,
-      "cajas": -9.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30728,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "EKOTIENDA S. A.",
-      "articulo_id": 30733,
-      "cajas": 240.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "BAISE DISTRIBUCIONES S.A.",
-      "articulo_id": 30727,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30728,
-      "cajas": 21.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "DISMA GBA S.A.",
-      "articulo_id": 30732,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-01",
       "cliente": "WINEROD SRL",
       "articulo_id": 30736,
       "cajas": 49.5
     },
     {
-      "mes": "2026-01",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30734,
-      "cajas": 90.0
-    },
-    {
-      "mes": "2026-03",
+      "mes": "2026-07",
       "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30736,
-      "cajas": 11.0
+      "articulo_id": 30729,
+      "cajas": 18.0
     },
     {
-      "mes": "2026-01",
-      "cliente": "BAISE DISTRIBUCIONES S.A.",
+      "mes": "2026-05",
+      "cliente": "STYL WILL INC S.A.",
+      "articulo_id": 30730,
+      "cajas": 16.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30728,
+      "cajas": 34.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "STYL WILL INC S.A.",
+      "articulo_id": 30729,
+      "cajas": 3.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "+CAMPI S.A.S. S. A. S.",
+      "articulo_id": 30727,
+      "cajas": 18.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30729,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-08",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30728,
+      "cajas": 10.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "LOGIQUEN S.A ",
       "articulo_id": 30734,
+      "cajas": 78.0
+    },
+    {
+      "mes": "2026-04",
+      "cliente": "COMERCIAL FRODO S.A. ",
+      "articulo_id": 30728,
+      "cajas": 20.0
+    },
+    {
+      "mes": "2026-04",
+      "cliente": "BAISE DISTRIBUCIONES S.A.",
+      "articulo_id": 30733,
       "cajas": 30.0
     },
     {
       "mes": "2026-02",
-      "cliente": "COMERCIAL FRODO S.A. ",
-      "articulo_id": 30730,
-      "cajas": 2.0
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30729,
+      "cajas": 40.0
     },
     {
       "mes": "2026-06",
-      "cliente": "APR SERVICIOS S.A.",
-      "articulo_id": 30734,
-      "cajas": 30.0
+      "cliente": "OMAR JESUS MURADOR",
+      "articulo_id": 30730,
+      "cajas": 18.0
     },
     {
-      "mes": "2026-08",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30732,
-      "cajas": 30.0
+      "mes": "2026-06",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30727,
+      "cajas": 27.0
     },
     {
-      "mes": "2026-08",
+      "mes": "2025-11",
       "cliente": "KAIRON SRL",
       "articulo_id": 30729,
       "cajas": 6.0
     },
     {
-      "mes": "2026-01",
-      "cliente": "BAISE DISTRIBUCIONES S.A.",
-      "articulo_id": 30729,
-      "cajas": 30.0
+      "mes": "2026-06",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30734,
+      "cajas": 102.0
     },
     {
       "mes": "2026-07",
       "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30733,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30735,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30728,
+      "cajas": -3.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30729,
+      "cajas": 24.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30731,
+      "cajas": 3.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30728,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "APR SERVICIOS S.A.",
       "articulo_id": 30730,
+      "cajas": 18.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30734,
+      "cajas": 15.0
+    },
+    {
+      "mes": "2026-08",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30727,
+      "cajas": -1.4375
+    },
+    {
+      "mes": "2026-04",
+      "cliente": "BAISE DISTRIBUCIONES S.A.",
+      "articulo_id": 30734,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "BAISE DISTRIBUCIONES S.A.",
+      "articulo_id": 30728,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30727,
+      "cajas": 44.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "STYL WILL INC S.A.",
+      "articulo_id": 30733,
+      "cajas": 5.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30728,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30732,
       "cajas": 12.0
     },
     {
       "mes": "2026-09",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30727,
-      "cajas": 14.0
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30731,
+      "cajas": 3.0
     },
     {
-      "mes": "2026-07",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30730,
-      "cajas": 6.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "LOGIQUEN S.A ",
+      "mes": "2025-12",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
       "articulo_id": 30729,
+      "cajas": 5.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "+CAMPI S.A.S. S. A. S.",
+      "articulo_id": 30734,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30731,
+      "cajas": 5.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "DELIVERY HERO E-COMMERCE S. A.",
+      "articulo_id": 30727,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-08",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30728,
       "cajas": 12.0
     },
     {
-      "mes": "2026-05",
-      "cliente": "LOGIQUEN S.A ",
+      "mes": "2026-08",
+      "cliente": "GO MARKET STORE S.R.L",
+      "articulo_id": 30733,
+      "cajas": 1.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30735,
+      "cajas": 4.4
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "OMAR JESUS MURADOR",
       "articulo_id": 30734,
-      "cajas": 90.0
+      "cajas": 24.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "COMERCIAL FRODO S.A. ",
+      "articulo_id": 30727,
+      "cajas": 22.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30734,
+      "cajas": 47.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30727,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30736,
+      "cajas": 66.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30735,
+      "cajas": 3.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30734,
+      "cajas": 42.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30736,
+      "cajas": 49.5
     },
     {
       "mes": "2025-12",
@@ -4293,27 +3116,15 @@
     },
     {
       "mes": "2026-01",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30735,
-      "cajas": 49.5
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30730,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-01",
       "cliente": "BAI - EXPORT S.A. ",
       "articulo_id": 30730,
       "cajas": 30.0
     },
     {
-      "mes": "2026-02",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30730,
-      "cajas": 44.0
+      "mes": "2026-01",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30735,
+      "cajas": 49.5
     },
     {
       "mes": "2026-04",
@@ -4322,10 +3133,16 @@
       "cajas": 48.0
     },
     {
+      "mes": "2026-02",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30730,
+      "cajas": 44.0
+    },
+    {
       "mes": "2026-03",
-      "cliente": "DISMA GBA S.A.",
-      "articulo_id": 30735,
-      "cajas": 66.0
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30730,
+      "cajas": 12.0
     },
     {
       "mes": "2026-03",
@@ -4340,106 +3157,16 @@
       "cajas": 36.0
     },
     {
+      "mes": "2026-03",
+      "cliente": "DISMA GBA S.A.",
+      "articulo_id": 30735,
+      "cajas": 66.0
+    },
+    {
       "mes": "2026-05",
       "cliente": "LOGIQUEN S.A ",
       "articulo_id": 30733,
       "cajas": 60.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "EKOTIENDA S. A.",
-      "articulo_id": 30736,
-      "cajas": 66.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "DISMA GBA S.A.",
-      "articulo_id": 30728,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "OMAR JESUS MURADOR",
-      "articulo_id": 30736,
-      "cajas": 4.0
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
-      "articulo_id": 30730,
-      "cajas": 120.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30729,
-      "cajas": 53.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30733,
-      "cajas": 51.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "+CAMPI S.A.S. S. A. S.",
-      "articulo_id": 30728,
-      "cajas": 18.0
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30731,
-      "cajas": 120.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30730,
-      "cajas": 26.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "BAISE DISTRIBUCIONES S.A.",
-      "articulo_id": 30732,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30727,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30734,
-      "cajas": 40.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "BAISE DISTRIBUCIONES S.A.",
-      "articulo_id": 30735,
-      "cajas": 19.8
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "BEYVIN SOCIEDAD ANONIMA",
-      "articulo_id": 30731,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "M  F DISTRIBUCIONES S.R.L.",
-      "articulo_id": 30729,
-      "cajas": 18.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "APR SERVICIOS S.A.",
-      "articulo_id": 30736,
-      "cajas": 12.0
     },
     {
       "mes": "2026-08",
@@ -4448,16 +3175,46 @@
       "cajas": 36.0
     },
     {
-      "mes": "2026-01",
-      "cliente": "WINEROD SRL",
+      "mes": "2025-12",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30733,
+      "cajas": 10.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "KAIRON SRL",
       "articulo_id": 30734,
-      "cajas": 90.0
+      "cajas": 8.0
     },
     {
       "mes": "2025-12",
       "cliente": "LUCAS POVOLO",
       "articulo_id": 30735,
       "cajas": 1.1
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30734,
+      "cajas": 90.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30734,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30728,
+      "cajas": 120.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30731,
+      "cajas": 2.0
     },
     {
       "mes": "2026-02",
@@ -4472,58 +3229,16 @@
       "cajas": 60.0
     },
     {
-      "mes": "2026-02",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30731,
-      "cajas": 2.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30730,
-      "cajas": 48.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30734,
-      "cajas": 60.0
-    },
-    {
       "mes": "2026-03",
       "cliente": "BAISE DISTRIBUCIONES S.A.",
       "articulo_id": 30734,
       "cajas": 12.0
     },
     {
-      "mes": "2025-12",
+      "mes": "2026-03",
       "cliente": "KAIRON SRL",
-      "articulo_id": 30733,
-      "cajas": 10.0
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30728,
-      "cajas": 120.0
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
-      "articulo_id": 30735,
-      "cajas": 66.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "COOPERKIO AGRUPACION A. DE C.",
-      "articulo_id": 30731,
-      "cajas": 50.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "DISMA GBA S.A.",
-      "articulo_id": 30734,
-      "cajas": 60.0
+      "articulo_id": 30730,
+      "cajas": 48.0
     },
     {
       "mes": "2026-05",
@@ -4538,361 +3253,13 @@
       "cajas": 24.0
     },
     {
-      "mes": "2026-05",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30728,
-      "cajas": 6.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30736,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "STYL WILL INC S.A.",
-      "articulo_id": 30733,
-      "cajas": 5.0
-    },
-    {
-      "mes": "2026-08",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30727,
-      "cajas": -1.4375
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30729,
-      "cajas": 24.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "BAISE DISTRIBUCIONES S.A.",
-      "articulo_id": 30728,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-04",
-      "cliente": "BAISE DISTRIBUCIONES S.A.",
-      "articulo_id": 30734,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30727,
-      "cajas": 44.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30728,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30731,
-      "cajas": 3.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
-      "articulo_id": 30732,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30727,
-      "cajas": 6.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30727,
-      "cajas": 34.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
-      "articulo_id": 30730,
-      "cajas": 13.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "STYL WILL INC S.A.",
-      "articulo_id": 30733,
-      "cajas": 1.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30732,
-      "cajas": 90.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30731,
-      "cajas": 47.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30727,
-      "cajas": 9.0
-    },
-    {
-      "mes": "2026-08",
-      "cliente": "APR SERVICIOS S.A.",
-      "articulo_id": 30729,
-      "cajas": 10.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30727,
-      "cajas": 60.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
-      "articulo_id": 30735,
-      "cajas": 33.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30736,
-      "cajas": 50.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30732,
-      "cajas": 1.0
-    },
-    {
-      "mes": "2026-04",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30731,
-      "cajas": -30.0
-    },
-    {
-      "mes": "2026-04",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30731,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "BAISE DISTRIBUCIONES S.A.",
-      "articulo_id": 30730,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30732,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "M  F DISTRIBUCIONES S.R.L.",
-      "articulo_id": 30733,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "BAISE DISTRIBUCIONES S.A.",
-      "articulo_id": 30733,
-      "cajas": 60.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "OMAR JESUS MURADOR",
-      "articulo_id": 30735,
-      "cajas": 6.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "STYL WILL INC S.A.",
-      "articulo_id": 30731,
-      "cajas": 18.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "LUCAS POVOLO",
-      "articulo_id": 30727,
-      "cajas": 1.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "+CAMPI S.A.S. S. A. S.",
-      "articulo_id": 30729,
-      "cajas": 24.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30735,
-      "cajas": 1.1
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30730,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "OMAR JESUS MURADOR",
-      "articulo_id": 30732,
-      "cajas": 24.0
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30729,
-      "cajas": 120.0
-    },
-    {
-      "mes": "2026-04",
-      "cliente": "COMERCIAL FRODO S.A. ",
-      "articulo_id": 30727,
-      "cajas": 32.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "OMAR JESUS MURADOR",
-      "articulo_id": 30728,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "COOPERKIO AGRUPACION A. DE C.",
-      "articulo_id": 30734,
-      "cajas": 60.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30727,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "STYL WILL INC S.A.",
-      "articulo_id": 30732,
-      "cajas": 18.0
-    },
-    {
       "mes": "2026-03",
       "cliente": "COOPERKIO AGRUPACION A. DE C.",
-      "articulo_id": 30730,
+      "articulo_id": 30731,
       "cajas": 50.0
     },
     {
       "mes": "2026-03",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30732,
-      "cajas": -0.0625
-    },
-    {
-      "mes": "2026-01",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30732,
-      "cajas": 150.0
-    },
-    {
-      "mes": "2026-08",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30733,
-      "cajas": 24.0
-    },
-    {
-      "mes": "2026-08",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30729,
-      "cajas": 8.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30727,
-      "cajas": 2.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30728,
-      "cajas": 60.0
-    },
-    {
-      "mes": "2026-04",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30732,
-      "cajas": 1.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "STYL WILL INC S.A.",
-      "articulo_id": 30727,
-      "cajas": 3.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30731,
-      "cajas": 60.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "COMERCIAL FRODO S.A. ",
-      "articulo_id": 30732,
-      "cajas": 2.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30730,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "COOPERKIO AGRUPACION A. DE C.",
-      "articulo_id": 30732,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "APR SERVICIOS S.A.",
-      "articulo_id": 30735,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "OMAR JESUS MURADOR",
-      "articulo_id": 30727,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
-      "articulo_id": 30730,
-      "cajas": 24.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "M  F DISTRIBUCIONES S.R.L.",
-      "articulo_id": 30734,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-05",
       "cliente": "DISMA GBA S.A.",
       "articulo_id": 30734,
       "cajas": 60.0
@@ -4900,158 +3267,116 @@
     {
       "mes": "2026-05",
       "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30734,
-      "cajas": 90.0
+      "articulo_id": 30728,
+      "cajas": 6.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30736,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30735,
+      "cajas": 66.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30730,
+      "cajas": 26.0
     },
     {
       "mes": "2025-12",
       "cliente": "EKOTIENDA S. A.",
-      "articulo_id": 30734,
-      "cajas": 240.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
-      "articulo_id": 30729,
-      "cajas": 18.0
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "COMERCIAL FRODO S.A. ",
-      "articulo_id": 30732,
-      "cajas": 22.0
-    },
-    {
-      "mes": "2025-12",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30733,
-      "cajas": 240.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30729,
-      "cajas": 47.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "BEYVIN SOCIEDAD ANONIMA",
-      "articulo_id": 30732,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-04",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30734,
-      "cajas": 60.0
+      "articulo_id": 30736,
+      "cajas": 66.0
     },
     {
       "mes": "2026-01",
-      "cliente": "BAISE DISTRIBUCIONES S.A.",
-      "articulo_id": 30735,
-      "cajas": 33.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30733,
-      "cajas": 43.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "BEYVIN SOCIEDAD ANONIMA",
-      "articulo_id": 30729,
-      "cajas": 18.0
+      "cliente": "DISMA GBA S.A.",
+      "articulo_id": 30728,
+      "cajas": 30.0
     },
     {
       "mes": "2026-09",
-      "cliente": "COOPERKIO AGRUPACION A. DE C.",
-      "articulo_id": 30730,
-      "cajas": 30.0
+      "cliente": "+CAMPI S.A.S. S. A. S.",
+      "articulo_id": 30728,
+      "cajas": 18.0
     },
     {
       "mes": "2026-06",
-      "cliente": "BAISE DISTRIBUCIONES S.A.",
-      "articulo_id": 30735,
-      "cajas": 18.0
-    },
-    {
-      "mes": "2026-05",
       "cliente": "KAIRON SRL",
       "articulo_id": 30733,
-      "cajas": 41.0
+      "cajas": 51.0
     },
     {
-      "mes": "2026-02",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30735,
-      "cajas": 1.1
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30733,
-      "cajas": 84.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "DISMA GBA S.A.",
-      "articulo_id": 30731,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2025-11",
+      "mes": "2026-06",
       "cliente": "KAIRON SRL",
+      "articulo_id": 30729,
+      "cajas": 53.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "APR SERVICIOS S.A.",
       "articulo_id": 30736,
-      "cajas": 3.3
+      "cajas": 12.0
     },
     {
       "mes": "2025-11",
-      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
       "articulo_id": 30731,
       "cajas": 120.0
     },
     {
-      "mes": "2026-08",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30733,
-      "cajas": 8.0
+      "mes": "2026-06",
+      "cliente": "BEYVIN SOCIEDAD ANONIMA",
+      "articulo_id": 30731,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "BAISE DISTRIBUCIONES S.A.",
+      "articulo_id": 30735,
+      "cajas": 19.8
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "OMAR JESUS MURADOR",
+      "articulo_id": 30736,
+      "cajas": 4.0
     },
     {
       "mes": "2026-03",
       "cliente": "KAIRON SRL",
-      "articulo_id": 30731,
-      "cajas": 22.0
+      "articulo_id": 30734,
+      "cajas": 40.0
     },
     {
       "mes": "2026-07",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30736,
-      "cajas": 6.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30733,
-      "cajas": 210.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30728,
-      "cajas": 2.0
-    },
-    {
-      "mes": "2026-05",
-      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
+      "cliente": "M  F DISTRIBUCIONES S.R.L.",
       "articulo_id": 30729,
-      "cajas": 39.0
+      "cajas": 18.0
     },
     {
-      "mes": "2026-05",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30729,
-      "cajas": -2.0
+      "mes": "2026-07",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30727,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30730,
+      "cajas": 120.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "BAISE DISTRIBUCIONES S.A.",
+      "articulo_id": 30732,
+      "cajas": 12.0
     },
     {
       "mes": "2025-12",
@@ -5066,6 +3391,18 @@
       "cajas": 180.0
     },
     {
+      "mes": "2026-08",
+      "cliente": "GO MARKET STORE S.R.L",
+      "articulo_id": 30728,
+      "cajas": 1.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "BAI - EXPORT S.A. ",
+      "articulo_id": 30736,
+      "cajas": 132.0
+    },
+    {
       "mes": "2026-01",
       "cliente": "DISMA GBA S.A.",
       "articulo_id": 30729,
@@ -5078,28 +3415,10 @@
       "cajas": 3.3000000000000003
     },
     {
-      "mes": "2026-07",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30728,
-      "cajas": 18.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30727,
-      "cajas": 12.0
-    },
-    {
-      "mes": "2026-08",
-      "cliente": "GO MARKET STORE S.R.L",
-      "articulo_id": 30728,
-      "cajas": 1.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "EKOTIENDA S. A.",
-      "articulo_id": 30734,
-      "cajas": -150.0
+      "mes": "2025-11",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30732,
+      "cajas": 120.0
     },
     {
       "mes": "2026-06",
@@ -5108,40 +3427,28 @@
       "cajas": 18.0
     },
     {
-      "mes": "2025-12",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30736,
-      "cajas": 132.0
-    },
-    {
-      "mes": "2025-11",
-      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
-      "articulo_id": 30732,
-      "cajas": 120.0
-    },
-    {
-      "mes": "2026-07",
-      "cliente": "STYL WILL INC S.A.",
-      "articulo_id": 30734,
-      "cajas": 5.0
-    },
-    {
       "mes": "2026-06",
       "cliente": "APR SERVICIOS S.A.",
       "articulo_id": 30731,
       "cajas": 24.0
     },
     {
-      "mes": "2026-05",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
-      "articulo_id": 30732,
-      "cajas": 24.0
+      "mes": "2026-03",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30727,
+      "cajas": 12.0
     },
     {
-      "mes": "2026-05",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30735,
-      "cajas": 18.0
+      "mes": "2026-03",
+      "cliente": "EKOTIENDA S. A.",
+      "articulo_id": 30734,
+      "cajas": -150.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "STYL WILL INC S.A.",
+      "articulo_id": 30734,
+      "cajas": 5.0
     },
     {
       "mes": "2026-03",
@@ -5151,81 +3458,1809 @@
     },
     {
       "mes": "2026-05",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30732,
+      "cajas": 24.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30735,
+      "cajas": 18.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30728,
+      "cajas": 18.0
+    },
+    {
+      "mes": "2026-05",
       "cliente": "THE B2B SOCIEDAD ANONIMA",
       "articulo_id": 30729,
       "cajas": 2.0
     },
     {
-      "mes": "2025-12",
-      "cliente": "LUCAS POVOLO",
+      "mes": "2026-08",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30733,
+      "cajas": 24.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "STYL WILL INC S.A.",
+      "articulo_id": 30727,
+      "cajas": 3.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30730,
+      "cajas": 8.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30729,
+      "cajas": 8.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "DELIVERY HERO E-COMMERCE S. A.",
       "articulo_id": 30731,
-      "cajas": 1.0
+      "cajas": 60.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30732,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-08",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30729,
+      "cajas": 8.0
     },
     {
       "mes": "2026-01",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30735,
-      "cajas": 4.4
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30732,
+      "cajas": 150.0
     },
     {
-      "mes": "2025-11",
+      "mes": "2025-12",
+      "cliente": "BAI - EXPORT S.A. ",
+      "articulo_id": 30731,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2026-04",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30732,
+      "cajas": 1.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "OMAR JESUS MURADOR",
+      "articulo_id": 30727,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30727,
+      "cajas": 2.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30730,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "COOPERKIO AGRUPACION A. DE C.",
+      "articulo_id": 30732,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30735,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-02",
       "cliente": "COMERCIAL FRODO S.A. ",
+      "articulo_id": 30732,
+      "cajas": 2.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
+      "articulo_id": 30730,
+      "cajas": 24.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30728,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "M  F DISTRIBUCIONES S.R.L.",
+      "articulo_id": 30734,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "DISMA GBA S.A.",
+      "articulo_id": 30734,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30734,
+      "cajas": 90.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30731,
+      "cajas": 11.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30727,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2026-08",
+      "cliente": "GO MARKET STORE S.R.L",
+      "articulo_id": 30729,
+      "cajas": 1.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30732,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30727,
+      "cajas": 3.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30730,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-04",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30729,
+      "cajas": 36.0
+    },
+    {
+      "mes": "2026-08",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30727,
+      "cajas": 10.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "WINEROD SRL",
       "articulo_id": 30734,
       "cajas": 30.0
     },
     {
       "mes": "2026-07",
-      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "cliente": "KAIRON SRL",
       "articulo_id": 30729,
-      "cajas": 18.0
+      "cajas": 33.0
     },
     {
-      "mes": "2026-04",
-      "cliente": "BAISE DISTRIBUCIONES S.A.",
-      "articulo_id": 30727,
-      "cajas": 18.0
+      "mes": "2026-07",
+      "cliente": "M  F DISTRIBUCIONES S.R.L.",
+      "articulo_id": 30732,
+      "cajas": 24.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "EKOTIENDA S. A.",
+      "articulo_id": 30728,
+      "cajas": 60.0
     },
     {
       "mes": "2026-09",
       "cliente": "KAIRON SRL",
+      "articulo_id": 30734,
+      "cajas": 27.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "LUCAS POVOLO",
+      "articulo_id": 30736,
+      "cajas": 1.1
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
+      "articulo_id": 30728,
+      "cajas": 11.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30732,
+      "cajas": 24.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "BAI - EXPORT S.A. ",
+      "articulo_id": 30734,
+      "cajas": 180.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
+      "articulo_id": 30733,
+      "cajas": 5.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30732,
+      "cajas": 4.0
+    },
+    {
+      "mes": "2026-04",
+      "cliente": "BAISE DISTRIBUCIONES S.A.",
+      "articulo_id": 30735,
+      "cajas": 33.0
+    },
+    {
+      "mes": "2026-04",
+      "cliente": "BAI - EXPORT S.A. ",
+      "articulo_id": 30736,
+      "cajas": -66.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "BAI - EXPORT S.A. ",
+      "articulo_id": 30731,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30736,
+      "cajas": 33.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30728,
+      "cajas": 6.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30729,
+      "cajas": 120.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30728,
+      "cajas": 33.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30733,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30732,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30730,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "BAI - EXPORT S.A. ",
+      "articulo_id": 30727,
+      "cajas": -0.0625
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30733,
+      "cajas": 540.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "M  F DISTRIBUCIONES S.R.L.",
+      "articulo_id": 30727,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30729,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30732,
+      "cajas": 54.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30733,
+      "cajas": 180.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30729,
+      "cajas": 20.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30730,
+      "cajas": 1.0
+    },
+    {
+      "mes": "2026-04",
+      "cliente": "BAISE DISTRIBUCIONES S.A.",
+      "articulo_id": 30729,
+      "cajas": 18.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30735,
+      "cajas": 33.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30731,
+      "cajas": 90.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30729,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30733,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30732,
+      "cajas": 90.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30731,
+      "cajas": 18.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
+      "articulo_id": 30732,
+      "cajas": 32.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "COOPERKIO AGRUPACION A. DE C.",
+      "articulo_id": 30733,
+      "cajas": 100.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30731,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "COOPERKIO AGRUPACION A. DE C.",
+      "articulo_id": 30732,
+      "cajas": 50.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30731,
+      "cajas": 10.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "BEYVIN SOCIEDAD ANONIMA",
+      "articulo_id": 30727,
+      "cajas": 18.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "DISMA GBA S.A.",
+      "articulo_id": 30736,
+      "cajas": 66.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30734,
+      "cajas": 2.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "STYL WILL INC S.A.",
+      "articulo_id": 30732,
+      "cajas": 5.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30734,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30728,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30727,
+      "cajas": -9.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "DELIVERY HERO E-COMMERCE S. A.",
+      "articulo_id": 30733,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2026-04",
+      "cliente": "COMERCIAL FRODO S.A. ",
+      "articulo_id": 30730,
+      "cajas": 20.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30735,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30734,
+      "cajas": 1.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30728,
+      "cajas": 32.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30727,
+      "cajas": 120.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "COOPERKIO AGRUPACION A. DE C.",
+      "articulo_id": 30733,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "STYL WILL INC S.A.",
+      "articulo_id": 30731,
+      "cajas": 5.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "LUCAS POVOLO",
+      "articulo_id": 30730,
+      "cajas": 1.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30731,
+      "cajas": 33.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30733,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2026-04",
+      "cliente": "BAI - EXPORT S.A. ",
+      "articulo_id": 30732,
+      "cajas": -30.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30735,
+      "cajas": 1.1
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "DISMA GBA S.A.",
+      "articulo_id": 30727,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-04",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30732,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30728,
+      "cajas": 120.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "COMERCIAL FRODO S.A. ",
+      "articulo_id": 30735,
+      "cajas": 23.1
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "OMAR JESUS MURADOR",
+      "articulo_id": 30736,
+      "cajas": 6.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30731,
+      "cajas": 90.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30729,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "STYL WILL INC S.A.",
+      "articulo_id": 30729,
+      "cajas": 3.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30727,
+      "cajas": 32.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
+      "articulo_id": 30727,
+      "cajas": 39.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30734,
+      "cajas": 3.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30733,
+      "cajas": 18.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "DISMA GBA S.A.",
+      "articulo_id": 30731,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "DELIVERY HERO E-COMMERCE S. A.",
+      "articulo_id": 30733,
+      "cajas": 120.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "DISMA GBA S.A.",
       "articulo_id": 30733,
       "cajas": 30.0
     },
     {
       "mes": "2026-06",
       "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30735,
+      "articulo_id": 30736,
+      "cajas": 18.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30736,
+      "cajas": 33.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30728,
+      "cajas": 10.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30728,
       "cajas": 12.0
     },
     {
       "mes": "2025-12",
+      "cliente": "LUCAS POVOLO",
+      "articulo_id": 30727,
+      "cajas": 1.0
+    },
+    {
+      "mes": "2025-12",
       "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30732,
+      "articulo_id": 30727,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30735,
+      "cajas": 1.1
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30730,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-04",
+      "cliente": "COMERCIAL FRODO S.A. ",
+      "articulo_id": 30727,
+      "cajas": 32.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "+CAMPI S.A.S. S. A. S.",
+      "articulo_id": 30729,
+      "cajas": 24.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30729,
+      "cajas": 120.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "COOPERKIO AGRUPACION A. DE C.",
+      "articulo_id": 30734,
       "cajas": 60.0
     },
     {
-      "mes": "2026-01",
-      "cliente": "WINEROD SRL",
+      "mes": "2026-06",
+      "cliente": "OMAR JESUS MURADOR",
+      "articulo_id": 30732,
+      "cajas": 24.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "OMAR JESUS MURADOR",
+      "articulo_id": 30728,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "COOPERKIO AGRUPACION A. DE C.",
       "articulo_id": 30730,
-      "cajas": 90.0
+      "cajas": 50.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "BAI - EXPORT S.A. ",
+      "articulo_id": 30732,
+      "cajas": -0.0625
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "STYL WILL INC S.A.",
+      "articulo_id": 30732,
+      "cajas": 18.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "LUCAS POVOLO",
+      "articulo_id": 30732,
+      "cajas": 1.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "DELIVERY HERO E-COMMERCE S. A.",
+      "articulo_id": 30734,
+      "cajas": 120.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "EKOTIENDA S. A.",
+      "articulo_id": 30735,
+      "cajas": 66.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30727,
+      "cajas": 6.0
+    },
+    {
+      "mes": "2026-04",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30736,
+      "cajas": 3.3
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "BEYVIN SOCIEDAD ANONIMA",
+      "articulo_id": 30728,
+      "cajas": 6.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "OMAR JESUS MURADOR",
+      "articulo_id": 30729,
+      "cajas": 18.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30730,
+      "cajas": 120.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "STYL WILL INC S.A.",
+      "articulo_id": 30727,
+      "cajas": 3.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30732,
+      "cajas": 37.0
     },
     {
       "mes": "2026-02",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30729,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30730,
+      "cajas": 4.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30732,
+      "cajas": 24.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30727,
+      "cajas": 10.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30736,
+      "cajas": 66.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30727,
+      "cajas": 8.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30733,
+      "cajas": 31.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30731,
+      "cajas": 46.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30730,
+      "cajas": 68.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30732,
+      "cajas": 66.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "COOPERKIO AGRUPACION A. DE C.",
+      "articulo_id": 30731,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "OMAR JESUS MURADOR",
+      "articulo_id": 30731,
+      "cajas": 24.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30735,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30733,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30735,
+      "cajas": 16.5
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "BEYVIN SOCIEDAD ANONIMA",
+      "articulo_id": 30728,
+      "cajas": 18.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30736,
+      "cajas": 1.1
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30730,
+      "cajas": 2.0
+    },
+    {
+      "mes": "2026-08",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30732,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "EKOTIENDA S. A.",
+      "articulo_id": 30732,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30732,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-09",
       "cliente": "THE B2B SOCIEDAD ANONIMA",
       "articulo_id": 30732,
       "cajas": 1.0
     },
     {
+      "mes": "2026-04",
+      "cliente": "BAI - EXPORT S.A. ",
+      "articulo_id": 30733,
+      "cajas": -90.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30733,
+      "cajas": 10.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "BEYVIN SOCIEDAD ANONIMA",
+      "articulo_id": 30733,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30727,
+      "cajas": 120.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30733,
+      "cajas": 49.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30730,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "BEYVIN SOCIEDAD ANONIMA",
+      "articulo_id": 30730,
+      "cajas": 12.0
+    },
+    {
       "mes": "2026-02",
+      "cliente": "COMERCIAL FRODO S.A. ",
+      "articulo_id": 30729,
+      "cajas": 2.0
+    },
+    {
+      "mes": "2026-04",
+      "cliente": "BAISE DISTRIBUCIONES S.A.",
+      "articulo_id": 30728,
+      "cajas": 18.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "BEYVIN SOCIEDAD ANONIMA",
+      "articulo_id": 30730,
+      "cajas": 18.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30728,
+      "cajas": 41.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "STYL WILL INC S.A.",
+      "articulo_id": 30728,
+      "cajas": 3.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30732,
+      "cajas": 40.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "BAI - EXPORT S.A. ",
+      "articulo_id": 30728,
+      "cajas": -0.0625
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30734,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30732,
+      "cajas": 6.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30733,
+      "cajas": 84.0
+    },
+    {
+      "mes": "2026-08",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30733,
+      "cajas": 8.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30736,
+      "cajas": 3.3
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30733,
+      "cajas": 210.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30731,
+      "cajas": 120.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30728,
+      "cajas": 2.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30731,
+      "cajas": 22.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
+      "articulo_id": 30729,
+      "cajas": 39.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30729,
+      "cajas": -2.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "DISMA GBA S.A.",
+      "articulo_id": 30731,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30736,
+      "cajas": 6.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "EKOTIENDA S. A.",
+      "articulo_id": 30733,
+      "cajas": 240.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30727,
+      "cajas": 14.0
+    },
+    {
+      "mes": "2026-08",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30729,
+      "cajas": 6.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30728,
+      "cajas": 21.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "DISMA GBA S.A.",
+      "articulo_id": 30732,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "BAISE DISTRIBUCIONES S.A.",
+      "articulo_id": 30734,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "BAISE DISTRIBUCIONES S.A.",
+      "articulo_id": 30729,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "BAI - EXPORT S.A. ",
+      "articulo_id": 30734,
+      "cajas": 90.0
+    },
+    {
+      "mes": "2026-01",
       "cliente": "WINEROD SRL",
       "articulo_id": 30736,
       "cajas": 49.5
     },
     {
+      "mes": "2026-08",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30732,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "BAISE DISTRIBUCIONES S.A.",
+      "articulo_id": 30727,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "COMERCIAL FRODO S.A. ",
+      "articulo_id": 30730,
+      "cajas": 2.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30734,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30736,
+      "cajas": 11.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30730,
+      "cajas": 12.0
+    },
+    {
       "mes": "2026-05",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30729,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30734,
+      "cajas": 90.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30730,
+      "cajas": 6.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30734,
+      "cajas": 8.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "STYL WILL INC S.A.",
+      "articulo_id": 30728,
+      "cajas": 3.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30735,
+      "cajas": 66.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30732,
+      "cajas": 3.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30729,
+      "cajas": 90.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30730,
+      "cajas": 31.0
+    },
+    {
+      "mes": "2026-04",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30735,
+      "cajas": 7.7
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30731,
+      "cajas": 66.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "COMERCIAL FRODO S.A. ",
+      "articulo_id": 30736,
+      "cajas": 23.1
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30736,
+      "cajas": 2.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30730,
+      "cajas": 0.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
+      "articulo_id": 30733,
+      "cajas": 47.0
+    },
+    {
+      "mes": "2026-07",
       "cliente": "STYL WILL INC S.A.",
       "articulo_id": 30730,
-      "cajas": 16.0
+      "cajas": 3.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30733,
+      "cajas": 1.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30732,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30732,
+      "cajas": 1.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30734,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "+CAMPI S.A.S. S. A. S.",
+      "articulo_id": 30730,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30731,
+      "cajas": 7.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30730,
+      "cajas": 3.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "BAI - EXPORT S.A. ",
+      "articulo_id": 30733,
+      "cajas": 90.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "BAI - EXPORT S.A. ",
+      "articulo_id": 30732,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "EKOTIENDA S. A.",
+      "articulo_id": 30730,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30727,
+      "cajas": 6.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30734,
+      "cajas": 48.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30731,
+      "cajas": 6.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30731,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "DISMA GBA S.A.",
+      "articulo_id": 30733,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30731,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "COOPERKIO AGRUPACION A. DE C.",
+      "articulo_id": 30735,
+      "cajas": 110.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "STYL WILL INC S.A.",
+      "articulo_id": 30729,
+      "cajas": 21.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30732,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30728,
+      "cajas": 3.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30731,
+      "cajas": 8.0
+    },
+    {
+      "mes": "2026-08",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30729,
+      "cajas": -0.8125
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30736,
+      "cajas": 1.1
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30735,
+      "cajas": 33.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30736,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "COOPERKIO AGRUPACION A. DE C.",
+      "articulo_id": 30734,
+      "cajas": 80.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30728,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30732,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-08",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30732,
+      "cajas": 10.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "+CAMPI S.A.S. S. A. S.",
+      "articulo_id": 30731,
+      "cajas": 8.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30729,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30730,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30727,
+      "cajas": 20.0
+    },
+    {
+      "mes": "2026-08",
+      "cliente": "GO MARKET STORE S.R.L",
+      "articulo_id": 30732,
+      "cajas": 1.0
+    },
+    {
+      "mes": "2026-08",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30732,
+      "cajas": 1.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "BAI - EXPORT S.A. ",
+      "articulo_id": 30735,
+      "cajas": 132.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "BAISE DISTRIBUCIONES S.A.",
+      "articulo_id": 30732,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-04",
+      "cliente": "COMERCIAL FRODO S.A. ",
+      "articulo_id": 30733,
+      "cajas": 40.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30729,
+      "cajas": 90.0
+    },
+    {
+      "mes": "2026-08",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30731,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "DISMA GBA S.A.",
+      "articulo_id": 30735,
+      "cajas": 16.5
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30736,
+      "cajas": 33.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "BEYVIN SOCIEDAD ANONIMA",
+      "articulo_id": 30734,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30731,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30730,
+      "cajas": 18.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "BAI - EXPORT S.A. ",
+      "articulo_id": 30735,
+      "cajas": -0.016666666666666666
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30731,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30734,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30730,
+      "cajas": 18.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30727,
+      "cajas": 1.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "LUCAS POVOLO",
+      "articulo_id": 30728,
+      "cajas": 1.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30730,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30736,
+      "cajas": 3.3000000000000003
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30729,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30727,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30731,
+      "cajas": 48.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30728,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30732,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30729,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "BEYVIN SOCIEDAD ANONIMA",
+      "articulo_id": 30733,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "BAISE DISTRIBUCIONES S.A.",
+      "articulo_id": 30729,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
+      "articulo_id": 30731,
+      "cajas": 32.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "BAI - EXPORT S.A. ",
+      "articulo_id": 30734,
+      "cajas": -0.0625
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30733,
+      "cajas": 10.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30730,
+      "cajas": 1.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "SUPERMERCADOS LA ECONOMIA SA",
+      "articulo_id": 30730,
+      "cajas": 13.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "STYL WILL INC S.A.",
+      "articulo_id": 30733,
+      "cajas": 1.0
+    },
+    {
+      "mes": "2026-08",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30729,
+      "cajas": 10.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30727,
+      "cajas": 9.0
+    },
+    {
+      "mes": "2026-04",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30731,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "BAISE DISTRIBUCIONES S.A.",
+      "articulo_id": 30730,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "OMAR JESUS MURADOR",
+      "articulo_id": 30735,
+      "cajas": 6.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30732,
+      "cajas": 90.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30727,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30732,
+      "cajas": 1.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30731,
+      "cajas": 47.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30736,
+      "cajas": 50.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30735,
+      "cajas": 33.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30727,
+      "cajas": 34.0
+    },
+    {
+      "mes": "2026-04",
+      "cliente": "BAI - EXPORT S.A. ",
+      "articulo_id": 30731,
+      "cajas": -30.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30727,
+      "cajas": 6.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "BAISE DISTRIBUCIONES S.A.",
+      "articulo_id": 30733,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "STYL WILL INC S.A.",
+      "articulo_id": 30731,
+      "cajas": 18.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30732,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "M  F DISTRIBUCIONES S.R.L.",
+      "articulo_id": 30733,
+      "cajas": 30.0
     },
     {
       "mes": "2025-12",
@@ -5240,34 +5275,16 @@
       "cajas": 6.0
     },
     {
-      "mes": "2026-07",
-      "cliente": "M  F DISTRIBUCIONES S.R.L.",
-      "articulo_id": 30730,
-      "cajas": 18.0
-    },
-    {
-      "mes": "2026-06",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30732,
-      "cajas": 30.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "LOGIQUEN S.A ",
-      "articulo_id": 30734,
-      "cajas": 0.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "WINEROD SRL",
+      "mes": "2026-04",
+      "cliente": "BAI - EXPORT S.A. ",
       "articulo_id": 30735,
-      "cajas": 49.5
+      "cajas": -66.0
     },
     {
       "mes": "2026-04",
-      "cliente": "COMERCIAL FRODO S.A. ",
-      "articulo_id": 30729,
-      "cajas": 20.0
+      "cliente": "BAI - EXPORT S.A. ",
+      "articulo_id": 30734,
+      "cajas": -90.0
     },
     {
       "mes": "2026-01",
@@ -5276,10 +5293,22 @@
       "cajas": 30.0
     },
     {
-      "mes": "2025-11",
+      "mes": "2026-04",
       "cliente": "COMERCIAL FRODO S.A. ",
       "articulo_id": 30729,
-      "cajas": 22.0
+      "cajas": 20.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "BEYVIN SOCIEDAD ANONIMA",
+      "articulo_id": 30727,
+      "cajas": 6.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30735,
+      "cajas": 49.5
     },
     {
       "mes": "2026-06",
@@ -5288,14 +5317,8 @@
       "cajas": 36.0
     },
     {
-      "mes": "2026-04",
-      "cliente": "BAI - EXPORT S.A. ",
-      "articulo_id": 30735,
-      "cajas": -66.0
-    },
-    {
-      "mes": "2026-03",
-      "cliente": "DISMA GBA S.A.",
+      "mes": "2026-06",
+      "cliente": "WINEROD SRL",
       "articulo_id": 30732,
       "cajas": 30.0
     },
@@ -5306,16 +5329,34 @@
       "cajas": -0.016666666666666666
     },
     {
-      "mes": "2026-06",
-      "cliente": "BEYVIN SOCIEDAD ANONIMA",
-      "articulo_id": 30727,
-      "cajas": 6.0
-    },
-    {
       "mes": "2026-05",
       "cliente": "STYL WILL INC S.A.",
       "articulo_id": 30727,
       "cajas": 21.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30734,
+      "cajas": 0.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "COMERCIAL FRODO S.A. ",
+      "articulo_id": 30729,
+      "cajas": 22.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "M  F DISTRIBUCIONES S.R.L.",
+      "articulo_id": 30730,
+      "cajas": 18.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "DISMA GBA S.A.",
+      "articulo_id": 30732,
+      "cajas": 30.0
     },
     {
       "mes": "2026-05",
@@ -5330,16 +5371,166 @@
       "cajas": 12.0
     },
     {
-      "mes": "2026-04",
+      "mes": "2025-12",
+      "cliente": "LUCAS POVOLO",
+      "articulo_id": 30733,
+      "cajas": 1.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30733,
+      "cajas": 3.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "DELIVERY HERO E-COMMERCE S. A.",
+      "articulo_id": 30727,
+      "cajas": 90.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30732,
+      "cajas": 20.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "+CAMPI S.A.S. S. A. S.",
+      "articulo_id": 30733,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30727,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2026-01",
       "cliente": "BAI - EXPORT S.A. ",
+      "articulo_id": 30735,
+      "cajas": 33.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30733,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "BEYVIN SOCIEDAD ANONIMA",
+      "articulo_id": 30729,
+      "cajas": 6.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30729,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30733,
+      "cajas": 120.0
+    },
+    {
+      "mes": "2026-06",
+      "cliente": "COOPERKIO AGRUPACION A. DE C.",
+      "articulo_id": 30730,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "OMAR JESUS MURADOR",
+      "articulo_id": 30735,
+      "cajas": -4.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30730,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30733,
+      "cajas": 42.0
+    },
+    {
+      "mes": "2025-11",
+      "cliente": "COMERCIAL FRODO S.A. ",
+      "articulo_id": 30733,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30729,
+      "cajas": 10.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30728,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "APR SERVICIOS S.A.",
       "articulo_id": 30734,
-      "cajas": -90.0
+      "cajas": 10.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30734,
+      "cajas": 72.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30733,
+      "cajas": -59.25
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "M  F DISTRIBUCIONES S.R.L.",
+      "articulo_id": 30736,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30728,
+      "cajas": 1.0
     },
     {
       "mes": "2026-08",
       "cliente": "THE B2B SOCIEDAD ANONIMA",
       "articulo_id": 30728,
       "cajas": -0.75
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30727,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30733,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "DISMA GBA S.A.",
+      "articulo_id": 30730,
+      "cajas": 30.0
     },
     {
       "mes": "2026-08",
@@ -5354,28 +5545,22 @@
       "cajas": 30.0
     },
     {
-      "mes": "2026-07",
-      "cliente": "KAIRON SRL",
-      "articulo_id": 30734,
-      "cajas": 49.0
+      "mes": "2026-09",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30732,
+      "cajas": 54.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30729,
+      "cajas": 20.0
     },
     {
       "mes": "2026-06",
       "cliente": "APR SERVICIOS S.A.",
       "articulo_id": 30733,
       "cajas": 30.0
-    },
-    {
-      "mes": "2026-02",
-      "cliente": "THE B2B SOCIEDAD ANONIMA",
-      "articulo_id": 30730,
-      "cajas": 2.0
-    },
-    {
-      "mes": "2026-09",
-      "cliente": "WINEROD SRL",
-      "articulo_id": 30732,
-      "cajas": 54.0
     },
     {
       "mes": "2025-11",
@@ -5386,8 +5571,20 @@
     {
       "mes": "2026-07",
       "cliente": "KAIRON SRL",
+      "articulo_id": 30734,
+      "cajas": 49.0
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "KAIRON SRL",
       "articulo_id": 30730,
       "cajas": 43.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "STYL WILL INC S.A.",
+      "articulo_id": 30728,
+      "cajas": 11.0
     },
     {
       "mes": "2026-03",
@@ -5408,31 +5605,127 @@
       "cajas": -0.0625
     },
     {
-      "mes": "2026-09",
-      "cliente": "APR SERVICIOS S.A.",
-      "articulo_id": 30729,
-      "cajas": 20.0
+      "mes": "2026-02",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30730,
+      "cajas": 2.0
     },
     {
-      "mes": "2026-05",
-      "cliente": "STYL WILL INC S.A.",
-      "articulo_id": 30728,
-      "cajas": 11.0
+      "mes": "2025-12",
+      "cliente": "EKOTIENDA S. A.",
+      "articulo_id": 30731,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA ",
+      "articulo_id": 30731,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30733,
+      "cajas": 90.0
+    },
+    {
+      "mes": "2026-10",
+      "cliente": "DELIVERY HERO E-COMMERCE S. A.",
+      "articulo_id": 30734,
+      "cajas": 240.0
+    },
+    {
+      "mes": "2025-12",
+      "cliente": "BAI - EXPORT S.A. ",
+      "articulo_id": 30730,
+      "cajas": 30.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "APR SERVICIOS S.A.",
+      "articulo_id": 30734,
+      "cajas": 10.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30731,
+      "cajas": 1.0
+    },
+    {
+      "mes": "2026-09",
+      "cliente": "BAI - LOGISTICA SOCIEDAD ANONIMA",
+      "articulo_id": 30727,
+      "cajas": 6.0
     },
     {
       "mes": "2026-01",
-      "cliente": "DISMA GBA S.A.",
-      "articulo_id": 30730,
+      "cliente": "BAISE DISTRIBUCIONES S.A.",
+      "articulo_id": 30733,
       "cajas": 30.0
+    },
+    {
+      "mes": "2026-01",
+      "cliente": "WINEROD SRL",
+      "articulo_id": 30728,
+      "cajas": 60.0
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "THE B2B SOCIEDAD ANONIMA",
+      "articulo_id": 30736,
+      "cajas": 1.1
+    },
+    {
+      "mes": "2026-02",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30733,
+      "cajas": 43.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "KAIRON SRL",
+      "articulo_id": 30735,
+      "cajas": 7.7
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30727,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-05",
+      "cliente": "LOGIQUEN S.A ",
+      "articulo_id": 30736,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "BAI - EXPORT S.A. ",
+      "articulo_id": 30730,
+      "cajas": -0.0625
+    },
+    {
+      "mes": "2026-07",
+      "cliente": "M  F DISTRIBUCIONES S.R.L.",
+      "articulo_id": 30728,
+      "cajas": 12.0
+    },
+    {
+      "mes": "2026-03",
+      "cliente": "BAISE DISTRIBUCIONES S.A.",
+      "articulo_id": 30730,
+      "cajas": 12.0
     }
   ],
   "stock": {
     "deposito": "282-NUTREGAL PCPAL",
-    "foto_tabla": "2026-10-09T09:42:34.739000+00:00",
+    "foto_tabla": "2026-10-10T09:42:01.698000+00:00",
     "ventana_dias": 90,
-    "venta_hasta": "2026-09-25",
-    "hoy": "2026-10-09",
-    "horizonte_dias": 204.0,
+    "venta_hasta": "2026-10-09",
+    "hoy": "2026-10-10",
+    "horizonte_dias": 203.0,
     "umbrales_dias": {
       "critico": 30,
       "bajo": 60,
@@ -5445,58 +5738,58 @@
         "articulo": "Rústicas Sal de Mar 115",
         "uxb": 16.0,
         "kg_unidad": 0.115,
-        "stock_unidades": 973.0,
+        "stock_unidades": 77.0,
         "reserva_unidades": 0,
         "bloqueo_unidades": 0,
-        "disponible_unidades": 973.0,
-        "stock_cajas": 60.81,
-        "disponible_cajas": 60.81,
-        "disponible_kg": 111.9,
-        "venta_ventana_cajas": 329.56,
-        "venta_diaria_cajas": 3.662,
-        "venta_mes_curso_cajas": 0.0,
-        "doi_historico": 16.6,
+        "disponible_unidades": 77.0,
+        "stock_cajas": 4.81,
+        "disponible_cajas": 4.81,
+        "disponible_kg": 8.86,
+        "venta_ventana_cajas": 287.56,
+        "venta_diaria_cajas": 3.195,
+        "venta_mes_curso_cajas": 56.0,
+        "doi_historico": 1.5,
         "estado_historico": "critico",
-        "doi_forecast": 16.6,
+        "doi_forecast": 1.5,
         "doi_forecast_supera_horizonte": false,
         "estado_forecast": "critico",
-        "fecha_quiebre": "2026-10-25",
+        "fecha_quiebre": "2026-10-11",
         "forecast_prox_mes": 148.0,
         "proyeccion": [
           {
             "mes": "2026-10",
-            "demanda": 84.22,
-            "saldo": -23.41
+            "demanda": 70.29,
+            "saldo": -65.48
           },
           {
             "mes": "2026-11",
             "demanda": 148.0,
-            "saldo": -171.41
+            "saldo": -213.48
           },
           {
             "mes": "2026-12",
             "demanda": 148.0,
-            "saldo": -319.41
+            "saldo": -361.48
           },
           {
             "mes": "2027-01",
             "demanda": 148.0,
-            "saldo": -467.41
+            "saldo": -509.48
           },
           {
             "mes": "2027-02",
             "demanda": 148.0,
-            "saldo": -615.41
+            "saldo": -657.48
           },
           {
             "mes": "2027-03",
             "demanda": 148.0,
-            "saldo": -763.41
+            "saldo": -805.48
           },
           {
             "mes": "2027-04",
             "demanda": 94.33,
-            "saldo": -857.74
+            "saldo": -899.81
           }
         ],
         "en_tabla_stock": true
@@ -5507,58 +5800,58 @@
         "articulo": "Rústicas Queso y Orégano 115",
         "uxb": 16.0,
         "kg_unidad": 0.115,
-        "stock_unidades": 1517.0,
+        "stock_unidades": 893.0,
         "reserva_unidades": 0,
         "bloqueo_unidades": 0,
-        "disponible_unidades": 1517.0,
-        "stock_cajas": 94.81,
-        "disponible_cajas": 94.81,
-        "disponible_kg": 174.46,
-        "venta_ventana_cajas": 297.25,
-        "venta_diaria_cajas": 3.303,
-        "venta_mes_curso_cajas": 0.0,
-        "doi_historico": 28.7,
+        "disponible_unidades": 893.0,
+        "stock_cajas": 55.81,
+        "disponible_cajas": 55.81,
+        "disponible_kg": 102.7,
+        "venta_ventana_cajas": 236.25,
+        "venta_diaria_cajas": 2.625,
+        "venta_mes_curso_cajas": 39.0,
+        "doi_historico": 21.3,
         "estado_historico": "critico",
-        "doi_forecast": 31.7,
+        "doi_forecast": 21.3,
         "doi_forecast_supera_horizonte": false,
-        "estado_forecast": "bajo",
-        "fecha_quiebre": "2026-11-09",
+        "estado_forecast": "critico",
+        "fecha_quiebre": "2026-10-31",
         "forecast_prox_mes": 65.0,
         "proyeccion": [
           {
             "mes": "2026-10",
-            "demanda": 75.96,
-            "saldo": 18.85
+            "demanda": 57.75,
+            "saldo": -1.94
           },
           {
             "mes": "2026-11",
             "demanda": 65.0,
-            "saldo": -46.15
+            "saldo": -66.94
           },
           {
             "mes": "2026-12",
             "demanda": 65.0,
-            "saldo": -111.15
+            "saldo": -131.94
           },
           {
             "mes": "2027-01",
             "demanda": 65.0,
-            "saldo": -176.15
+            "saldo": -196.94
           },
           {
             "mes": "2027-02",
             "demanda": 65.0,
-            "saldo": -241.15
+            "saldo": -261.94
           },
           {
             "mes": "2027-03",
             "demanda": 65.0,
-            "saldo": -306.15
+            "saldo": -326.94
           },
           {
             "mes": "2027-04",
             "demanda": 85.33,
-            "saldo": -391.48
+            "saldo": -412.27
           }
         ],
         "en_tabla_stock": true
@@ -5569,58 +5862,58 @@
         "articulo": "Rústicas Cebolla Caramelizada 115",
         "uxb": 16.0,
         "kg_unidad": 0.115,
-        "stock_unidades": 1975.0,
+        "stock_unidades": 1415.0,
         "reserva_unidades": 0,
         "bloqueo_unidades": 0,
-        "disponible_unidades": 1975.0,
-        "stock_cajas": 123.44,
-        "disponible_cajas": 123.44,
-        "disponible_kg": 227.12,
-        "venta_ventana_cajas": 327.19,
-        "venta_diaria_cajas": 3.635,
-        "venta_mes_curso_cajas": 0.0,
-        "doi_historico": 34.0,
+        "disponible_unidades": 1415.0,
+        "stock_cajas": 88.44,
+        "disponible_cajas": 88.44,
+        "disponible_kg": 162.72,
+        "venta_ventana_cajas": 229.19,
+        "venta_diaria_cajas": 2.547,
+        "venta_mes_curso_cajas": 35.0,
+        "doi_historico": 34.7,
         "estado_historico": "bajo",
-        "doi_forecast": 37.9,
+        "doi_forecast": 34.2,
         "doi_forecast_supera_horizonte": false,
         "estado_forecast": "bajo",
-        "fecha_quiebre": "2026-11-15",
+        "fecha_quiebre": "2026-11-13",
         "forecast_prox_mes": 80.0,
         "proyeccion": [
           {
             "mes": "2026-10",
-            "demanda": 83.61,
-            "saldo": 39.82
+            "demanda": 56.02,
+            "saldo": 32.41
           },
           {
             "mes": "2026-11",
             "demanda": 80.0,
-            "saldo": -40.18
+            "saldo": -47.59
           },
           {
             "mes": "2026-12",
             "demanda": 80.0,
-            "saldo": -120.18
+            "saldo": -127.59
           },
           {
             "mes": "2027-01",
             "demanda": 80.0,
-            "saldo": -200.18
+            "saldo": -207.59
           },
           {
             "mes": "2027-02",
             "demanda": 80.0,
-            "saldo": -280.18
+            "saldo": -287.59
           },
           {
             "mes": "2027-03",
             "demanda": 80.0,
-            "saldo": -360.18
+            "saldo": -367.59
           },
           {
             "mes": "2027-04",
             "demanda": 91.32,
-            "saldo": -451.5
+            "saldo": -458.91
           }
         ],
         "en_tabla_stock": true
@@ -5631,58 +5924,58 @@
         "articulo": "Rústicas Albahaca y Oliva 115",
         "uxb": 16.0,
         "kg_unidad": 0.115,
-        "stock_unidades": 3056.0,
+        "stock_unidades": 2256.0,
         "reserva_unidades": 0,
         "bloqueo_unidades": 0,
-        "disponible_unidades": 3056.0,
-        "stock_cajas": 191.0,
-        "disponible_cajas": 191.0,
-        "disponible_kg": 351.44,
-        "venta_ventana_cajas": 339.44,
-        "venta_diaria_cajas": 3.772,
-        "venta_mes_curso_cajas": 0.0,
-        "doi_historico": 50.6,
+        "disponible_unidades": 2256.0,
+        "stock_cajas": 141.0,
+        "disponible_cajas": 141.0,
+        "disponible_kg": 259.44,
+        "venta_ventana_cajas": 261.44,
+        "venta_diaria_cajas": 2.905,
+        "venta_mes_curso_cajas": 50.0,
+        "doi_historico": 48.5,
         "estado_historico": "bajo",
-        "doi_forecast": 53.7,
+        "doi_forecast": 44.7,
         "doi_forecast_supera_horizonte": false,
         "estado_forecast": "bajo",
-        "fecha_quiebre": "2026-12-01",
+        "fecha_quiebre": "2026-11-23",
         "forecast_prox_mes": 102.0,
         "proyeccion": [
           {
             "mes": "2026-10",
-            "demanda": 86.75,
-            "saldo": 104.25
+            "demanda": 63.91,
+            "saldo": 77.09
           },
           {
             "mes": "2026-11",
             "demanda": 102.0,
-            "saldo": 2.25
+            "saldo": -24.91
           },
           {
             "mes": "2026-12",
             "demanda": 102.0,
-            "saldo": -99.75
+            "saldo": -126.91
           },
           {
             "mes": "2027-01",
             "demanda": 102.0,
-            "saldo": -201.75
+            "saldo": -228.91
           },
           {
             "mes": "2027-02",
             "demanda": 102.0,
-            "saldo": -303.75
+            "saldo": -330.91
           },
           {
             "mes": "2027-03",
             "demanda": 102.0,
-            "saldo": -405.75
+            "saldo": -432.91
           },
           {
             "mes": "2027-04",
             "demanda": 97.67,
-            "saldo": -503.42
+            "saldo": -530.58
           }
         ],
         "en_tabla_stock": true
@@ -5693,58 +5986,58 @@
         "articulo": "Crema Ciboulette 115",
         "uxb": 16.0,
         "kg_unidad": 0.115,
-        "stock_unidades": 6764.0,
+        "stock_unidades": 4428.0,
         "reserva_unidades": 0,
         "bloqueo_unidades": 0,
-        "disponible_unidades": 6764.0,
-        "stock_cajas": 422.75,
-        "disponible_cajas": 422.75,
-        "disponible_kg": 777.86,
-        "venta_ventana_cajas": 299.0,
-        "venta_diaria_cajas": 3.322,
-        "venta_mes_curso_cajas": 0.0,
-        "doi_historico": 127.2,
-        "estado_historico": "exceso",
-        "doi_forecast": 87.9,
+        "disponible_unidades": 4428.0,
+        "stock_cajas": 276.75,
+        "disponible_cajas": 276.75,
+        "disponible_kg": 509.22,
+        "venta_ventana_cajas": 302.0,
+        "venta_diaria_cajas": 3.356,
+        "venta_mes_curso_cajas": 146.0,
+        "doi_historico": 82.5,
+        "estado_historico": "optimo",
+        "doi_forecast": 59.6,
         "doi_forecast_supera_horizonte": false,
-        "estado_forecast": "optimo",
-        "fecha_quiebre": "2027-01-04",
+        "estado_forecast": "bajo",
+        "fecha_quiebre": "2026-12-08",
         "forecast_prox_mes": 163.0,
         "proyeccion": [
           {
             "mes": "2026-10",
-            "demanda": 76.41,
-            "saldo": 346.34
+            "demanda": 73.82,
+            "saldo": 202.93
           },
           {
             "mes": "2026-11",
             "demanda": 163.0,
-            "saldo": 183.34
+            "saldo": 39.93
           },
           {
             "mes": "2026-12",
             "demanda": 163.0,
-            "saldo": 20.34
+            "saldo": -123.07
           },
           {
             "mes": "2027-01",
             "demanda": 163.0,
-            "saldo": -142.66
+            "saldo": -286.07
           },
           {
             "mes": "2027-02",
             "demanda": 163.0,
-            "saldo": -305.66
+            "saldo": -449.07
           },
           {
             "mes": "2027-03",
             "demanda": 163.0,
-            "saldo": -468.66
+            "saldo": -612.07
           },
           {
             "mes": "2027-04",
             "demanda": 75.67,
-            "saldo": -544.33
+            "saldo": -687.74
           }
         ],
         "en_tabla_stock": true
@@ -5755,58 +6048,58 @@
         "articulo": "Jamón Serrano 115",
         "uxb": 16.0,
         "kg_unidad": 0.115,
-        "stock_unidades": 4249.0,
+        "stock_unidades": 3097.0,
         "reserva_unidades": 0,
         "bloqueo_unidades": 0,
-        "disponible_unidades": 4249.0,
-        "stock_cajas": 265.56,
-        "disponible_cajas": 265.56,
-        "disponible_kg": 488.64,
-        "venta_ventana_cajas": 463.0,
-        "venta_diaria_cajas": 5.144,
-        "venta_mes_curso_cajas": 0.0,
-        "doi_historico": 51.6,
+        "disponible_unidades": 3097.0,
+        "stock_cajas": 193.56,
+        "disponible_cajas": 193.56,
+        "disponible_kg": 356.16,
+        "venta_ventana_cajas": 407.0,
+        "venta_diaria_cajas": 4.522,
+        "venta_mes_curso_cajas": 72.0,
+        "doi_historico": 42.8,
         "estado_historico": "bajo",
-        "doi_forecast": 52.3,
+        "doi_forecast": 40.7,
         "doi_forecast_supera_horizonte": false,
         "estado_forecast": "bajo",
-        "fecha_quiebre": "2026-11-30",
+        "fecha_quiebre": "2026-11-19",
         "forecast_prox_mes": 151.0,
         "proyeccion": [
           {
             "mes": "2026-10",
-            "demanda": 118.32,
-            "saldo": 147.24
+            "demanda": 99.49,
+            "saldo": 94.07
           },
           {
             "mes": "2026-11",
             "demanda": 151.0,
-            "saldo": -3.76
+            "saldo": -56.93
           },
           {
             "mes": "2026-12",
             "demanda": 151.0,
-            "saldo": -154.76
+            "saldo": -207.93
           },
           {
             "mes": "2027-01",
             "demanda": 151.0,
-            "saldo": -305.76
+            "saldo": -358.93
           },
           {
             "mes": "2027-02",
             "demanda": 151.0,
-            "saldo": -456.76
+            "saldo": -509.93
           },
           {
             "mes": "2027-03",
             "demanda": 151.0,
-            "saldo": -607.76
+            "saldo": -660.93
           },
           {
             "mes": "2027-04",
             "demanda": 136.33,
-            "saldo": -744.09
+            "saldo": -797.26
           }
         ],
         "en_tabla_stock": true
@@ -5817,58 +6110,58 @@
         "articulo": "Clásicas Corte Liso 80",
         "uxb": 16.0,
         "kg_unidad": 0.08,
-        "stock_unidades": 4320.0,
+        "stock_unidades": 1152.0,
         "reserva_unidades": 0,
         "bloqueo_unidades": 0,
-        "disponible_unidades": 4320.0,
-        "stock_cajas": 270.0,
-        "disponible_cajas": 270.0,
-        "disponible_kg": 345.6,
-        "venta_ventana_cajas": 691.0,
-        "venta_diaria_cajas": 7.678,
-        "venta_mes_curso_cajas": 0.0,
-        "doi_historico": 35.2,
-        "estado_historico": "bajo",
-        "doi_forecast": 30.9,
+        "disponible_unidades": 1152.0,
+        "stock_cajas": 72.0,
+        "disponible_cajas": 72.0,
+        "disponible_kg": 92.16,
+        "venta_ventana_cajas": 759.0,
+        "venta_diaria_cajas": 8.433,
+        "venta_mes_curso_cajas": 198.0,
+        "doi_historico": 8.5,
+        "estado_historico": "critico",
+        "doi_forecast": 8.5,
         "doi_forecast_supera_horizonte": false,
-        "estado_forecast": "bajo",
-        "fecha_quiebre": "2026-11-08",
+        "estado_forecast": "critico",
+        "fecha_quiebre": "2026-10-18",
         "forecast_prox_mes": 353.0,
         "proyeccion": [
           {
             "mes": "2026-10",
-            "demanda": 176.59,
-            "saldo": 93.41
+            "demanda": 185.53,
+            "saldo": -113.53
           },
           {
             "mes": "2026-11",
             "demanda": 353.0,
-            "saldo": -259.59
+            "saldo": -466.53
           },
           {
             "mes": "2026-12",
             "demanda": 353.0,
-            "saldo": -612.59
+            "saldo": -819.53
           },
           {
             "mes": "2027-01",
             "demanda": 353.0,
-            "saldo": -965.59
+            "saldo": -1172.53
           },
           {
             "mes": "2027-02",
             "demanda": 353.0,
-            "saldo": -1318.59
+            "saldo": -1525.53
           },
           {
             "mes": "2027-03",
             "demanda": 353.0,
-            "saldo": -1671.59
+            "saldo": -1878.53
           },
           {
             "mes": "2027-04",
             "demanda": 208.34,
-            "saldo": -1879.93
+            "saldo": -2086.87
           }
         ],
         "en_tabla_stock": true
@@ -5879,58 +6172,58 @@
         "articulo": "Clásicas Corte Americano 80",
         "uxb": 16.0,
         "kg_unidad": 0.08,
-        "stock_unidades": 4321.0,
+        "stock_unidades": 113.0,
         "reserva_unidades": 0,
         "bloqueo_unidades": 0,
-        "disponible_unidades": 4321.0,
-        "stock_cajas": 270.06,
-        "disponible_cajas": 270.06,
-        "disponible_kg": 345.68,
-        "venta_ventana_cajas": 690.0,
-        "venta_diaria_cajas": 7.667,
-        "venta_mes_curso_cajas": 0.0,
-        "doi_historico": 35.2,
-        "estado_historico": "bajo",
-        "doi_forecast": 32.2,
+        "disponible_unidades": 113.0,
+        "stock_cajas": 7.06,
+        "disponible_cajas": 7.06,
+        "disponible_kg": 9.04,
+        "venta_ventana_cajas": 752.0,
+        "venta_diaria_cajas": 8.356,
+        "venta_mes_curso_cajas": 263.0,
+        "doi_historico": 0.8,
+        "estado_historico": "critico",
+        "doi_forecast": 0.8,
         "doi_forecast_supera_horizonte": false,
-        "estado_forecast": "bajo",
-        "fecha_quiebre": "2026-11-10",
+        "estado_forecast": "critico",
+        "fecha_quiebre": "2026-10-10",
         "forecast_prox_mes": 304.0,
         "proyeccion": [
           {
             "mes": "2026-10",
-            "demanda": 176.33,
-            "saldo": 93.73
+            "demanda": 183.82,
+            "saldo": -176.76
           },
           {
             "mes": "2026-11",
             "demanda": 304.0,
-            "saldo": -210.27
+            "saldo": -480.76
           },
           {
             "mes": "2026-12",
             "demanda": 304.0,
-            "saldo": -514.27
+            "saldo": -784.76
           },
           {
             "mes": "2027-01",
             "demanda": 304.0,
-            "saldo": -818.27
+            "saldo": -1088.76
           },
           {
             "mes": "2027-02",
             "demanda": 304.0,
-            "saldo": -1122.27
+            "saldo": -1392.76
           },
           {
             "mes": "2027-03",
             "demanda": 304.0,
-            "saldo": -1426.27
+            "saldo": -1696.76
           },
           {
             "mes": "2027-04",
             "demanda": 206.0,
-            "saldo": -1632.27
+            "saldo": -1902.76
           }
         ],
         "en_tabla_stock": true
@@ -5948,51 +6241,51 @@
         "stock_cajas": 9.4,
         "disponible_cajas": 9.4,
         "disponible_kg": 20.3,
-        "venta_ventana_cajas": 2.0,
-        "venta_diaria_cajas": 0.022,
+        "venta_ventana_cajas": 0.0,
+        "venta_diaria_cajas": 0.0,
         "venta_mes_curso_cajas": 0.0,
-        "doi_historico": 423.0,
-        "estado_historico": "exceso",
-        "doi_forecast": 30.6,
+        "doi_historico": null,
+        "estado_historico": "sin_venta",
+        "doi_forecast": 30.1,
         "doi_forecast_supera_horizonte": false,
         "estado_forecast": "bajo",
-        "fecha_quiebre": "2026-11-08",
+        "fecha_quiebre": "2026-11-09",
         "forecast_prox_mes": 35.0,
         "proyeccion": [
           {
             "mes": "2026-10",
-            "demanda": 0.51,
-            "saldo": 8.89
+            "demanda": 0.0,
+            "saldo": 9.4
           },
           {
             "mes": "2026-11",
             "demanda": 35.0,
-            "saldo": -26.11
+            "saldo": -25.6
           },
           {
             "mes": "2026-12",
             "demanda": 35.0,
-            "saldo": -61.11
+            "saldo": -60.6
           },
           {
             "mes": "2027-01",
             "demanda": 35.0,
-            "saldo": -96.11
+            "saldo": -95.6
           },
           {
             "mes": "2027-02",
             "demanda": 35.0,
-            "saldo": -131.11
+            "saldo": -130.6
           },
           {
             "mes": "2027-03",
             "demanda": 35.0,
-            "saldo": -166.11
+            "saldo": -165.6
           },
           {
             "mes": "2027-04",
             "demanda": 0.0,
-            "saldo": -166.11
+            "saldo": -165.6
           }
         ],
         "en_tabla_stock": true
@@ -6010,61 +6303,61 @@
         "stock_cajas": 4.08,
         "disponible_cajas": 4.08,
         "disponible_kg": 8.82,
-        "venta_ventana_cajas": 86.0,
-        "venta_diaria_cajas": 0.956,
+        "venta_ventana_cajas": 32.0,
+        "venta_diaria_cajas": 0.356,
         "venta_mes_curso_cajas": 0.0,
-        "doi_historico": 4.3,
+        "doi_historico": 11.5,
         "estado_historico": "critico",
-        "doi_forecast": 4.3,
+        "doi_forecast": 11.5,
         "doi_forecast_supera_horizonte": false,
         "estado_forecast": "critico",
-        "fecha_quiebre": "2026-10-13",
+        "fecha_quiebre": "2026-10-21",
         "forecast_prox_mes": 57.0,
         "proyeccion": [
           {
             "mes": "2026-10",
-            "demanda": 21.98,
-            "saldo": -17.89
+            "demanda": 7.82,
+            "saldo": -3.74
           },
           {
             "mes": "2026-11",
             "demanda": 57.0,
-            "saldo": -74.89
+            "saldo": -60.74
           },
           {
             "mes": "2026-12",
             "demanda": 57.0,
-            "saldo": -131.89
+            "saldo": -117.74
           },
           {
             "mes": "2027-01",
             "demanda": 57.0,
-            "saldo": -188.89
+            "saldo": -174.74
           },
           {
             "mes": "2027-02",
             "demanda": 57.0,
-            "saldo": -245.89
+            "saldo": -231.74
           },
           {
             "mes": "2027-03",
             "demanda": 57.0,
-            "saldo": -302.89
+            "saldo": -288.74
           },
           {
             "mes": "2027-04",
             "demanda": 24.67,
-            "saldo": -327.56
+            "saldo": -313.41
           }
         ],
         "en_tabla_stock": true
       }
     ],
     "totales": {
-      "disponible_cajas": 1711.91,
-      "disponible_kg": 2851.82,
-      "venta_diaria_cajas": 39.161,
-      "doi_historico": 43.7
+      "disponible_cajas": 852.91,
+      "disponible_kg": 1529.42,
+      "venta_diaria_cajas": 36.295,
+      "doi_historico": 23.5
     },
     "historial": [
       {
@@ -6318,6 +6611,21 @@
           "201700704": 265.56,
           "201700705": 270.0,
           "201700706": 270.06,
+          "201700721": 9.4,
+          "201700722": 4.08
+        }
+      },
+      {
+        "fecha": "2026-10-10",
+        "cajas": {
+          "201700697": 4.81,
+          "201700698": 55.81,
+          "201700699": 88.44,
+          "201700701": 141.0,
+          "201700703": 276.75,
+          "201700704": 193.56,
+          "201700705": 72.0,
+          "201700706": 7.06,
           "201700721": 9.4,
           "201700722": 4.08
         }
@@ -9517,15 +9825,15 @@
       },
       {
         "mes": "2026-03",
-        "cliente_id": "800213194",
-        "cliente": "KAIRON SRL",
-        "cajas": 7.4
-      },
-      {
-        "mes": "2026-03",
         "cliente_id": "800216061",
         "cliente": "COOPERKIO AGRUPACION A. DE C.",
         "cajas": 528.0
+      },
+      {
+        "mes": "2026-03",
+        "cliente_id": "800213194",
+        "cliente": "KAIRON SRL",
+        "cajas": 7.4
       },
       {
         "mes": "2026-04",
@@ -9538,6 +9846,12 @@
         "cliente_id": "800213194",
         "cliente": "KAIRON SRL",
         "cajas": 3.3
+      },
+      {
+        "mes": "2026-05",
+        "cliente_id": "800213194",
+        "cliente": "KAIRON SRL",
+        "cajas": 3.0
       },
       {
         "mes": "2026-05",
@@ -9556,12 +9870,6 @@
         "cliente_id": "800051157",
         "cliente": "STYL WILL INC S.A.",
         "cajas": 156.0
-      },
-      {
-        "mes": "2026-05",
-        "cliente_id": "800213194",
-        "cliente": "KAIRON SRL",
-        "cajas": 3.0
       },
       {
         "mes": "2026-06",
