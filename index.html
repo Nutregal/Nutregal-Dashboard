@@ -260,6 +260,10 @@
   tr.grp:hover td { background: var(--line-soft); }
   tr.sub td { color: var(--ink-2); font-weight: 400; }
   tr.sub td.l { padding-left: 32px; }
+  tr.cli { cursor: pointer; }
+  tr.cli:hover td { background: var(--line-soft); }
+  tr.sku td { font-size: 12.5px; color: var(--ink-3); }
+  tr.sku td.l { padding-left: 58px; }
   .caret { display: inline-block; width: 13px; color: var(--ink-3); font-size: 10px; }
   .share { display: inline-block; height: 6px; border-radius: 3px; background: var(--green); vertical-align: middle; }
   .pill {
@@ -661,29 +665,70 @@ const celdas = (o) => '<td class="num">' + nf0.format(o.cajas) + '</td>' +
   '<td class="num">' + (o.kilos ? "$" + nf0.format(o.neto / o.kilos) : "—") + '</td>' +
   '<td class="num">' + pesos(o.neto) + '</td>';
 
+let canalDetalle = "cliente";
+const abiertosCli = new Set();
+
+// Filas cliente x SKU del período elegido (alimentan la apertura por producto).
+function filasCliSku() {
+  const f = (DATA.por_cliente_sku || []).filter(r => !excluido(r.cliente));
+  return mes === "todos" ? f : f.filter(r => r.mes === mes);
+}
+const conKilos = () => (DATA.por_cliente_sku || []).some(r => r.kilos != null);
+
 function vCanales() {
-  const grupos = agrupar(filasCliente(), r => canalDe(r.cliente), r => r.cliente);
+  const porProducto = canalDetalle === "producto";
+  const grupos = porProducto
+    ? agrupar(filasCliSku(), r => canalDe(r.cliente), r => nombreSku(r.articulo_id))
+    : agrupar(filasCliente(), r => canalDe(r.cliente), r => r.cliente);
   const total = grupos.reduce((a, g) => a + g.cajas, 0);
+  // para abrir un cliente en sus productos (modo Clientes)
+  const skuDe = new Map();
+  if (!porProducto) filasCliSku().forEach(r => {
+    const k = norm(r.cliente);
+    if (!skuDe.has(k)) skuDe.set(k, []);
+    skuDe.get(k).push(r);
+  });
+  const pctCell = (v) => '<td class="num">' + nf1.format(total ? (v / total) * 100 : 0) + '%</td>';
   let cuerpo = "";
   grupos.forEach(g => {
-    const ab = abiertos.has(g.nombre), pct = total ? (g.cajas / total) * 100 : 0;
+    const ab = abiertos.has(canalDetalle + "|" + g.nombre), pct = total ? (g.cajas / total) * 100 : 0;
     cuerpo += '<tr class="grp" data-g="' + g.nombre + '"><td class="l"><span class="caret">' +
       (ab ? "▼" : "▶") + '</span>' + g.nombre + '</td>' + celdas(g) +
       '<td class="num"><span class="share" style="width:' + Math.max(2, pct * .6) + 'px"></span> ' +
       nf1.format(pct) + '%</td></tr>';
-    if (ab) [...g.hijos.values()].sort((a, b) => b.cajas - a.cajas).forEach(h => {
-      const p = total ? (h.cajas / total) * 100 : 0;
-      cuerpo += '<tr class="sub"><td class="l">' + h.nombre + '</td>' + celdas(h) +
-        '<td class="num">' + nf1.format(p) + '%</td></tr>';
+    if (!ab) return;
+    [...g.hijos.values()].sort((a, b) => b.cajas - a.cajas).forEach(h => {
+      if (porProducto) { cuerpo += '<tr class="sub"><td class="l">' + h.nombre + '</td>' + celdas(h) + pctCell(h.cajas) + '</tr>'; return; }
+      const filasSku = skuDe.get(norm(h.nombre)) || [];
+      const abC = abiertosCli.has(norm(h.nombre));
+      cuerpo += '<tr class="sub cli" data-c="' + h.nombre.replace(/"/g, "&quot;") + '"><td class="l">' +
+        (filasSku.length ? '<span class="caret">' + (abC ? "▼" : "▶") + '</span>' : '') + h.nombre + '</td>' + celdas(h) + pctCell(h.cajas) + '</tr>';
+      if (abC) agrupar(filasSku, r => nombreSku(r.articulo_id)).forEach(p =>
+        cuerpo += '<tr class="sub sku"><td class="l">' + p.nombre + '</td>' + celdas(p) + pctCell(p.cajas) + '</tr>');
     });
   });
-  $("#v-canales").innerHTML = '<div class="card"><h2>Volumen por canal</h2>' +
-    '<p class="note">Clic en un canal para abrir sus clientes.</p><div class="tw"><table>' +
-    '<thead><tr><th class="l">Canal / cliente</th><th>Cajas</th><th>Kilos</th><th>$/kg</th><th>Neto</th><th>% volumen</th></tr></thead>' +
+  const seg = '<div class="seg" role="group" aria-label="Abrir canales por">' +
+    [["cliente", "Clientes"], ["producto", "Productos"]].map(([k, n]) =>
+      '<button data-d="' + k + '" aria-pressed="' + (canalDetalle === k) + '">' + n + '</button>').join("") + '</div>';
+  const nota = porProducto
+    ? "Clic en un canal para ver qué productos compra."
+    : "Clic en un canal para abrir sus clientes, y en un cliente para ver sus productos.";
+  const aviso = (porProducto && !conKilos())
+    ? '<p class="note">Los kilos y el neto por producto aparecen después del próximo refresh.</p>' : '';
+  $("#v-canales").innerHTML = '<div class="card"><div class="cardhead"><div class="grow"><h2>Volumen por canal</h2>' +
+    '<p class="note">' + nota + '</p>' + aviso + '</div>' + seg + '</div><div class="tw"><table>' +
+    '<thead><tr><th class="l">' + (porProducto ? "Canal / producto" : "Canal / cliente / producto") +
+    '</th><th>Cajas</th><th>Kilos</th><th>$/kg</th><th>Neto</th><th>% volumen</th></tr></thead>' +
     '<tbody>' + (cuerpo || '<tr><td class="l" colspan="6">Sin datos para este mes.</td></tr>') + '</tbody></table></div></div>';
+  $("#v-canales").querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => { canalDetalle = b.dataset.d; render(); }));
   $("#v-canales").querySelectorAll("tr.grp").forEach(tr => tr.addEventListener("click", () => {
-    const k = tr.dataset.g;
+    const k = canalDetalle + "|" + tr.dataset.g;
     abiertos.has(k) ? abiertos.delete(k) : abiertos.add(k);
+    render();
+  }));
+  $("#v-canales").querySelectorAll("tr.cli").forEach(tr => tr.addEventListener("click", () => {
+    const k = norm(tr.dataset.c);
+    abiertosCli.has(k) ? abiertosCli.delete(k) : abiertosCli.add(k);
     render();
   }));
 }
