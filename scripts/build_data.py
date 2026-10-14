@@ -195,7 +195,9 @@ SELECT
   FORMAT_DATE('%Y-%m', mes)      AS mes,
   cliente,
   articulo_id,
-  SUM(bultos)                    AS cajas
+  SUM(bultos)                    AS cajas,
+  SUM(kilos)                     AS kilos,
+  SUM(neto)                      AS neto
 FROM base
 WHERE articulo_id IN UNNEST(@productos)
 GROUP BY mes, cliente, articulo_id
