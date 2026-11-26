@@ -30,7 +30,9 @@
     "THE B2B SOCIEDAD ANONIMA": "Empleados",
     "GO MARKET STORE S.R.L": "Supermercados Regionales",
     "+CAMPI S.A.S. S. A. S.": "Distribuidores",
-    "DELIVERY HERO E-COMMERCE S. A.": "Last Milers"
+    "DELIVERY HERO E-COMMERCE S. A.": "Last Milers",
+    "DISTRIBUIDORA DUDILAC MAR DEL PLATA S.A.": "Distribuidores",
+    "OTHILA SOCIEDAD ANONIMA": "Supermercados Regionales"
   },
   "_nota_excluir": "Clientes o filas a sacar del analisis comercial por ser ruido de carga. Se sacan del dashboard pero quedan listados en el panel de calidad de datos.",
   "excluir": [
