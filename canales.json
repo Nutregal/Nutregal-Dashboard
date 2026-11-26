@@ -34,6 +34,24 @@
     "DISTRIBUIDORA DUDILAC MAR DEL PLATA S.A.": "Distribuidores",
     "OTHILA SOCIEDAD ANONIMA": "Supermercados Regionales"
   },
+  "_nota_subcanal": "Subcanal opcional dentro de un canal. El cliente tiene que estar tambien en 'por_cliente'. Si un canal tiene subcanales, sus clientes sin subcanal aparecen como 'Sin subcanal'.",
+  "subcanal_por_cliente": {
+    "LOGIQUEN S.A": "Distribuidores Red Grupo del Pilar",
+    "CONURBANO DISTRIBUCION SOCIEDAD ANONIMA": "Distribuidores Red Grupo del Pilar",
+    "BAI - EXPORT S.A.": "Distribuidores Red Grupo del Pilar",
+    "EKOTIENDA S. A.": "Distribuidores Red Grupo del Pilar",
+    "BAISE DISTRIBUCIONES S.A.": "Distribuidores Red Grupo del Pilar",
+    "BAI - LOGISTICA SOCIEDAD ANONIMA": "Distribuidores Red Grupo del Pilar",
+    "WINEROD SRL": "Distribuidores Red Grupo del Pilar",
+    "KAIRON SRL": "Distribuidores Externos",
+    "DISMA GBA S.A.": "Distribuidores Externos",
+    "APR SERVICIOS S.A.": "Distribuidores Externos",
+    "BEYVIN SOCIEDAD ANONIMA": "Distribuidores Externos",
+    "DISTRIBUIDORA DUDILAC MAR DEL PLATA S.A.": "Distribuidores Externos",
+    "+CAMPI S.A.S. S. A. S.": "Distribuidores Externos",
+    "OMAR JESUS MURADOR": "Distribuidores Externos",
+    "M  F DISTRIBUCIONES S.R.L.": "Distribuidores Externos"
+  },
   "_nota_excluir": "Clientes o filas a sacar del analisis comercial por ser ruido de carga. Se sacan del dashboard pero quedan listados en el panel de calidad de datos.",
   "excluir": [
     "LUCAS POVOLO"

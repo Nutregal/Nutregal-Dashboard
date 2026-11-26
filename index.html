@@ -264,6 +264,12 @@
   tr.cli:hover td { background: var(--line-soft); }
   tr.sku td { font-size: 12.5px; color: var(--ink-3); }
   tr.sku td.l { padding-left: 58px; }
+  tr.lv1 td.l { padding-left: 32px; }
+  tr.lv2 td.l { padding-left: 58px; }
+  tr.lv3 td.l { padding-left: 84px; }
+  tr.subc { cursor: pointer; }
+  tr.subc td { font-weight: 600; color: var(--ink); }
+  tr.subc:hover td { background: var(--line-soft); }
   .caret { display: inline-block; width: 13px; color: var(--ink-3); font-size: 10px; }
   .share { display: inline-block; height: 6px; border-radius: 3px; background: var(--green); vertical-align: middle; }
   .pill {
@@ -451,7 +457,7 @@ const VISTAS = [
   { id:"calidad",         nom:"Calidad de datos", sub:"Lo que conviene tener en cuenta antes de leer los números de arriba." }
 ];
 
-let DATA = null, CANALES = null, MAPA = new Map(), mes = "todos", vista = "resumen";
+let DATA = null, CANALES = null, MAPA = new Map(), SUBMAPA = new Map(), mes = "todos", vista = "resumen";
 const abiertos = new Set();
 let fcGrupo = "producto";
 const fcAbiertos = new Set();
@@ -459,6 +465,7 @@ const SIN_MES = new Set(["stock", "forecast"]);
 
 const canalDe = (c) => MAPA.get(norm(c)) || (CANALES && CANALES.default) || "SIN ASIGNAR";
 const tieneCanal = (c) => MAPA.has(norm(c));
+const subcanalDe = (c) => SUBMAPA.get(norm(c)) || null;
 const excluido = (c) => !!(CANALES && (CANALES.excluir || []).some(e => norm(e) === norm(c)));
 const meses = () => (DATA.serie_mensual || []).map(d => d.mes);
 const serieSel = () => mes === "todos"
@@ -677,9 +684,8 @@ const conKilos = () => (DATA.por_cliente_sku || []).some(r => r.kilos != null);
 
 function vCanales() {
   const porProducto = canalDetalle === "producto";
-  const grupos = porProducto
-    ? agrupar(filasCliSku(), r => canalDe(r.cliente), r => nombreSku(r.articulo_id))
-    : agrupar(filasCliente(), r => canalDe(r.cliente), r => r.cliente);
+  const filas = porProducto ? filasCliSku() : filasCliente();
+  const grupos = agrupar(filas, r => canalDe(r.cliente));
   const total = grupos.reduce((a, g) => a + g.cajas, 0);
   // para abrir un cliente en sus productos (modo Clientes)
   const skuDe = new Map();
@@ -689,48 +695,59 @@ function vCanales() {
     skuDe.get(k).push(r);
   });
   const pctCell = (v) => '<td class="num">' + nf1.format(total ? (v / total) * 100 : 0) + '%</td>';
+  const esc = (t) => String(t).replace(/"/g, "&quot;");
+  const caret = (ab) => '<span class="caret">' + (ab ? "▼" : "▶") + '</span>';
   let cuerpo = "";
+  // Clientes (o productos) de un conjunto de filas, a partir del nivel lv
+  const hijos = (fs, lv) => {
+    if (porProducto) {
+      agrupar(fs, r => nombreSku(r.articulo_id)).forEach(p =>
+        cuerpo += '<tr class="sub lv' + lv + '"><td class="l">' + p.nombre + '</td>' + celdas(p) + pctCell(p.cajas) + '</tr>');
+      return;
+    }
+    agrupar(fs, r => r.cliente).forEach(h => {
+      const filasSku = skuDe.get(norm(h.nombre)) || [];
+      const abC = abiertosCli.has(norm(h.nombre));
+      cuerpo += '<tr class="sub cli lv' + lv + '" data-c="' + esc(h.nombre) + '"><td class="l">' +
+        (filasSku.length ? caret(abC) : '') + h.nombre + '</td>' + celdas(h) + pctCell(h.cajas) + '</tr>';
+      if (abC) agrupar(filasSku, r => nombreSku(r.articulo_id)).forEach(p =>
+        cuerpo += '<tr class="sub sku lv' + (lv + 1) + '"><td class="l">' + p.nombre + '</td>' + celdas(p) + pctCell(p.cajas) + '</tr>');
+    });
+  };
   grupos.forEach(g => {
     const ab = abiertos.has(canalDetalle + "|" + g.nombre), pct = total ? (g.cajas / total) * 100 : 0;
-    cuerpo += '<tr class="grp" data-g="' + g.nombre + '"><td class="l"><span class="caret">' +
-      (ab ? "▼" : "▶") + '</span>' + g.nombre + '</td>' + celdas(g) +
+    cuerpo += '<tr class="grp" data-g="' + esc(g.nombre) + '"><td class="l">' + caret(ab) + g.nombre + '</td>' + celdas(g) +
       '<td class="num"><span class="share" style="width:' + Math.max(2, pct * .6) + 'px"></span> ' +
       nf1.format(pct) + '%</td></tr>';
     if (!ab) return;
-    [...g.hijos.values()].sort((a, b) => b.cajas - a.cajas).forEach(h => {
-      if (porProducto) { cuerpo += '<tr class="sub"><td class="l">' + h.nombre + '</td>' + celdas(h) + pctCell(h.cajas) + '</tr>'; return; }
-      const filasSku = skuDe.get(norm(h.nombre)) || [];
-      const abC = abiertosCli.has(norm(h.nombre));
-      cuerpo += '<tr class="sub cli" data-c="' + h.nombre.replace(/"/g, "&quot;") + '"><td class="l">' +
-        (filasSku.length ? '<span class="caret">' + (abC ? "▼" : "▶") + '</span>' : '') + h.nombre + '</td>' + celdas(h) + pctCell(h.cajas) + '</tr>';
-      if (abC) agrupar(filasSku, r => nombreSku(r.articulo_id)).forEach(p =>
-        cuerpo += '<tr class="sub sku"><td class="l">' + p.nombre + '</td>' + celdas(p) + pctCell(p.cajas) + '</tr>');
+    const fg = filas.filter(r => canalDe(r.cliente) === g.nombre);
+    if (!fg.some(r => subcanalDe(r.cliente))) { hijos(fg, 1); return; }
+    agrupar(fg, r => subcanalDe(r.cliente) || "Sin subcanal").forEach(sc => {
+      const k = canalDetalle + "|" + g.nombre + "|" + sc.nombre, abS = abiertos.has(k);
+      cuerpo += '<tr class="sub subc lv1" data-s="' + esc(k) + '"><td class="l">' + caret(abS) + sc.nombre + '</td>' +
+        celdas(sc) + pctCell(sc.cajas) + '</tr>';
+      if (abS) hijos(fg.filter(r => (subcanalDe(r.cliente) || "Sin subcanal") === sc.nombre), 2);
     });
   });
   const seg = '<div class="seg" role="group" aria-label="Abrir canales por">' +
     [["cliente", "Clientes"], ["producto", "Productos"]].map(([k, n]) =>
       '<button data-d="' + k + '" aria-pressed="' + (canalDetalle === k) + '">' + n + '</button>').join("") + '</div>';
   const nota = porProducto
-    ? "Clic en un canal para ver qué productos compra."
-    : "Clic en un canal para abrir sus clientes, y en un cliente para ver sus productos.";
+    ? "Clic en un canal para ver qué productos compra. Distribuidores se abre primero en sus subcanales."
+    : "Clic en un canal para abrir sus clientes, y en un cliente para ver sus productos. Distribuidores se abre primero en sus subcanales.";
   const aviso = (porProducto && !conKilos())
     ? '<p class="note">Los kilos y el neto por producto aparecen después del próximo refresh.</p>' : '';
   $("#v-canales").innerHTML = '<div class="card"><div class="cardhead"><div class="grow"><h2>Volumen por canal</h2>' +
     '<p class="note">' + nota + '</p>' + aviso + '</div>' + seg + '</div><div class="tw"><table>' +
-    '<thead><tr><th class="l">' + (porProducto ? "Canal / producto" : "Canal / cliente / producto") +
+    '<thead><tr><th class="l">' + (porProducto ? "Canal / subcanal / producto" : "Canal / subcanal / cliente / producto") +
     '</th><th>Cajas</th><th>Kilos</th><th>$/kg</th><th>Neto</th><th>% volumen</th></tr></thead>' +
     '<tbody>' + (cuerpo || '<tr><td class="l" colspan="6">Sin datos para este mes.</td></tr>') + '</tbody></table></div></div>';
-  $("#v-canales").querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => { canalDetalle = b.dataset.d; render(); }));
-  $("#v-canales").querySelectorAll("tr.grp").forEach(tr => tr.addEventListener("click", () => {
-    const k = canalDetalle + "|" + tr.dataset.g;
-    abiertos.has(k) ? abiertos.delete(k) : abiertos.add(k);
-    render();
-  }));
-  $("#v-canales").querySelectorAll("tr.cli").forEach(tr => tr.addEventListener("click", () => {
-    const k = norm(tr.dataset.c);
-    abiertosCli.has(k) ? abiertosCli.delete(k) : abiertosCli.add(k);
-    render();
-  }));
+  const host = $("#v-canales");
+  host.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => { canalDetalle = b.dataset.d; render(); }));
+  const toggle = (set, k) => { set.has(k) ? set.delete(k) : set.add(k); render(); };
+  host.querySelectorAll("tr.grp").forEach(tr => tr.addEventListener("click", () => toggle(abiertos, canalDetalle + "|" + tr.dataset.g)));
+  host.querySelectorAll("tr.subc").forEach(tr => tr.addEventListener("click", () => toggle(abiertos, tr.dataset.s)));
+  host.querySelectorAll("tr.cli").forEach(tr => tr.addEventListener("click", () => toggle(abiertosCli, norm(tr.dataset.c))));
 }
 
 function vClientes() {
@@ -740,7 +757,7 @@ function vClientes() {
     const casiTodoBonif = g.kilos > 0 && (g.neto / g.kilos) < 7000;
     return '<tr><td class="l">' + g.nombre +
       (casiTodoBonif ? '<span class="pill">casi todo bonificado</span>' : '') + '</td>' +
-      '<td class="l">' + canalDe(g.nombre) + '</td>' + celdas(g) +
+      '<td class="l">' + canalDe(g.nombre) + (subcanalDe(g.nombre) ? '<span class="kv"> · ' + subcanalDe(g.nombre) + '</span>' : '') + '</td>' + celdas(g) +
       '<td class="num"><span class="share" style="width:' + Math.max(2, pct * .6) + 'px"></span> ' +
       nf1.format(pct) + '%</td></tr>';
   }).join("");
@@ -1163,6 +1180,9 @@ async function traer(url) {
   MAPA = new Map();
   Object.keys((CANALES && CANALES.por_cliente) || {})
     .forEach(k => MAPA.set(norm(k), CANALES.por_cliente[k]));
+  SUBMAPA = new Map();
+  Object.keys((CANALES && CANALES.subcanal_por_cliente) || {})
+    .forEach(k => SUBMAPA.set(norm(k), CANALES.subcanal_por_cliente[k]));
 
   if (!aviso && DATA.generado_en) {
     const dias = (Date.now() - new Date(DATA.generado_en).getTime()) / 864e5;
